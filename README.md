@@ -1,6 +1,7 @@
 # AguaClara Cornell Website
 
 Team Members:
+
 Dora Weng | Webmaster | cw749@cornell.edu
 
 Aasha Yeluri | ay324@cornell.edu
