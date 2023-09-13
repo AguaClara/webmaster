@@ -5,6 +5,7 @@ function Home() {
   return (
     <>
       <div>New Website!</div>
+      <div>Vite + React</div>
     </>
   )
 }
