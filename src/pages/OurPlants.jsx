@@ -5,7 +5,7 @@ function OurPlants() {
   return (
     <>
       <Navbar />
-      <div>Our Plants</div>
+      <div>Our Plants our dying</div>
     </>
   )
 }
