@@ -1,15 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-function Home() {
+function Apply() {
 
   return (
     <>
       <Navbar />
-      <div>New Website!</div>
-      <div>Vite + React</div>
+      <div>Apply</div>
     </>
   )
 }
 
-export default Home
+export default Apply
