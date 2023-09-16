@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div>New Website!</div>
+      <div className="text-3xl">New Website!</div>
       <div>Vite + React</div>
     </>
   )
