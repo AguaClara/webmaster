@@ -4,7 +4,7 @@ import Logo from '../assets/img/AguaClaraLogo.webp';
 function Navbar() {
   
   return (
-    <div className="flex flex-row justify-between items-center">
+    <div className="flex flex-row justify-between items-center mx-auto max-w-screen-xl mt-[1%]">
       <div className='w-[30%]'>
         <a href="/" >
           <img src={Logo} alt="AguaClara Logo" className="w-[60%]"/>
@@ -21,8 +21,6 @@ function Navbar() {
           <li><a href="/Apply" className="text-black">Apply</a></li>
         </ul>     
        </div>
-
-
     </div>
   );
 }
