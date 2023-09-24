@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Whoweare from "../components/Whoweare";
+
 import bannerimg from "../assets/img/HomeBanner.png";
 import plant from "../assets/img/plant.png";
 import whoweare from "../assets/img/whoweare.jpg";
-import wwa1 from "../assets/img/wwa1.png";
-import wwa2 from "../assets/img/wwa2.png";
-import wwa3 from "../assets/img/wwa3.png";
+
 import TLs from "../assets/img/tls.jpeg";
+import logo from "../assets/img/Logo.png";
+import plantcad from "../assets/img/plant cad.png";
 
 function Home() {
   return (
@@ -22,8 +26,10 @@ function Home() {
             className="w-full object-cover mt-[1%]"
           />
           <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white">
-            <div className="text-7xl bold-text py-1">Clean water on tap</div>
-            <div>protecting the universal right to clean water</div>
+            <div className="text-8xl bold-text py-1">Clean water on tap</div>
+            <div className="text-xl">
+              protecting the universal right to clean water
+            </div>
           </div>
         </div>
         {/* our plant section */}
@@ -33,7 +39,11 @@ function Home() {
             <img
               src={plant}
               alt="san marias(?)"
-              className="w-[50%] rounded-r-[40%]  rounded-b-[40%]"
+              className="w-[50%] rounded-r-[40%]  rounded-b-[40%] relative"
+            />
+            <img
+              src={plantcad}
+              className="w-[20%] absolute top-[25%] left-[35%] right-[10%] bottom-[-25%]s"
             />
             <div className="w-full flex flex-col items-center">
               <div className="w-[75%] text-2xl">
@@ -41,8 +51,8 @@ function Home() {
                 We design gravity powered water treatment plants with movable
                 parts that can be easily constructed with local materials.
               </div>
-              <Link to="/OurPlants" className="text-black mt-[10%] text-xl">
-                <button className="mt-[8%] transform transition-all hover:scale-125 border border-black bg-transparent rounded-lg px-4 py-2">
+              <Link to="/OurPlants" className="text-[#39B54A] mt-[10%] text-xl">
+                <button className="mt-[8%] transform transition-all hover:scale-110 border border-[#39B54A] bg-transparent rounded-lg px-4 py-2">
                   Learn more
                 </button>
               </Link>
@@ -63,26 +73,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col">
-            <div className="flex flex-row items-center justify-between">
-              <img src={wwa1} className="w-[45%] mt-[2%]" />
-              <div>
-                Visiting Honduras gives us insight into the filtering processes
-                of our plants
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between mt-[2%]">
-              <img src={wwa2} className="w-[45%]" />
-              <div className="ml-4">
-                <img src={wwa3} className="w-[80%] mb-4" />
-                <div>
-                  Our annual trip to Honduras! We send members to learn about
-                  the treatment plants and the local communities
-                </div>
-              </div>
-            </div>
-          </div>
+          <Whoweare />
 
           {/* Meet the team */}
           <div>
@@ -92,18 +83,39 @@ function Home() {
                 <div className="text-xl ">
                   Since the start of AguaClara in 2005, we have always been a
                   project team dedicated to drinking water treatment so that
-                  more communities can thrive
+                  more communities can thrive.
                 </div>
-                <Link to="/Team" className="text-black">
-                  <button className="mt-[10%] transform transition-all hover:scale-125 border border-black bg-transparent rounded-lg px-4 py-2s">
+                <Link to="/Team" className="text-[#28C3EE]">
+                  <button className="mt-[10%] text-xl transform transition-all hover:scale-110 border border-[#28C3EE] bg-transparent rounded-lg px-4 py-2s">
                     Meet the team
                   </button>
                 </Link>
               </div>
             </div>
           </div>
+
+          {/* Join us */}
+          <div className="flex flex-row mb-[10%]">
+            <div className="text-4xl w-[70%] p-[10%] ">
+              Does our mission resonate with you? Explore our exciting
+              opportunities and join our team!
+            </div>
+            <div className=" w-[30%] flex flex-col items-center justify-center">
+              <div className="flex flex-row items-center">
+                <img src={logo} className="w-[20%]" />
+                <div className="ml-4 text-3xl">Join us.</div>
+              </div>
+
+              <Link to="/Apply" className="text-white">
+                <button className="transform transition-all hover:scale-110 border border-#39B54A bg-[#39B54A] text-white rounded-lg px-4 py-2">
+                  Apply
+                </button>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
