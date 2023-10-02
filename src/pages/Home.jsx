@@ -25,7 +25,7 @@ function Home() {
             alt="Home Banner"
             className="w-full object-cover mt-[1%]"
           />
-          <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white">
+          <div className="text-center absolute top-[65%] left-1/2 transform translate-x-[-50%] text-white">
             <div className="text-8xl bold-text py-1">Clean water on tap</div>
             <div className="text-xl">
               protecting the universal right to clean water
@@ -41,10 +41,10 @@ function Home() {
               alt="san marias(?)"
               className="w-[50%] rounded-r-[40%]  rounded-b-[40%] relative"
             />
-            <img
+            {/* <img
               src={plantcad}
               className="w-[20%] absolute top-[25%] left-[35%] right-[10%] bottom-[-25%]s"
-            />
+            /> */}
             <div className="w-full flex flex-col items-center">
               <div className="w-[75%] text-2xl">
                 {" "}
@@ -78,8 +78,12 @@ function Home() {
           {/* Meet the team */}
           <div>
             <div className="relative mb-[20%] mt-[20%]">
-              <img src={TLs} alt="team leads" className="rounded-3xl w-[60%]" />
-              <div className="bg-white shadow-lg absolute top-[40%] left-[50%] right-[10%] bottom-[-15%] z-10 rounded-3xl p-[8%]">
+              <img
+                src={TLs}
+                alt="team leads"
+                className="rounded-3xl w-[60%] ml-[5%]"
+              />
+              <div className="bg-white shadow-lg absolute top-[40%] left-[55%] right-[5ç%] bottom-[-15%] z-10 rounded-3xl p-[8%]">
                 <div className="text-xl ">
                   Since the start of AguaClara in 2005, we have always been a
                   project team dedicated to drinking water treatment so that
@@ -101,7 +105,7 @@ function Home() {
               opportunities and join our team!
             </div>
             <div className=" w-[30%] flex flex-col items-center justify-center">
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center mb-[5%]">
                 <img src={logo} className="w-[20%]" />
                 <div className="ml-4 text-3xl">Join us.</div>
               </div>

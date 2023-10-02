@@ -10,7 +10,7 @@ function Navbar() {
         </a>
       </div>
 
-      <div>
+      <div className="text-lg">
         <ul className="flex flex-row space-x-4">
           <li>
             <a href="/" className="text-black">
