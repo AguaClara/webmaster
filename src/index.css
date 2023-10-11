@@ -29,3 +29,21 @@
     background-color: #f9f9f9;
   }
 }
+
+@media screen and (max-width: 1480) {
+  .text-8xl {
+    font-size: 5rem; /* Change this to the desired font size for smaller screens */
+  }
+  .text-xl {
+    font-size: 1.5rem; /* Change this to the desired font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text-8xl {
+    font-size: 2rem; /* Change this to the desired font size for smaller screens */
+  }
+  .text-xl {
+    font-size: 1.5rem; /* Change this to the desired font size for smaller screens */
+  }
+}

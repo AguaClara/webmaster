@@ -1,0 +1,80 @@
+{
+  "sections": [
+    {
+      "name": "Research and Fabrication",
+      "subteams": [
+        {
+          "name": "Dissolved Organic Matter",
+          "lead": "Zachary Kwon",
+          "members": [
+            {
+              "name": "Nhi Nguyen",
+              "email": "npn25@cornell.edu",
+              "linkedin": "",
+              "major_year": "-"
+            },
+            {
+              "name": "Rachel Lai",
+              "email": "rml267@cornell.edu",
+              "linkedin": "",
+              "major_year": "-"
+            },
+            {
+              "name": "Henry Lin",
+              "email": "hl777@cornell.edu",
+              "linkedin": "",
+              "major_year": "-"
+            }
+          ]
+        },
+        {
+          "name": "Ram Pump",
+          "lead": "Zach Marshall",
+          "members": [
+            {
+              "name": "Athavan Shanmuganathan",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "-"
+            },
+            {
+              "name": "Joseph Valenti",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "-"
+            },
+            {
+              "name": "Caleb Kim",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apps and Algo",
+      "subteams": [
+        {
+          "name": "WebDev",
+          "lead": "Dora Weng",
+          "members": [
+            {
+              "name": "Anya",
+              "email": "-",
+              "linkedin": "",
+              "major_year": "-"
+            },
+            {
+              "name": "Aasha",
+              "email": "-",
+              "linkedin": "",
+              "major_year": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

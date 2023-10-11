@@ -25,9 +25,11 @@ function Home() {
             alt="Home Banner"
             className="w-full object-cover mt-[1%]"
           />
-          <div className="text-center absolute top-[65%] left-1/2 transform translate-x-[-50%] text-white">
-            <div className="text-8xl bold-text py-1">Clean water on tap</div>
-            <div className="text-xl">
+          <div className="text-center absolute top-[75%] left-1/2 transform translate-x-[-50%] text-white">
+            <div className="text-2xl sm:text-4xl lg:text-4xl xl:text-8xl bold-text py-1">
+              Clean water on tap
+            </div>
+            <div className="text-sm lg:text-lg xl:text-xl">
               protecting the universal right to clean water
             </div>
           </div>
