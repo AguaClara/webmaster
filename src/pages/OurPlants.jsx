@@ -9,10 +9,10 @@ function OurPlants() {
   return (
     <>
       <Navbar />
-
-      <div className="mx-auto max-w-screen-xl">
-        {/* Our plants */}
-        <div className="text-center text-5xl mt-[5%] mb-[5%]">Our Plants</div>
+      <section id="banner" className="bg-[#75DC83] py-2">
+        <div className="text-center text-5xl mt-[5%] mb-[5%] text-white">
+          Our Plants
+        </div>
         <div className="flex flex-row justify-center">
           <div className="w-[40%] text-center text-xl">
             <img src={sanmatias} />
@@ -24,10 +24,61 @@ function OurPlants() {
             <div>San Matias Plant</div>
           </div>
         </div>
+      </section>
+      <div className="mx-auto max-w-screen-xl">
+        {/* Our plants */}
+
         {/* our approach */}
         <div className="text-5xl mt-[5%] mb-[5%]">Our Approach</div>
+        <div className="w-full grid grid-cols-2 place-content-between text-center gap-60">
+          <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
+            img of plant
+          </div>
+          <div className="place-self-center">
+            {" "}
+            description description description description description
+            description description description description description
+            description description description description description
+            description description description description{" "}
+          </div>
+
+          <div className="place-self-center">
+            {" "}
+            description description description description description
+            description description description description description
+            description description description description description
+            description description description description{" "}
+          </div>
+          <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
+            img of plant
+          </div>
+
+          <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
+            img of plant
+          </div>
+          <div className="place-self-center">
+            {" "}
+            description description description description description
+            description description description description description
+            description description description description description
+            description description description description{" "}
+          </div>
+        </div>
         <div className="text-5xl mt-[5%] mb-[5%]">Location of our plants</div>
         <img src={m} />
+        <div className="text-5xl mt-[5%] mb-[5%]">Our Impact</div>
+        <div className="w-full grid grid-cols-2 place-content-between text-center gap-60">
+          <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
+            img of people
+          </div>
+          <div className="place-self-center">
+            {" "}
+            description description description description description
+            description description description description description
+            description description description description description
+            description description description description{" "}
+          </div>
+        </div>
       </div>
       <Footer />
     </>

@@ -12,7 +12,7 @@ function Donate() {
       <div className="relative">
         <img src={banner} className="w-full object-cover mt-[1%]" />
         <div className="text-center absolute top-[75%] left-1/2 transform translate-x-[-50%] text-white">
-          <div className="text-center text-5xl mt-[5%]">
+          <div className="text-center text-6xl mt-[5%]">
             Making a Difference
           </div>
         </div>
