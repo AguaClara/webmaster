@@ -10,7 +10,8 @@
             "name": "Zachary Kwon",
             "email": "zk49@cornell.edu",
             "linkedin": " https://www.linkedin.com/in/zachary-kwon/",
-            "major_year": "Chemical Engineering Junior"
+            "major_year": "Chemical Engineering Junior",
+            "img": "src/assets/img/headshots/zk49.jpeg"
           },
           "members": [
             {
@@ -152,24 +153,6 @@
               "major_year": "Environmental Engineering"
             }
           ]
-        },
-        {
-          "name": "",
-          "description": "",
-          "lead": {
-            "name": "",
-            "email": "@cornell.edu",
-            "linkedin": "",
-            "major_year": "-"
-          },
-          "members": [
-            {
-              "name": "",
-              "email": "@cornell.edu",
-              "linkedin": "",
-              "major_year": "-"
-            }
-          ]
         }
       ]
     },
@@ -182,16 +165,16 @@
           "lead": "Dora Weng",
           "members": [
             {
-              "name": "Anya",
-              "email": "-",
-              "linkedin": "",
-              "major_year": "-"
+              "name": "Anya Yerramilli",
+              "email": "ay326@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/anya-y-4b5b211bb/",
+              "major_year": "Computer Science"
             },
             {
-              "name": "Aasha",
-              "email": "-",
+              "name": "Aasha Yeluri",
+              "email": "ay324@cornell.edu",
               "linkedin": "",
-              "major_year": "-"
+              "major_year": "Computer Science"
             }
           ]
         },

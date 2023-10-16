@@ -1,30 +1,42 @@
 import React from "react";
 import data from "../data/members.json";
+import MemberCard from "./MemberCard";
 
 function Subteam() {
   return (
-    <div className="grid grid-cols-4 gap-4">
-      {data.sections.map((section, index) => (
-        <div key={index} className="mb-4">
+    <div className="">
+      {data.sections.map((section, sectionIndex) => (
+        <div key={sectionIndex}>
           <h2 className="text-xl font-bold mb-2">{section.name}</h2>
 
-          {section.subteams.map((subteam, index) => (
-            <div key={index} className="mb-4">
-              <h3 className="text-lg font-bold mb-2">{subteam.name}</h3>
-              <div className="font-semibold">Lead:</div>
-              <div>Name: {subteam.lead.name}</div>
-              <div>Email: {subteam.lead.email}</div>
-              <div>LinkedIn: {subteam.lead.linkedin}</div>
-              <div>Major and Year: {subteam.lead.major_year}</div>
+          <div className="mb-4">
+            {section.subteams.map((subteam, subteamIndex) => (
+              <div key={subteamIndex}>
+                <h3 className="text-lg font-bold mb-2">{subteam.name}</h3>
+                <div className="mb-4 grid grid-cols-4 gap-4">
+                  <MemberCard
+                    name={subteam.lead.name}
+                    email={subteam.lead.email}
+                    linkedin={subteam.lead.linkedin}
+                    major_year={subteam.lead.major_year}
+                    img={subteam.lead.img}
+                  />
 
-              {subteam.members.map((member, index) => (
-                <div key={index} className="mb-2">
-                  <div>Name: {member.name}</div>
-                  <div>Email: {member.email}</div>
+                  {subteam.members.map((member, memberIndex) => (
+                    <div key={memberIndex} className="mb-2">
+                      <MemberCard
+                        name={member.name}
+                        email={member.email}
+                        linkedin={member.linkedin}
+                        major_year={member.major_year}
+                        img={member.img}
+                      />
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          ))}
+              </div>
+            ))}
+          </div>
         </div>
       ))}
     </div>
