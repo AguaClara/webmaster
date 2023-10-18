@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data/members.json";
-import MemberCard from "./MemberCard";
+import Member from "./Member";
 
 function Subteam() {
   return (
@@ -14,7 +14,7 @@ function Subteam() {
               <div key={subteamIndex}>
                 <h3 className="text-lg font-bold mb-2">{subteam.name}</h3>
                 <div className="mb-4 grid grid-cols-4 gap-4">
-                  <MemberCard
+                  <Member
                     name={subteam.lead.name}
                     email={subteam.lead.email}
                     linkedin={subteam.lead.linkedin}
@@ -24,7 +24,7 @@ function Subteam() {
 
                   {subteam.members.map((member, memberIndex) => (
                     <div key={memberIndex} className="mb-2">
-                      <MemberCard
+                      <Member
                         name={member.name}
                         email={member.email}
                         linkedin={member.linkedin}

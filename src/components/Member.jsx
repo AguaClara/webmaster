@@ -1,6 +1,6 @@
 import React from "react";
 
-function MemberCard({ name, email, linkedin, major_year, img }) {
+function Member({ name, email, linkedin, major_year, img }) {
   return (
     <>
       <div className="bg-white shadow-lg px-3 py-3 rounded-3xl">
@@ -16,4 +16,4 @@ function MemberCard({ name, email, linkedin, major_year, img }) {
   );
 }
 
-export default MemberCard;
+export default Member;
