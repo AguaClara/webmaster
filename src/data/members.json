@@ -18,19 +18,22 @@
               "name": "Nhi Nguyen",
               "email": "npn25@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/nhi-nguyen-709728229/",
-              "major_year": "Chemical Engineering Junior"
+              "major_year": "Chemical Engineering Junior",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Rachel Lai",
               "email": "rml267@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/rachel-lai-rml8/",
-              "major_year": "Chemical Engineering Senior"
+              "major_year": "Chemical Engineering Senior",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Henry Lin",
               "email": "hl777@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/henry-lin-14a7a5203/",
-              "major_year": "Chemical Engineering Junior"
+              "major_year": "Chemical Engineering Junior",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         },
@@ -41,26 +44,30 @@
             "name": "Zach Marshall",
             "email": "@cornell.edu",
             "linkedin": "www.linkedin.com/in/zachary-marshall-51bbb224a",
-            "major_year": "Chemical Engineering"
+            "major_year": "Chemical Engineering",
+            "img": "src/assets/img/headshots/npn25.jpeg"
           },
           "members": [
             {
               "name": "Athavan Shanmuganathan",
               "email": "@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/athavan-shanmuganathan-412900249/",
-              "major_year": "Chemical Engineering"
+              "major_year": "Chemical Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Joseph Valenti",
               "email": "@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/joseph-valenti-073464249",
-              "major_year": "Computer Engineering"
+              "major_year": "Computer Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Caleb Kim",
               "email": "@cornell.edu",
               "linkedin": "",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         },
@@ -71,26 +78,30 @@
             "name": "Camden Wehrle",
             "email": "cw566@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/camden-wehrle-4853b7220",
-            "major_year": "Environmental Engineering"
+            "major_year": "Environmental Engineering",
+            "img": "src/assets/img/headshots/npn25.jpeg"
           },
           "members": [
             {
               "name": "Gina Bae",
               "email": "ghb72@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/gina-bae-721b63229",
-              "major_year": "Chemical Engineering"
+              "major_year": "Chemical Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Mateo Aranzazu",
               "email": "ma956@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/mateo-aranzazu",
-              "major_year": "Environmental Engineering"
+              "major_year": "Environmental Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Christine Berlingeri",
               "email": "cnb53@cornell.edu",
               "linkedin": "",
-              "major_year": "Environmental Engineering"
+              "major_year": "Environmental Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         },
@@ -101,20 +112,23 @@
             "name": "Elizabeth Bunker",
             "email": "elb248@cornell.edu",
             "linkedin": "",
-            "major_year": "Environmental Engineering"
+            "major_year": "Environmental Engineering",
+            "img": "src/assets/img/headshots/npn25.jpeg"
           },
           "members": [
             {
               "name": "Lily DuPlooy",
               "email": "led92@cornell.edu",
               "linkedin": "",
-              "major_year": "Biological Engineering"
+              "major_year": "Biological Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Matthew Kajura",
               "email": "tmk89@cornell.edu",
               "linkedin": "",
-              "major_year": "Civil Engineering"
+              "major_year": "Civil Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         },
@@ -125,32 +139,37 @@
             "name": "Sarah Bae",
             "email": "ssb238@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/sarah-bae-803985184/",
-            "major_year": "Environmental Engineering"
+            "major_year": "Environmental Engineering",
+            "img": "src/assets/img/headshots/npn25.jpeg"
           },
           "members": [
             {
               "name": "Joshua Luoma",
               "email": "@cornell.edu",
               "linkedin": "",
-              "major_year": "Applied Physics/ Plasma Physics"
+              "major_year": "Applied Physics/ Plasma Physics",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Ari Schor",
               "email": "aes392@cornell.edu",
               "linkedin": "",
-              "major_year": "Environmental Engineering"
+              "major_year": "Environmental Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Kayla Stephenson",
               "email": "ks929@cornell.edu",
               "linkedin": "",
-              "major_year": "Chemical Engineering"
+              "major_year": "Chemical Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Jiaming Yuan",
               "email": "jy729@cornell.edu",
               "linkedin": "",
-              "major_year": "Environmental Engineering"
+              "major_year": "Environmental Engineering",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         }
@@ -162,19 +181,27 @@
         {
           "name": "WebDev",
           "description": "Make website better",
-          "lead": "Dora Weng",
+          "lead": {
+            "name": "Dora Weng",
+            "email": "cw749@cornell.edu",
+            "linkedin": "https://www.linkedin.com/in/chuyinweng/",
+            "major_year": "Computer Science",
+            "img": "src/assets/img/headshots/npn25.jpeg"
+          },
           "members": [
             {
               "name": "Anya Yerramilli",
               "email": "ay326@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/anya-y-4b5b211bb/",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/zk49.jpeg"
             },
             {
               "name": "Aasha Yeluri",
               "email": "ay324@cornell.edu",
               "linkedin": "",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         },
@@ -185,26 +212,30 @@
             "name": "Shreehari Srinivasan",
             "email": "ss2732@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/shreehari-srinivasan-843469177/",
-            "major_year": "Computer Science"
+            "major_year": "Computer Science",
+            "img": "src/assets/img/headshots/npn25.jpeg"
           },
           "members": [
             {
               "name": "Sahil Hosalli",
               "email": "sh2276@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/sahil-hosalli-63b015208/",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Jacqueline Hui",
               "email": "jeh362@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/jacqueline-hui-922996222/",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Anya Yerramilli",
               "email": "ay326@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/anya-y-4b5b211bb/",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         }
@@ -220,32 +251,37 @@
             "name": "Diya Tanwar",
             "email": "dt422@cornell.edu",
             "linkedin": "",
-            "major_year": "Biometry and Statistics"
+            "major_year": "Biometry and Statistics",
+            "img": "src/assets/img/headshots/npn25.jpeg"
           },
           "members": [
             {
               "name": "Nessa Sandoval",
               "email": "@cornell.edu",
               "linkedin": "",
-              "major_year": "Environment and Sustainability"
+              "major_year": "Environment and Sustainability",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Angie Nuisud",
               "email": "agn43@cornell.edu",
               "linkedin": "",
-              "major_year": "Human Biology Health and Society"
+              "major_year": "Human Biology Health and Society",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Stella Canez",
               "email": "smc449@cornell.edu",
               "linkedin": "",
-              "major_year": "Animal Science"
+              "major_year": "Animal Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Bassem Elkhateeb",
               "email": "baq7@cornell.edu",
               "linkedin": "",
-              "major_year": "Computer Science"
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/npn25.jpeg"
             }
           ]
         }

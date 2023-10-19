@@ -13,6 +13,7 @@ function Subteam() {
             {section.subteams.map((subteam, subteamIndex) => (
               <div key={subteamIndex}>
                 <h3 className="text-lg font-bold mb-2">{subteam.name}</h3>
+                <div>{subteam.description}</div>
                 <div className="mb-4 grid grid-cols-4 gap-4">
                   <Member
                     name={subteam.lead.name}
@@ -23,7 +24,7 @@ function Subteam() {
                   />
 
                   {subteam.members.map((member, memberIndex) => (
-                    <div key={memberIndex} className="mb-2">
+                    <div key={memberIndex} className="">
                       <Member
                         name={member.name}
                         email={member.email}

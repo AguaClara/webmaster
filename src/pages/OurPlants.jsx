@@ -26,6 +26,36 @@ function OurPlants() {
         </div>
       </section>
       <div className="mx-auto max-w-screen-xl">
+        <div className="text-5xl mt-[5%] mb-[5%]">The Filtration Process</div>
+        <div>
+          Water first flows into the Entrance Tank from a higher-elevation water
+          source, like an uphill river or stream. Larger objects in the water
+          like sticks, pebbles, leaves, and more are caught by the Trash Rack or
+          fall due to gravity.
+        </div>
+        <div>
+          A flotation device measures the elevation of this water, so when the
+          water level rises, the dose of a chemical called Coagulant increases.{" "}
+        </div>
+        <div>
+          The coagulant allows the particles in the water to become “sticky”, so
+          when the water flows around obstacles in the Flocculator, they can
+          stick to each other to form larger particles called flocs.
+        </div>
+        <div>
+          These flocs then travel into the Sedimentation Tank, where some flocs
+          are caught by a bed of fellow flocs, and others hit the Plate Settlers
+          and settle to the bottom.
+        </div>
+        <div>
+          Finally, this clarified water travels into the sand filters, where
+          sand particles provide more surfaces for smaller particles to stick
+          to. Once filtration is complete, clean water is dosed with Chlorine to
+          remove any harmful bacteria and heads into the Distribution Tank,
+          where it can be distributed by gravity to surrounding homes!
+        </div>
+      </div>
+      <div className="mx-auto max-w-screen-xl">
         {/* Our plants */}
 
         {/* our approach */}
