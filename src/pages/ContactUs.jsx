@@ -7,7 +7,7 @@ function ContactUs() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl ">
+      <div className="mx-auto max-w-screen-xl mb-20">
         <div className=" text-5xl mt-[5%]">Questions?</div>
         <div className=" text-3xl mt-[3%]"></div>
         <div className="flex flex-row justify-between w-full text-center ">

@@ -17,7 +17,7 @@ function Donate() {
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-screen-xl flex items-center justify-center flex-col">
+      <div className="mx-auto max-w-screen-xl flex items-center justify-center flex-col mb-20">
         <div className="w-[70%] text-center text-lg mt-10 mb-10">
           AguaClara Cornell researches, invents, and designs resilient,
           gravity-powered, community-managed water and wastewater treatment

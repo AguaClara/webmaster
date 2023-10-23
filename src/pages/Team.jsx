@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import BackToTeams from "../components/BackToTeams";
 import teampic from "../assets/img/teamcommunity.jpg";
 import Subteam from "../components/Subteam";
+import Member from "../components/Member";
+import annie from "../assets/img/headshots/Annie.jpeg"
 
 function Team() {
   return (
@@ -23,11 +25,32 @@ function Team() {
             other plants in India.
           </div>
         </div>
+
+        <div className="mb-10">
         <div className="text-5xl my-[5%] text-center">Team Leads</div>
         <div className="grid grid-cols-3 h-80 gap-20">
-          <div className="bg-slate-200"></div>
-          <div className="bg-slate-200"></div>
-          <div className="bg-slate-200"></div>
+        <Member
+                        name={"Annie"}
+                        email={""}
+                        linkedin={""}
+                        major_year={"major"}
+                        img={annie}
+                      />
+          <Member
+                        name={"Annie"}
+                        email={""}
+                        linkedin={""}
+                        major_year={"major+year"}
+                        img={annie}
+                      />
+          <Member
+                        name={"Annie"}
+                        email={""}
+                        linkedin={""}
+                        major_year={"major+year"}
+                        img={annie}
+                      />
+        </div>
         </div>
         <div>
           <Subteam />
