@@ -6,8 +6,13 @@ import teampic from "../assets/img/teamcommunity.jpg";
 import Subteam from "../components/Subteam";
 import Member from "../components/Member";
 import annie from "../assets/img/headshots/Annie.jpeg"
+import { useEffect } from "react";
 
 function Team() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

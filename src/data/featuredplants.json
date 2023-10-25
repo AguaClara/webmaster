@@ -1,12 +1,12 @@
 [
   {
   "name": "Plant 1",
-  "imageUrl": "../assets/img/SanMatias.jpg",
+  "imageUrl": "src/assets/img/SanMatias.jpg",
   "description": "This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plants"
   },
   {
     "name": "Plant 2",
-  "imageUrl": "../assets/img/SanMatias.jpg",
+  "imageUrl": "src/assets/img/SanMatias.jpg",
   "description": "This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plants"
   }
   

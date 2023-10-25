@@ -11,10 +11,12 @@ function Subteam() {
 
           <div className="mb-4">
             {section.subteams.map((subteam, subteamIndex) => (
-              <div key={subteamIndex}>
+              <div key={subteamIndex} className="mb-20">
                 <h3 className="text-lg font-bold mb-2">{subteam.name}</h3>
+                <div className="mb-10">
                 <div>{subteam.description}</div>
-                <div className="mb-4 grid grid-cols-4 gap-4">
+                </div>
+                <div className="mb-4 grid grid-cols-4 gap-20">
                   <Member
                     name={subteam.lead.name}
                     email={subteam.lead.email}
