@@ -1,22 +1,39 @@
-import React from "react";
+import React, { useEffect, useRef } from "react"; // Added useRef import
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import BackToTeams from "../components/BackToTeams";
 import teampic from "../assets/img/teamcommunity.jpg";
 import Subteam from "../components/Subteam";
-import Member from "../components/Member";
-import annie from "../assets/img/headshots/Annie.jpeg"
-import { useEffect } from "react";
+import Leadership from "../components/Leadership";
+import memberData from "../data/members.json";
+import BackTo from "../components/BackTo";
+import teamPic from "../assets/img/oldfullteam.png";
 
 function Team() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  // Create a ref for each subteam
+  const subteamRefs = memberData.sections
+    .flatMap((section) =>
+      section.subteams.map((subteam) => ({
+        [subteam.name]: useRef(null),
+      }))
+    )
+    .reduce((acc, ref) => ({ ...acc, ...ref }), {});
+
+  const scrollToSubteam = (subteamName) => {
+    subteamRefs[subteamName]?.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <>
       <Navbar />
-      <BackToTeams />
+      {/* <BackToTeams /> */}
+      <BackTo section="teams" />
       <div className="mx-auto max-w-screen-xl">
         <div className="text-5xl my-[5%]">Our Team</div>
         <div className="grid grid-cols-2 gap-10 place-content-center">
@@ -32,33 +49,47 @@ function Team() {
         </div>
 
         <div className="mb-10">
-        <div className="text-5xl my-[5%] text-center">Team Leads</div>
-        <div className="grid grid-cols-3 h-80 gap-20">
-        <Member
-                        name={"Annie"}
-                        email={""}
-                        linkedin={""}
-                        major_year={"major"}
-                        img={annie}
-                      />
-          <Member
-                        name={"Annie"}
-                        email={""}
-                        linkedin={""}
-                        major_year={"major+year"}
-                        img={annie}
-                      />
-          <Member
-                        name={"Annie"}
-                        email={""}
-                        linkedin={""}
-                        major_year={"major+year"}
-                        img={annie}
-                      />
+          {/* <div className="text-5xl my-[5%] text-center">Team Leads</div>
+          <div className="grid grid-cols-3 h-80 gap-20"></div> */}
+          <Leadership />
         </div>
+
+        <div>
+          <section id="teams" className="py-4">
+            <div className="mb-[10%] text-4xl flex justify-center">
+              Subteams
+            </div>
+            <div className="flex flex-row mb-[10%]">
+              <div className="flex flex-col items-center">
+                {/* Map through all subteams to create navigation buttons */}
+                {memberData.sections.map((section) =>
+                  section.subteams.map((subteam, subteamIndex) => (
+                    <button
+                      key={subteamIndex}
+                      onClick={() => scrollToSubteam(subteam.name)}
+                      className="mb-2 text-sm py-2 px-4 hover:bg-gray-200 rounded"
+                    >
+                      {subteam.name}
+                    </button>
+                  ))
+                )}
+              </div>
+              <div>
+                <img src={teamPic} />
+              </div>
+            </div>
+          </section>
         </div>
         <div>
-          <Subteam />
+          <div className="">
+            {memberData.sections.map((section) =>
+              section.subteams.map((subteam, subteamIndex) => (
+                <div key={subteamIndex} ref={subteamRefs[subteam.name]}>
+                  <Subteam name={subteam.name} />
+                </div>
+              ))
+            )}
+          </div>
         </div>
       </div>
 

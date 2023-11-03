@@ -1,0 +1,34 @@
+/* Member.module.css */
+.imageContainer {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 200px; /* Maximum width of the image container */
+  aspect-ratio: 5 / 6; /* Set aspect ratio to 2:3 (width:height) */
+  display: flex; /* Use flex to center the content */
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem; /* 'rounded-lg' */
+  overflow: hidden; /* Ensures the image does not bleed outside the border-radius */
+  margin-bottom: 1rem; /* 'mb-3' */
+  background-color: #f0f0f0; /* Placeholder color if the image doesn't load */
+}
+
+.memberImage {
+  width: 100%; /* Ensure the width fits the container */
+  height: 100%; /* Ensure the height fits the container */
+  object-fit: cover; /* Cover the container without stretching */
+}
+
+.imagePlaceholder {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height, maintained by aspect-ratio of container */
+  display: flex; /* Center the content */
+  justify-content: center;
+  align-items: center;
+  background-color: #9CA3AF; /* Tailwind's 'bg-gray-400' */
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    max-width: 100px;
+  }
+}

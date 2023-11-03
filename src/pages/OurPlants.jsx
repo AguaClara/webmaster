@@ -50,7 +50,7 @@ function OurPlants() {
 
         <div className="text-5xl mt-30 mb-10">The Filtration Process</div>
 
-        <div className="w-full grid grid-cols-2 place-content-between text-center gap-60">
+        <div className="w-full grid grid-cols-2 place-content-between text-center gap-10">
           <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
             img of plant
           </div>
@@ -110,7 +110,7 @@ function OurPlants() {
         <div className="text-5xl mt-[5%] mb-[5%]">Location of our plants</div>
         <img src={m} />
         <div className="text-5xl mt-[5%] mb-[5%]">Our Impact</div>
-        <div className="w-full grid grid-cols-2 place-content-between text-center gap-60">
+        <div className="w-full grid grid-cols-2 place-content-between text-center gap-10">
           <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
             img of people
           </div>

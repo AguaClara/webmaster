@@ -26,7 +26,7 @@ function Home() {
             className="w-full object-cover mt-[1%]"
           />
           <div className="text-center absolute top-[75%] left-1/2 transform translate-x-[-50%] text-white">
-            <div className="text-2xl sm:text-4xl lg:text-4xl xl:text-8xl bold-text py-1">
+            <div className="text-2xl sm:text-3xl lg:text-3xl xl:text-6xl bold-text py-1">
               Clean water on tap
             </div>
             <div className="text-sm lg:text-lg xl:text-xl">
@@ -35,7 +35,7 @@ function Home() {
           </div>
         </div>
         {/* our plant section */}
-        <div className="mx-auto max-w-screen-xl mb-[5%]">
+        <div className="mx-auto max-w-screen-xl mb-[5%] mt-[5%]">
           <div className="text-5xl bold-text mt-[10%] mb-[3%]">Our Plants</div>
           <div className="flex flew-row items-center">
             <img

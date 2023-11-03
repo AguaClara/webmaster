@@ -1,0 +1,49 @@
+{
+  "sections": [
+    {
+      "name": "Team Leads",
+      "members": [
+        {
+          "name": "Isabel Crovella",
+          "email": "isc25@cornell.edu",
+          "linkedin": "www.linkedin.com/in/isabelcrovella",
+          "major_year": "Materials Science",
+          "img": "src/assets/img/headshots/isc25.jpeg"
+        },
+        {
+          "name": "Annie Hsu",
+          "email": "yh533@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/annie-hsu-8754381a8/",
+          "major_year": "Biomedical Engineering",
+          "img": "src/assets/img/headshots/yh533.jpeg"
+        },
+        {
+          "name": "Ian Lillie",
+          "email": "iml34@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/ian-lillie-4566991b5/",
+          "major_year": "Materials Science",
+          "img": "src/assets/img/headshots/iml34.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Research Advisors",
+      "members": [
+        {
+          "name": "Katie Lee",
+          "email": "kjl84@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/katie-lee-447a75204/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/kjl84.jpeg"
+        },
+        {
+          "name": "Yuhjin Chung",
+          "email": "yc763@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/yuhjin/",
+          "major_year": "Civil Engineering",
+          "img": "src/assets/img/headshots/yc763.jpeg"
+        }
+      ]
+    }
+  ]
+}
