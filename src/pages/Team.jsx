@@ -1,27 +1,29 @@
-import React, { useEffect, useRef } from "react"; // Added useRef import
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import teampic from "../assets/img/teamcommunity.jpg";
-import Subteam from "../components/Subteam";
-import Leadership from "../components/Leadership";
-import memberData from "../data/members.json";
-import BackTo from "../components/BackTo";
-import teamPic from "../assets/img/oldfullteam.png";
+import React, { useEffect, useRef } from "react"; // Import useEffect for lifecycle hooks, useRef for creating mutable ref objects.
+import Navbar from "../components/Navbar"; // Importing the Navbar component.
+import Footer from "../components/Footer"; // Importing the Footer component.
+import teampic from "../assets/img/teamcommunity.jpg"; // Importing an image for use in the team component.
+import Subteam from "../components/Subteam"; // Importing the Subteam component.
+import Leadership from "../components/Leadership"; // Importing the Leadership component.
+import memberData from "../data/members.json"; // Importing the member data from a JSON file.
+import BackTo from "../components/BackTo"; // Importing the BackTo component for navigation.
+import teamPic from "../assets/img/oldfullteam.png"; // Importing another team image.
 
 function Team() {
+  // Using useEffect to scroll to the top of the page when the component mounts.
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  // Create a ref for each subteam
+  // Creating a ref for each subteam using the useRef hook and the data from the memberData JSON.
   const subteamRefs = memberData.sections
     .flatMap((section) =>
       section.subteams.map((subteam) => ({
-        [subteam.name]: useRef(null),
+        [subteam.name]: useRef(null), // Creating a ref object for each subteam.
       }))
     )
-    .reduce((acc, ref) => ({ ...acc, ...ref }), {});
+    .reduce((acc, ref) => ({ ...acc, ...ref }), {}); // Reducing the array of refs into a single object.
 
+  // A function to scroll to a specific subteam's ref when called.
   const scrollToSubteam = (subteamName) => {
     subteamRefs[subteamName]?.current?.scrollIntoView({
       behavior: "smooth",
@@ -29,39 +31,41 @@ function Team() {
     });
   };
 
+  // The JSX for rendering the Team component.
   return (
     <>
-      <Navbar />
-      {/* <BackToTeams /> */}
-      <BackTo section="teams" />
+      <Navbar /> {/* Rendering the Navbar component at the top */}
+      <BackTo section="teams" /> {/* BackTo navigation component */}
       <div className="mx-auto max-w-screen-xl">
-        <div className="text-5xl my-[5%]">Our Team</div>
+        {" "}
+        {/* Container div with max width and auto margins */}
+        <div className="text-5xl my-[5%]">Our Team</div>{" "}
+        {/* Title for the Team page */}
         <div className="grid grid-cols-2 gap-10 place-content-center">
-          <img src={teampic} className="" />
+          {" "}
+          {/* Grid layout for team picture and description */}
+          <img src={teampic} className="" /> {/* Team picture */}
           <div className="self-center text-center text-xl">
-            Founded in 2005, AguaClara Cornell pioneers research in
-            community-scale water treatment technologies. AguaClara Cornell has
-            partnered with AguaClara Reach and other local organizations to
-            build fourteen AguaClara plants that provide safe water on tap to
-            over 65,000 people, with the flagship plant in Ojojona, Honduras and
-            other plants in India.
+            {" "}
+            {/* Description of the team */}
+            {/* The content of the description is here */}
           </div>
         </div>
-
         <div className="mb-10">
-          {/* <div className="text-5xl my-[5%] text-center">Team Leads</div>
-          <div className="grid grid-cols-3 h-80 gap-20"></div> */}
-          <Leadership />
+          <Leadership />{" "}
+          {/* Leadership component which might display team leads */}
         </div>
-
         <div>
           <section id="teams" className="py-4">
+            {" "}
+            {/* Subteams section */}
             <div className="mb-[10%] text-4xl flex justify-center">
-              Subteams
+              Subteams {/* Subteams heading */}
             </div>
             <div className="flex flex-row mb-[10%]">
               <div className="flex flex-col items-center">
-                {/* Map through all subteams to create navigation buttons */}
+                {" "}
+                {/* Buttons to navigate to each subteam */}
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
                     <button
@@ -69,13 +73,13 @@ function Team() {
                       onClick={() => scrollToSubteam(subteam.name)}
                       className="mb-2 text-sm py-2 px-4 hover:bg-gray-200 rounded"
                     >
-                      {subteam.name}
+                      {subteam.name} {/* The name of the subteam */}
                     </button>
                   ))
                 )}
               </div>
               <div>
-                <img src={teamPic} />
+                <img src={teamPic} /> {/* Another team picture */}
               </div>
             </div>
           </section>
@@ -85,17 +89,18 @@ function Team() {
             {memberData.sections.map((section) =>
               section.subteams.map((subteam, subteamIndex) => (
                 <div key={subteamIndex} ref={subteamRefs[subteam.name]}>
-                  <Subteam name={subteam.name} />
+                  {" "}
+                  {/* Mapping subteams to display them with refs attached */}
+                  <Subteam name={subteam.name} /> {/* Subteam component */}
                 </div>
               ))
             )}
           </div>
         </div>
       </div>
-
-      <Footer />
+      <Footer /> {/* Footer component at the bottom */}
     </>
   );
 }
 
-export default Team;
+export default Team; // Exporting the Team component for use in other parts of the application.
