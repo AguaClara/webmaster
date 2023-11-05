@@ -31,6 +31,7 @@
       "members": [
         {
           "name": "Katie Lee",
+          "category": "Fabrication",
           "email": "kjl84@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/katie-lee-447a75204/",
           "major_year": "Environmental Engineering",
@@ -38,10 +39,75 @@
         },
         {
           "name": "Yuhjin Chung",
+          "category": "Lab",
           "email": "yc763@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/yuhjin/",
           "major_year": "Civil Engineering",
           "img": "src/assets/img/headshots/yc763.jpeg"
+        },
+        {
+          "name": "Brooke Paykin",
+          "category": "Going Global & Drinking Water",
+          "email": "bsp67@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/brooke-paykin-8b4b01212",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/bsp67.jpeg"
+        },
+        {
+          "name": "Kelly Tran",
+          "category": "Apps & Algo",
+          "email": "kt457@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/kelly-tran-458327221/",
+          "major_year": "Computer Science",
+          "img": "src/assets/img/headshots/kt457.jpeg"
+        },
+        {
+          "name": "Badyn Milstein-Touesnard",
+          "category": "Wastewater",
+          "email": "bmm98@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/badyn-milstein-touesnard-650529222/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/bmm98.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Chairs",
+      "members": [
+        {
+          "name": "Abby Kim",
+          "email": "sk2459@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/sulim-abby-kim/",
+          "major_year": "Information Science",
+          "img": "src/assets/img/headshots/sk2459.jpeg"
+        },
+        {
+          "name": "Arron Chang",
+          "email": "ac2787@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/arron-chang-5910a8148/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/ac2787.jpeg"
+        },
+        {
+          "name": "Erica Ruan",
+          "email": "er439@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/erica-ruan-ba2095215/",
+          "major_year": "Biochemistry and Molecular Biology",
+          "img": "src/assets/img/headshots/er439.jpeg"
+        },
+        {
+          "name": "Dennis Wu",
+          "email": "djw323@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/dennis-wu-301806230/",
+          "major_year": "Chemical Engineering",
+          "img": "src/assets/img/headshots/djw323.jpeg"
+        },
+        {
+          "name": "Laila Salih",
+          "email": "lms388@cornell.edu",
+          "linkedin": "",
+          "major_year": "",
+          "img": "src/assets/img/headshots/lms388.jpeg"
         }
       ]
     }

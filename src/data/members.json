@@ -43,7 +43,7 @@
           "lead": {
             "name": "Zach Marshall",
             "email": "zdm6@cornell.edu",
-            "linkedin": "www.linkedin.com/in/zachary-marshall-51bbb224a",
+            "linkedin": "https://www.linkedin.com/in/zachary-marshall-51bbb224a/",
             "major_year": "Chemical Engineering",
             "img": "src/assets/img/headshots/zdm6.jpeg"
           },
@@ -111,7 +111,7 @@
           "lead": {
             "name": "Elizabeth Bunker",
             "email": "elb248@cornell.edu",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/in/elizabeth-bunker-6b91141a7/",
             "major_year": "Environmental Engineering",
             "img": "src/assets/img/headshots/elb248.jpeg"
           },
@@ -119,14 +119,14 @@
             {
               "name": "Lily DuPlooy",
               "email": "led92@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/lily-duplooy-31b562209/",
               "major_year": "Biological Engineering",
               "img": "src/assets/img/headshots/led92.jpeg"
             },
             {
               "name": "Matthew Kajura",
               "email": "tmk89@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/twinomugisha-matthew-k-03426612a/",
               "major_year": "Civil Engineering",
               "img": "src/assets/img/headshots/tmk89.jpeg"
             }
@@ -146,7 +146,7 @@
             {
               "name": "Joshua Luoma",
               "email": "jjl364@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/joshualuoma/",
               "major_year": "Applied Physics/ Plasma Physics",
               "img": "src/assets/img/headshots/jjl364.jpeg"
             },
@@ -167,7 +167,7 @@
             {
               "name": "Jiaming Yuan",
               "email": "jy729@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/jiaming-yuan-4268a5141/",
               "major_year": "Environmental Engineering",
               "img": "src/assets/img/headshots/jy729.jpeg"
             }
@@ -179,8 +179,8 @@
       "name": "Apps and Algo",
       "subteams": [
         {
-          "name": "WebDev",
-          "description": "Make website better",
+          "name": "Web Master",
+          "description": "Our goal is to re-design and implement the website with React to have more updated information and a smoother user experience",
           "lead": {
             "name": "Dora Weng",
             "email": "cw749@cornell.edu",
@@ -199,7 +199,7 @@
             {
               "name": "Aasha Yeluri",
               "email": "ay324@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/aasha-yeluri/",
               "major_year": "Computer Science",
               "img": "src/assets/img/headshots/ay324.jpeg"
             }
@@ -250,7 +250,7 @@
           "lead": {
             "name": "Diya Tanwar",
             "email": "dt422@cornell.edu",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/in/diya-tanwar77/",
             "major_year": "Biometry and Statistics",
             "img": "src/assets/img/headshots/dt422.jpeg"
           },
@@ -258,14 +258,14 @@
             {
               "name": "Nessa Sandoval",
               "email": "vss32@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/nessa-sandoval-5aa977258/",
               "major_year": "Environment and Sustainability",
               "img": "src/assets/img/headshots/vss32.jpeg"
             },
             {
               "name": "Angie Nuisud",
               "email": "agn43@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/angienuisud/",
               "major_year": "Human Biology Health and Society",
               "img": "src/assets/img/headshots/agn43.jpeg"
             },
@@ -279,7 +279,7 @@
             {
               "name": "Bassem Elkhateeb",
               "email": "baq7@cornell.edu",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/bassem-elkhateeb/",
               "major_year": "Computer Science",
               "img": "src/assets/img/headshots/baq7.jpeg"
             }
