@@ -108,12 +108,12 @@ function Home() {
             </div>
             <div className=" w-[30%] flex flex-col items-center justify-center">
               <div className="flex flex-row items-center mb-[5%]">
-                <img src={logo} className="w-[20%]" />
-                <div className="ml-4 text-3xl">Join us.</div>
+                <img src={logo} className="w-[25%]" />
+                <div className="ml-4 text-5xl bold">Join us.</div>
               </div>
 
               <Link to="/Apply" className="text-white">
-                <button className="transform transition-all hover:scale-110 border border-#39B54A bg-[#39B54A] text-white rounded-lg px-4 py-2">
+                <button className="transform transition-all hover:scale-110 border border-#39B54A bg-[#39B54A] text-white rounded-lg px-4 py-2 text-xl">
                   Apply
                 </button>
               </Link>

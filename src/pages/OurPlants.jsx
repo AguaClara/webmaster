@@ -6,6 +6,7 @@ import m from "../assets/img/map.png";
 import Footer from "../components/Footer";
 import FeaturedPlants from "../components/FeaturedPlants";
 import plantsData from "../data/featuredplants";
+import treatmentprocess from "../assets/img/treatment_process.png";
 
 function OurPlants() {
   useEffect(() => {
@@ -49,8 +50,30 @@ function OurPlants() {
         </div>
 
         <div className="text-5xl mt-30 mb-10">The Filtration Process</div>
+        <div>
+          <img src={treatmentprocess} className="px-[10%]" />
+        </div>
+        <div>
+          Water first flows into the Entrance Tank from a higher-elevation water
+          source, like an uphill river or stream. Larger objects in the water
+          like sticks, pebbles, leaves, and more are caught by the Trash Rack or
+          fall due to gravity. A flotation device measures the elevation of this
+          water, so when the water level rises, the dose of a chemical called
+          Coagulant increases. The coagulant allows the particles in the water
+          to become “sticky”, so when the water flows around obstacles in the
+          Flocculator, they can stick to each other to form larger particles
+          called flocs. These flocs then travel into the Sedimentation Tank,
+          where some flocs are caught by a bed of fellow flocs, and others hit
+          the Plate Settlers and settle to the bottom. Finally, this clarified
+          water travels into the sand filters, where sand particles provide more
+          surfaces for smaller particles to stick to. Once filtration is
+          complete, clean water is dosed with Chlorine to remove any harmful
+          bacteria and heads into the Distribution Tank, where it can be
+          distributed by gravity to surrounding homes!
+        </div>
 
-        <div className="w-full grid grid-cols-2 place-content-between text-center gap-10">
+        <div>Learn more</div>
+        {/* <div className="w-full grid grid-cols-2 place-content-between text-center gap-10">
           <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
             img of plant
           </div>
@@ -98,7 +121,7 @@ function OurPlants() {
             to remove any harmful bacteria and heads into the Distribution Tank,
             where it can be distributed by gravity to surrounding homes!
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="mx-auto max-w-screen-xl mb-20">
