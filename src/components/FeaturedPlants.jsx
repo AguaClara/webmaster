@@ -4,20 +4,16 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 const FeaturedPlants = ({ plants }) => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1
-  // };
-
   const renderSlides = plants.map((plant, index) => (
-    <div key={index} className="flex">
-      <div className="w-1/3 p-4 h-full">
-        <img src={plant.imageUrl} alt={plant.name} className="h-auto rounded" />
+    <div key={index} className="flex p-5">
+      <div className="aspect-w-3 aspect-h-1 w-full ">
+        <img
+          src={plant.imageUrl}
+          alt={plant.name}
+          className="object-cover rounded"
+        />
       </div>
-      <div className="p-4">
+      <div className="p-10 w-[40%] flex flex-col justify-center">
         <h2 className="text-xl font-bold mb-2">{plant.name}</h2>
         <p>{plant.description}</p>
       </div>
@@ -25,17 +21,21 @@ const FeaturedPlants = ({ plants }) => {
   ));
 
   return (
-    <div className="container mx-auto p-4">
-      <Carousel
-        showArrows={true}
-        autoPlay={true}
-        infiniteLoop={true}
-        className="carousel-container"
-        showThumbs={false}
-        showStatus={false}
-      >
-        {renderSlides}
-      </Carousel>
+    <div className="container mx-auto p-10 ">
+      <div className="shadow-lg rounded-3xl">
+        <Carousel
+          showArrows={true}
+          autoPlay={true}
+          infiniteLoop={true}
+          className="carousel-container"
+          showThumbs={false}
+          showStatus={false}
+          showIndicators={false}
+          emulateTouch={true}
+        >
+          {renderSlides}
+        </Carousel>
+      </div>
     </div>
   );
 };
