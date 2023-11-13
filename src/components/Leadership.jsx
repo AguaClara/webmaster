@@ -6,8 +6,8 @@ function Leadership() {
   return (
     <div className="">
       {data.sections.map((section, sectionIndex) => (
-        <div key={sectionIndex}>
-          <h2 className="text-xl font-bold mb-2">{section.name}</h2>
+        <div key={sectionIndex} className="mt-10">
+          <h2 className="text-3xl mb-2 text-center">{section.name}</h2>
           <div className="mb-4 grid grid-cols-4 gap-20">
             {section.members.map((member, memberIndex) => (
               <div key={memberIndex}>

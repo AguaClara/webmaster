@@ -37,14 +37,18 @@ function Team() {
       <Navbar /> {/* Rendering the Navbar component at the top */}
       <BackTo section="teams" /> {/* BackTo navigation component */}
       <div className="mx-auto max-w-screen-xl">
-        {/* Container div with max width and auto margins */}
         <div className="text-5xl my-[5%]">Our Team</div>
         {/* Title for the Team page */}
-        <div className="grid grid-cols-2 gap-10 place-content-center">
-          {/* Grid layout for team picture and description */}
-          <img src={teampic} className="" /> {/* Team picture */}
-          <div className="self-center text-center text-xl">
+        <div className="flex flex-row justify-center space-x-9">
+          <img src={teampic} className="w-[50%]" /> {/* Team picture */}
+          <div className="self-center text-center ">
             {/* Description of the team */}
+            Founded in 2005, AguaClara Cornell pioneers research in
+            community-scale water treatment technologies. AguaClara Cornell has
+            partnered with AguaClara Reach and other local organizations to
+            build fourteen AguaClara plants that provide safe water on tap to
+            over 65,000 people, with the flagship plant in Ojojona, Honduras and
+            other plants in India.
             {/* The content of the description is here */}
           </div>
         </div>
@@ -59,14 +63,14 @@ function Team() {
               Subteams {/* Subteams heading */}
             </div>
             <div className="flex flex-row mb-[10%]">
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col">
                 {/* Buttons to navigate to each subteam */}
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
                     <button
                       key={subteamIndex}
                       onClick={() => scrollToSubteam(subteam.name)}
-                      className="mb-2 text-sm py-2 px-4 hover:bg-gray-200 rounded"
+                      className="mb-2 text-sm py-2 px-4 hover:underline rounded bg-transparent"
                     >
                       {subteam.name} {/* The name of the subteam */}
                     </button>
