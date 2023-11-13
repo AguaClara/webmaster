@@ -37,34 +37,29 @@ function Team() {
       <Navbar /> {/* Rendering the Navbar component at the top */}
       <BackTo section="teams" /> {/* BackTo navigation component */}
       <div className="mx-auto max-w-screen-xl">
-        {" "}
         {/* Container div with max width and auto margins */}
-        <div className="text-5xl my-[5%]">Our Team</div>{" "}
+        <div className="text-5xl my-[5%]">Our Team</div>
         {/* Title for the Team page */}
         <div className="grid grid-cols-2 gap-10 place-content-center">
-          {" "}
           {/* Grid layout for team picture and description */}
           <img src={teampic} className="" /> {/* Team picture */}
           <div className="self-center text-center text-xl">
-            {" "}
             {/* Description of the team */}
             {/* The content of the description is here */}
           </div>
         </div>
         <div className="mb-10">
-          <Leadership />{" "}
+          <Leadership />
           {/* Leadership component which might display team leads */}
         </div>
         <div>
           <section id="teams" className="py-4">
-            {" "}
             {/* Subteams section */}
             <div className="mb-[10%] text-4xl flex justify-center">
               Subteams {/* Subteams heading */}
             </div>
             <div className="flex flex-row mb-[10%]">
               <div className="flex flex-col items-center">
-                {" "}
                 {/* Buttons to navigate to each subteam */}
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
@@ -89,7 +84,6 @@ function Team() {
             {memberData.sections.map((section) =>
               section.subteams.map((subteam, subteamIndex) => (
                 <div key={subteamIndex} ref={subteamRefs[subteam.name]}>
-                  {" "}
                   {/* Mapping subteams to display them with refs attached */}
                   <Subteam name={subteam.name} /> {/* Subteam component */}
                 </div>

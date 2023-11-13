@@ -10,7 +10,7 @@
             "name": "Zachary Kwon",
             "email": "zk49@cornell.edu",
             "linkedin": " https://www.linkedin.com/in/zachary-kwon/",
-            "major_year": "Chemical Engineering Junior",
+            "major_year": "Chemical Engineering",
             "img": "src/assets/img/headshots/zk49.jpeg"
           },
           "members": [
@@ -18,21 +18,21 @@
               "name": "Nhi Nguyen",
               "email": "npn25@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/nhi-nguyen-709728229/",
-              "major_year": "Chemical Engineering Junior",
+              "major_year": "Chemical Engineering",
               "img": "src/assets/img/headshots/npn25.jpeg"
             },
             {
               "name": "Rachel Lai",
               "email": "rml267@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/rachel-lai-rml8/",
-              "major_year": "Chemical Engineering Senior",
+              "major_year": "Chemical Engineering",
               "img": "src/assets/img/headshots/rml267.jpeg"
             },
             {
               "name": "Henry Lin",
               "email": "hl777@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/henry-lin-14a7a5203/",
-              "major_year": "Chemical Engineering Junior",
+              "major_year": "Chemical Engineering",
               "img": "src/assets/img/headshots/hl777.jpeg"
             }
           ]
