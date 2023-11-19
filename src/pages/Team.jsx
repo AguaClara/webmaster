@@ -7,6 +7,8 @@ import Leadership from "../components/Leadership"; // Importing the Leadership c
 import memberData from "../data/members.json"; // Importing the member data from a JSON file.
 import BackTo from "../components/BackTo"; // Importing the BackTo component for navigation.
 import teamPic from "../assets/img/oldfullteam.png"; // Importing another team image.
+import monroe from "../assets/img/monroe.jpeg";
+import richardson from "../assets/img/Richardson.png";
 
 function Team() {
   // Using useEffect to scroll to the top of the page when the component mounts.
@@ -93,6 +95,51 @@ function Team() {
                 </div>
               ))
             )}
+          </div>
+        </div>
+      </div>
+      <div className="mx-auto max-w-screen-xl flex flex-col ">
+        <div className="text-5xl my-10">Our Advisors</div>
+
+        <div className="container mx-auto p-10 space-y-5">
+          <div className="flex flex-row ">
+            <div className="aspect-[4/3] w-1/4">
+              <img src={monroe} alt="monroe" className="object-cover rounded" />
+            </div>
+            <div className="p-10 w-3/4">
+              <h2 className="text-xl font-bold mb-2">Our founder</h2>
+              <p>
+                Dr. Monroe Weber-Shirk is an environmental engineer who founded
+                the AguaClara program to develop sustainable municipal scale
+                water treatment for resource poor communities. His work has been
+                motivated by his experiences working in Salvadoran refugee camps
+                and his investigations of the widespread failure of automated
+                and mechanized water treatment plants. AguaClara has invented a
+                series of technologies that make it possible to produce safe
+                drinking water without using any electricity.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row ">
+            <div className="p-10 w-3/4">
+              <h2 className="text-xl font-bold mb-2">Our Advisor</h2>
+              <p>
+                Dr. Ruth Richardson is a professor of civil and environmental
+                engineering at Cornell University. Her research is focused on
+                the application of molecular biological tools to improve basic
+                understanding of microbes relevant to bioremediation,
+                sustainable wastewater treatment and sustainable bioenergy and
+                apply this understanding to the deployment of microbial
+                processes in environmental and reactor systems.
+              </p>
+            </div>
+            <div className="aspect-[4/3] w-1/4 flex justify-center">
+              <img
+                src={richardson}
+                alt="richardson"
+                className="object-cover rounded"
+              />
+            </div>
           </div>
         </div>
       </div>
