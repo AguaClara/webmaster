@@ -27,10 +27,10 @@ function Home() {
           />
           <div className="text-center absolute top-[75%] left-1/2 transform translate-x-[-50%] text-white">
             <div className="text-2xl sm:text-3xl lg:text-3xl xl:text-6xl bold-text py-1">
-              Clean water on tap
+              Safe Water on Tap
             </div>
             <div className="text-sm lg:text-lg xl:text-xl">
-              protecting the universal right to clean water
+              Protecting the Universal Right to Clean Water
             </div>
           </div>
         </div>
@@ -49,7 +49,6 @@ function Home() {
             /> */}
             <div className="w-full flex flex-col items-center">
               <div className="w-[75%] text-2xl">
-                {" "}
                 We design gravity powered water treatment plants with movable
                 parts that can be easily constructed with local materials.
               </div>

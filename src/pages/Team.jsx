@@ -42,7 +42,8 @@ function Team() {
         <div className="text-5xl my-[5%]">Our Team</div>
         {/* Title for the Team page */}
         <div className="flex flex-row justify-center space-x-9">
-          <img src={teampic} className="w-[50%]" /> {/* Team picture */}
+          <img src={teampic} className="w-[50%] rounded-2xl" />{" "}
+          {/* Team picture */}
           <div className="self-center text-center ">
             {/* Description of the team */}
             Founded in 2005, AguaClara Cornell pioneers research in
@@ -80,7 +81,8 @@ function Team() {
                 )}
               </div>
               <div>
-                <img src={teamPic} /> {/* Another team picture */}
+                <img src={teamPic} className="rounded-2xl" />{" "}
+                {/* Another team picture */}
               </div>
             </div>
           </section>
@@ -104,7 +106,11 @@ function Team() {
         <div className="container mx-auto p-10 space-y-5">
           <div className="flex flex-row ">
             <div className="aspect-[4/3] w-1/4">
-              <img src={monroe} alt="monroe" className="object-cover rounded" />
+              <img
+                src={monroe}
+                alt="monroe"
+                className="object-cover rounded-2xl"
+              />
             </div>
             <div className="p-10 w-3/4">
               <h2 className="text-xl font-bold mb-2">Our founder</h2>
@@ -137,7 +143,7 @@ function Team() {
               <img
                 src={richardson}
                 alt="richardson"
-                className="object-cover rounded"
+                className="object-cover rounded-2xl"
               />
             </div>
           </div>

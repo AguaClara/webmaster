@@ -12,7 +12,7 @@ function ContactUs() {
         <div className=" text-3xl mt-[3%]"></div>
         <div className="flex flex-row justify-between w-full text-center ">
           <div className="flex-1">
-            <img src={groupPic} alt="React Image" />
+            <img src={groupPic} alt="React Image" className="rounded-2xl" />
           </div>
           <div className="flex-1">
             <div className=" text-10xl mt-[10%]"></div>
