@@ -7,27 +7,29 @@ import Footer from "../components/Footer";
 import FeaturedPlants from "../components/FeaturedPlants";
 import plantsData from "../data/featuredplants";
 import treatmentprocess from "../assets/img/treatment_process.png";
+import greenArrow from "../assets/img/icons/arrow.png";
 
 function OurPlants() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <Navbar />
       <section id="banner" className="py-2 bg-">
-        <div className="text-center text-5xl mt-[5%] mb-[5%] ">Our Plants</div>
-        <div className="flex flex-row justify-center items-center space-x-20 mx-auto max-w-screen-xl">
+        <div className="text-center text-5xl mt-[5%] mb-[5%]">Our Plants</div>
+        <div className="flex flex-row justify-center items-center space-x-20 mx-auto max-w-screen-xl shadow-lg rounded-3xl py-10">
           <div className="flex flex-col w-1/2 space-y-6">
-            <div className="text-4xl">Gravity Powered Purity</div>
-            <div>
-              Unveiling a scalable and sustainable water treatment solution that
-              harnesses the natural force of gravity, eliminating the need for
-              excessive energy consumption. Every design is thoughtfully crafted
-              to utilize locally-sourced materials, ensuring not only
-              environmental harmony but also ease of maintenance for the
-              communities we serve. Dive into a vision that melds ease,
-              eco-integrity, and community empowerment
+            <div className="text-4xl underline decoration-[#39B54A]">
+              Gravity Powered Purity
+            </div>
+
+            <div className="text-xl">
+              Introducing a scalable and sustainable water treatment solution
+              that relies on the natural force of gravity, thus significantly
+              reducing energy consumption. Our designs are meticulously created
+              to use locally-sourced materials, ensuring they are
+              environmentally friendly and easy to maintain for the communities
+              we serve. This approach combines simplicity, ecological
+              responsibility, and community empowerment into one cohesive
+              vision.
             </div>
           </div>
           <div className="w-[30%] text-center text-xl ">
@@ -100,58 +102,76 @@ function OurPlants() {
 
       <div className="mx-auto max-w-screen-xl">
         {/* Our plants */}
-        <div className="text-5xl mt-30 mb-10">The Filtration Process</div>
+        <div className="text-5xl mt-30 mb-5">The Filtration Process</div>
         <div>
-          <img src={treatmentprocess} className="px-[20%] py-[2%]" />
+          <img src={treatmentprocess} className="px-24 py-[2%]" />
         </div>
-        <div>
-          Water first flows into the Entrance Tank from a higher-elevation water
-          source, like an uphill river or stream. Larger objects in the water
-          like sticks, pebbles, leaves, and more are caught by the Trash Rack or
-          fall due to gravity. A flotation device measures the elevation of this
-          water, so when the water level rises, the dose of a chemical called
-          Coagulant increases. The coagulant allows the particles in the water
-          to become “sticky”, so when the water flows around obstacles in the
-          Flocculator, they can stick to each other to form larger particles
-          called flocs. These flocs then travel into the Sedimentation Tank,
-          where some flocs are caught by a bed of fellow flocs, and others hit
-          the Plate Settlers and settle to the bottom. Finally, this clarified
-          water travels into the sand filters, where sand particles provide more
-          surfaces for smaller particles to stick to. Once filtration is
-          complete, clean water is dosed with Chlorine to remove any harmful
-          bacteria and heads into the Distribution Tank, where it can be
-          distributed by gravity to surrounding homes!
-        </div>
+        <div className="flex flex-col space-y-6 text-xl">
+          <div className="flex items-start">
+            <img src={greenArrow} alt="Arrow" className="w-8 h-8 mr-2" />
+            <p className="mt-1">
+              <strong>Grit Removal:</strong> Water first flows into the entrance
+              tank from a higher-elevation water source, like an uphill river or
+              stream. Larger objects in the water like sticks, pebbles, leaves,
+              and more are caught by the trash rack or fall due to gravity.
+            </p>
+          </div>
 
-        <div>Learn more</div>
+          <div className="flex items-start">
+            <img src={greenArrow} alt="Arrow" className="w-8 h-8 mr-2" />
+            <p className="mt-1">
+              <strong>Chemical Dosing:</strong> A flotation device measures the
+              elevation of water in the entrance tank, so when the water level
+              rises, the dose of a chemical called coagulant increases. The
+              coagulant allows the particles in the water to become “sticky”.
+            </p>
+          </div>
+
+          <div className="flex items-start">
+            <img src={greenArrow} alt="Arrow" className="w-8 h-8 mr-2" />
+            <p className="mt-1">
+              <strong>Flocculation:</strong> The water then flows into the
+              flocculator, where it passes through baffles that create
+              disturbances in the water flow, causing the particles to bump and
+              stick to each other and form larger aggregates known as flocs.
+            </p>
+          </div>
+
+          <div className="flex items-start">
+            <img src={greenArrow} alt="Arrow" className="w-8 h-8 mr-2" />
+            <p className="mt-1">
+              <strong>Sedimentation:</strong> These flocs then travel into the
+              Sedimentation Tank, where some flocs are caught by a bed of fellow
+              flocs, and others hit the Plate Settlers and settle to the bottom.
+            </p>
+          </div>
+
+          <div className="flex items-start">
+            <img src={greenArrow} alt="Arrow" className="w-8 h-8 mr-2" />
+            <p className="mt-1">
+              <strong>Filtration:</strong> Finally, this clarified water travels
+              into the sand filters, where sand particles provide more surfaces
+              for smaller particles to stick to. Once filtration is complete,
+              clean water is dosed with Chlorine to remove any harmful bacteria
+              and heads into the Distribution Tank, where it can be distributed
+              by gravity to surrounding homes!
+            </p>
+          </div>
+        </div>
 
         {/* our approach */}
         <div className="text-5xl mt-[5%] mb-[5%]"></div>
 
-        <div className="text-5xl mt-[5%] mb-[5%]">Location of our plants</div>
-        <div className="flex flex-row space-x-10">
+        <div className="text-5xl mt-32 mb-10">Location of our plants</div>
+        <div className="flex flex-row space-x-10 mb-24">
           <img src={m} className="rounded-2xl w-[70%]" />
-          <div className=" flex flex-col justify-center">
+          <div className=" flex flex-col justify-center text-xl">
             AguaClara Technology is currently in operation at 24 water treatment
             plants, serving over 96,000 people in Central America and India.
             These plants reliably provide safe water to community members year
             after year.
           </div>
         </div>
-
-        {/* <div className="text-5xl mt-[5%] mb-[5%]">Our Impact</div>
-        <div className="w-full grid grid-cols-2 place-content-between text-center gap-10">
-          <div className="bg-slate-100 h-48 rounded-xl drop-shadow-lg">
-            img of people
-          </div>
-          <div className="place-self-center">
-            {" "}
-            description description description description description
-            description description description description description
-            description description description description description
-            description description description description{" "}
-          </div>
-        </div> */}
       </div>
       <Footer />
     </>
