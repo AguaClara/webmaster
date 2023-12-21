@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import sanmatias from "../assets/img/SanMatias.jpg";
-import gracias from "../assets/img/plant.jpg";
+import gracias from "../assets/img/graciasplant.jpg";
 import m from "../assets/img/map.png";
 import Footer from "../components/Footer";
 import FeaturedPlants from "../components/FeaturedPlants";

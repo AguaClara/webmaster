@@ -32,11 +32,11 @@ function Navbar() {
               Donate
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/ContactUs" className="text-black">
               Contact Us
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="/Apply" className="text-black">
               Apply

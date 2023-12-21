@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import banner from "../assets/img/banner.jpg";
+import banner from "../assets/img/donatebanner.jpg";
 
 function Donate() {
   return (
