@@ -53,7 +53,7 @@ function Home() {
               className="w-[20%] absolute top-[25%] left-[35%] right-[10%] bottom-[-25%]s"
             /> */}
             <div className="w-full flex flex-col align-left space-y-7">
-              <div className=" text-2xl">
+              <div className="text-xl">
                 We design gravity powered water treatment plants with movable
                 parts that can be easily constructed with local materials.
               </div>
@@ -68,23 +68,23 @@ function Home() {
         {/* Who we are section */}
         <div className="mx-auto max-w-screen-xl">
           <div className="relative mb-[20%]">
-            <div className="text-5xl font-semibold mt-[10%] mb-[3%] text-center">
+            <div className="text-5xl mt-[10%] mb-[3%] text-center">
               Who We Are
             </div>
             <img src={whoweare} alt="crossing water" className="rounded-3xl" />
-            <div className="bg-white text-center absolute top-[80%] left-[10%] right-[10%] bottom-[-10%] z-10 rounded-3xl shadow-lg">
-              <div className="text-2xl mt-8 px-[5%]">
+            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-10%] z-10 rounded-3xl shadow-lg">
+              <div className="text-xl mt-8 px-[5%]">
                 AguaClara Cornell is a student-led program that develops and
-                implements sustainable, gravity-powered drinking water and
-                wastewater treatment technologies to bring safe water on tap to
-                communities around the world.
+                implements sustainable, gravity-powered water treatment
+                technologies to bring safe water on tap to communities around
+                the world.
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="mx-auto max-w-screen-xl mb-40 mt-40"> */}
-        <div className="bg-[#003C08] max-w-full px-20 py-20 rounded-tl-3xl rounded-tr-3xl">
-          <div className="grid grid-rows-6 grid-flow-col grid-cols-2 gap-20 text-right">
+        <div className="mx-auto max-w-screen-full px-10 mb-40 mt-40">
+          {/* <div className="bg-[#003C08] max-w-full px-20 py-20 rounded-tl-3xl rounded-tr-3xl"> */}
+          <div className="grid grid-rows-6 grid-flow-col grid-cols-2 gap-16 text-right">
             <div className="row-span-3 bg-slate-50 rounded-3xl overflow-hidden">
               <img
                 src={wwa4}
@@ -99,16 +99,16 @@ function Home() {
               />
             </div>
 
-            <div className="row-span-2 bg-slate-50 rounded-3xl space-y-4 flex flex-col justify-center px-6">
+            <div className="row-span-2 bg-[#75DC83] rounded-3xl space-y-4 flex flex-col justify-center px-6">
               <div className="font-bold text-2xl">
                 Our annual trip to Honduras!
               </div>
-              <div className="text-xl">
+              <div className="text-lg">
                 AguaClara Technology is currently in operation at 24 water
                 treatment plants, serving over 96,000 people in Central America
                 and India.
               </div>
-              <div className="text-xl">
+              <div className="text-lg">
                 The annual trips to Honduras offer life-changing, hands-on
                 experiences for students, providing crucial insights and
                 feedback that significantly contribute to our research and give
@@ -123,7 +123,7 @@ function Home() {
               />
             </div>
 
-            <div className="bg-slate-50 rounded-3xl justify-center p-6">
+            <div className="bg-[#75DC83]  rounded-3xl justify-center p-6">
               <div className="text-xl">
                 Visiting Honduras provides insights into our plant's filtering
                 processes, highlighting ways to improve user-friendliness and

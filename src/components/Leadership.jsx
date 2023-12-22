@@ -4,13 +4,22 @@ import Member from "./Member";
 
 function Leadership() {
   return (
-    <div className="">
+    <div>
       {data.sections.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mt-10">
           <h2 className="text-3xl mb-2 text-center">{section.name}</h2>
-          <div className="mb-4 grid grid-cols-4 gap-20">
+          <div
+            className={`mb-12 ${
+              section.members.length < 5
+                ? "flex justify-center"
+                : "grid grid-cols-5 gap-x-4"
+            }`}
+          >
             {section.members.map((member, memberIndex) => (
-              <div key={memberIndex}>
+              <div
+                key={memberIndex}
+                className={`${section.members.length < 5 ? "mx-4" : ""}`}
+              >
                 <Member
                   name={member.name}
                   email={member.email}

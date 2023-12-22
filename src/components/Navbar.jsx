@@ -3,7 +3,7 @@ import Logo from "../assets/img/AguaClara_Logo.png";
 
 function Navbar() {
   return (
-    <div className="flex flex-row justify-between items-center mx-auto max-w-screen-xl mt-[1%]">
+    <div className="flex flex-row justify-between items-center mx-auto text-xl max-w-screen-xl mt-[1%]">
       <div className="w-[35%]">
         <a href="/">
           <img src={Logo} alt="AguaClara Logo" className="w-[80%]" />

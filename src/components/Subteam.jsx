@@ -7,19 +7,26 @@ function Subteam({ name }) {
   let foundSubteam = null;
   for (const section of memberData.sections) {
     foundSubteam = section.subteams.find((subteam) => subteam.name === name);
-    if (foundSubteam) break; // If we found the subteam, we can exit the loop
+    if (foundSubteam) break;
   }
 
-  // If the section exists, render it, otherwise render nothing (or some fallback UI)
   return (
     <div>
       {foundSubteam ? (
         <div>
-          <h2 className="text-xl font-bold mb-2">{foundSubteam.name}</h2>
+          <h2 className="text-3xl text-center font-bold mb-2">
+            {foundSubteam.name}
+          </h2>
           <div className="mb-4">
             <div className="mb-20">
-              <div className="mb-10">
-                <div>{foundSubteam.description}</div>
+              <div className="mb-10 text-xl flex flex-row space-x-10">
+                <div className="">{foundSubteam.description}</div>
+                {/* <div className="aspect-y-3 aspect-x-4">
+                  <img
+                    src={foundSubteam.teampic}
+                    className="rounded-3xl object-cover"
+                  />
+                </div> */}
               </div>
               <div className="grid grid-cols-4 gap-20 mb-4">
                 <Member

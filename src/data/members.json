@@ -5,6 +5,7 @@
       "subteams": [
         {
           "name": "Dissolved Organic Matter",
+          "teampic": "src/assets/img/teampic/DOM.jpeg",
           "description": "The DOM team is dedicated to improving the removal process of dissolved organic matter from water sources. DOM naturally forms as organic materials, such as decomposed feces and decaying leaves, break down. When DOM reacts with coagulants, the contaminants aggregate into larger clusters known as flocs, which can be readily separated during the filtration stage. At the AguaClara plant in Gracias, Honduras, there is an issue where these flocs aren't sufficiently dense within the sedimentation tank, resulting in their presence in the treated drinking water. To address this challenge, our team is actively exploring methods to increase the density of these particles by adjusting concentrations of clay and activated carbon, making them easier to remove in our AguaClara clarifiers.",
           "lead": {
             "name": "Zachary Kwon",
@@ -39,6 +40,7 @@
         },
         {
           "name": "Ram Pump",
+          "teampic": "src/assets/img/teampic/RamPump.jpeg",
           "description": "The Ram Pump team focuses on the research, design and fabrication of the AguaClara Vertical Ram Pump (ACVRP), a proprietary, open source technology developed within the AguaClara orginization. Its purpose within the AguaClara plants is to pump the cleaned water back upstream into the treatment facility, without the use of electricity and minimizing clean water waste. The work of the team includes reviewing previous literature on topics such as turbulent fluid flow, dynamic physics, and ram pump modeling. Additionally, the team designs experiments and fabricates parts in order to test different methods of optimizing the pump. Currently, the work is focused on optmizing the spring configuration used to operate the pump by  applying fluid mechanics to experimental design.",
           "lead": {
             "name": "Zach Marshall",
@@ -73,6 +75,7 @@
         },
         {
           "name": "Membrane Biofilm Reactor (MBFR)",
+          "teampic": "src/assets/img/teampic/MBFR.jpeg",
           "description": "The Membrane Biofilm Reactor (MBFR) team is working to design a polishing reactor for use in wastewater treatment. Following treatment by the UASB, wastewater will enter the MBFR and be treated to remove dissolved ammonia, methane, and sulfides. Microorganisms living in an oxygen rich environment are used for this treatment process. Currently, the team is working on testing an upscale reactor and planning ways to balance the flow of both oxygen and water in the reactor.",
           "lead": {
             "name": "Camden Wehrle",
@@ -107,6 +110,7 @@
         },
         {
           "name": "Floc Filtration",
+          "teampic": "src/assets/img/teampic/FlocFiltration.jpeg",
           "description": "The floc filtration subteam is investigating the potential for a floc recycle system in the AguaClara clarifer. With the current system, as flocs in the floc filter capture more and more primary particles, they become \"full,\" leaving them unable to capture more particles. As this happens, the removal efficiency of the clarifier decreases. In order to retain the efficiency in the clarifier over time, floc filtration looks to a recycle system that would use shear force to break flocs up enough that they would be able to continue to capture primary particles.",
           "lead": {
             "name": "Elizabeth Bunker",
@@ -134,6 +138,7 @@
         },
         {
           "name": "Plantita (PF200)",
+          "teampic": "src/assets/img/teampic/Plantita.jpeg",
           "description": "PF200, also referred to as Plantita, is a prefabricated water treatment plant designed for a community of 200. The team’s goal is to implement a PF200 pilot model in Puerto Rico that is acclimated to its climate. Puerto Rico has frequent storms that lead to highly turbid water. The dose of coagulant, which is a chemical used to aggregate particles for easier filtration, needs to be increased based on these turbidity levels. Often, these rural communities cannot afford to hire a full time operator to monitor the plant’s performance and adjust this coagulant dosing as necessary. PF200’s current goal is to create an automated coagulant dosing model to respond to fluctuating turbidites with minimal interference from an operator. We are studying the amount of coagulant needed per mass of particles present in the influent water and also working on some design changes in the clarifier.",
           "lead": {
             "name": "Sarah Bae",
@@ -179,34 +184,8 @@
       "name": "Apps and Algo",
       "subteams": [
         {
-          "name": "Web Master",
-          "description": "Our goal is to re-design and implement the website with React to have more updated information and a smoother user experience",
-          "lead": {
-            "name": "Dora Weng",
-            "email": "cw749@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/chuyinweng/",
-            "major_year": "Computer Science",
-            "img": "src/assets/img/headshots/cw749.jpeg"
-          },
-          "members": [
-            {
-              "name": "Anya Yerramilli",
-              "email": "ay326@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/anya-y-4b5b211bb/",
-              "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/ay326.jpeg"
-            },
-            {
-              "name": "Aasha Yeluri",
-              "email": "ay324@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/aasha-yeluri/",
-              "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/ay324.jpeg"
-            }
-          ]
-        },
-        {
           "name": "Floc App",
+          "teampic": "src/assets/img/teampic/FlocApp.jpeg",
           "description": "The Floc App team is dedicated to accurately sizing and counting flocculation particles in turbid water. Flocculation is the process of fine particles clumping together due to coagulant. These particles, called flocs, are then filtered out of the water using a sand filtration process. Floc App's aim is to count and size the particles that will not be caught by the filter in order to determine how much coagulant needs to be added or removed. Our team uses machine learning, computer vision, and image segmentation in order to detect these particles. We then work in a full stack environment to develop an application for use by plant operators in countries around the world serving over 96,000 people.",
           "lead": {
             "name": "Shreehari Srinivasan",
@@ -238,6 +217,34 @@
               "img": "src/assets/img/headshots/ay326.jpeg"
             }
           ]
+        },
+        {
+          "name": "Plant Operations Smartphone Tracker (POST)",
+          "teampic": "src/assets/img/teampic/POST.jpeg",
+          "description": "",
+          "lead": {
+            "name": "George Dong",
+            "email": "gd289@cornell.edu",
+            "linkedin": "",
+            "major_year": "",
+            "img": "src/assets/img/headshots/gd289.jpeg"
+          },
+          "members": [
+            {
+              "name": "Tim Holt",
+              "email": "tch83@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/tch83.jpeg"
+            },
+            {
+              "name": "Hannah Lee",
+              "email": "hyl8@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/hyl8.jpeg"
+            }
+          ]
         }
       ]
     },
@@ -245,7 +252,8 @@
       "name": "Going Global",
       "subteams": [
         {
-          "name": "Public Relations",
+          "name": "Public Relations & Investments",
+          "teampic": "src/assets/img/teampic/PR.jpeg",
           "description": "Public Relations of AguaClara Cornell focuses on increasing overall exposure of the project team within Cornell and the global community. Public Relations creates and manages a consistent brand image that communicate AguaClara Cornell’s innovative, minimalistic, and sustainable ideals. Internal team pride and campus exposure is increased by designing team merchandise, maintaining regular social media presence, and overseeing recruitment materials. Press kits, brand books, and templates for promotional materials ensure a uniform message of AguaClara Cornell’s mission is promoted to external sources and maintained within the team.",
           "lead": {
             "name": "Diya Tanwar",

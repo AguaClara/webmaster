@@ -1,12 +1,7 @@
 [
   {
-    "name": "San Matias Plant",
-    "imageUrl": "src/assets/img/SanMatias.jpg",
-    "description": "This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plants"
-  },
-  {
-    "name": "Gracias Plant",
-    "imageUrl": "src/assets/img/graciasplant.jpg",
-    "description": "This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plant This is a description of the Sam Matias Plants"
+    "name": "Tamara Plant",
+    "image": "src/assets/img/TamaraPlant.jpg",
+    "description": "The Tamara plant began operation in 2008. The Tamara plant has been regularly updated by the Tamara water board to incorporate the latest AguaClara technologies. By providing a highly valued service, the water board is able to charge a higher tariff and use those funds to improve their water infrastructure such as adding a large water storage tank, stacked rapid sand filters, and updated the clarifier to be self-cleaning."
   }
 ]

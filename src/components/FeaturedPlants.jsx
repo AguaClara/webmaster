@@ -8,7 +8,7 @@ const FeaturedPlants = ({ plants }) => {
     <div key={index} className="flex p-5">
       <div className="aspect-w-3 aspect-h-1 w-full ">
         <img
-          src={plant.imageUrl}
+          src={plant.image}
           alt={plant.name}
           className="object-cover rounded-2xl"
         />

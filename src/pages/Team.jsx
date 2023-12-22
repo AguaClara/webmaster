@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"; // Import useEffect for lifecycle hooks, useRef for creating mutable ref objects.
 import Navbar from "../components/Navbar"; // Importing the Navbar component.
 import Footer from "../components/Footer"; // Importing the Footer component.
-import teampic from "../assets/img/teamcommunity.jpg"; // Importing an image for use in the team component.
+import teampic from "../assets/img/team.jpg"; // Importing an image for use in the team component.
 import Subteam from "../components/Subteam"; // Importing the Subteam component.
 import Leadership from "../components/Leadership"; // Importing the Leadership component.
 import memberData from "../data/members.json"; // Importing the member data from a JSON file.
@@ -11,7 +11,6 @@ import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
 
 function Team() {
-  // Using useEffect to scroll to the top of the page when the component mounts.
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,7 +19,7 @@ function Team() {
   const subteamRefs = memberData.sections
     .flatMap((section) =>
       section.subteams.map((subteam) => ({
-        [subteam.name]: useRef(null), // Creating a ref object for each subteam.
+        [subteam.name]: useRef(null),
       }))
     )
     .reduce((acc, ref) => ({ ...acc, ...ref }), {}); // Reducing the array of refs into a single object.
@@ -33,56 +32,47 @@ function Team() {
     });
   };
 
-  // The JSX for rendering the Team component.
   return (
     <>
-      <Navbar /> {/* Rendering the Navbar component at the top */}
-      <BackTo section="teams" /> {/* BackTo navigation component */}
+      <Navbar />
+      <BackTo section="teams" />
       <div className="mx-auto max-w-screen-xl">
         <div className="text-5xl my-[5%]">Our Team</div>
-        {/* Title for the Team page */}
-        <div className="flex flex-row justify-center space-x-9">
-          <img src={teampic} className="w-[50%] rounded-2xl" />{" "}
-          {/* Team picture */}
-          <div className="self-center text-center ">
-            {/* Description of the team */}
+
+        <div className="flex flex-row justify-center space-x-24">
+          <img src={teampic} className="w-[50%] rounded-2xl" />
+          <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
             community-scale water treatment technologies. AguaClara Cornell has
             partnered with AguaClara Reach and other local organizations to
             build fourteen AguaClara plants that provide safe water on tap to
             over 65,000 people, with the flagship plant in Ojojona, Honduras and
             other plants in India.
-            {/* The content of the description is here */}
           </div>
         </div>
         <div className="mb-10">
           <Leadership />
-          {/* Leadership component which might display team leads */}
         </div>
         <div>
           <section id="teams" className="py-4">
-            {/* Subteams section */}
-            <div className="mb-[10%] text-4xl flex justify-center">
-              Subteams {/* Subteams heading */}
-            </div>
-            <div className="flex flex-row mb-[10%]">
-              <div className="flex flex-col">
-                {/* Buttons to navigate to each subteam */}
+            <div className="mb-10 text-4xl flex justify-center">Subteams</div>
+            {/* Subteam navbar */}
+            <div className="flex flex-row mb-[10%] space-x-10">
+              <div className="flex flex-col space-y-3">
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
                     <button
                       key={subteamIndex}
                       onClick={() => scrollToSubteam(subteam.name)}
-                      className="mb-2 text-sm py-2 px-4 hover:underline rounded bg-transparent"
+                      className="mb-2 text-xl px-4 hover:underline rounded bg-transparent"
                     >
-                      {subteam.name} {/* The name of the subteam */}
+                      {subteam.name}
                     </button>
                   ))
                 )}
               </div>
               <div>
-                <img src={teamPic} className="rounded-2xl" />{" "}
-                {/* Another team picture */}
+                <img src={teamPic} className="rounded-2xl " />
               </div>
             </div>
           </section>
@@ -103,7 +93,7 @@ function Team() {
       <div className="mx-auto max-w-screen-xl flex flex-col ">
         <div className="text-5xl my-10">Our Advisors</div>
 
-        <div className="container mx-auto p-10 space-y-5">
+        <div className="container mx-auto p-10 space-y-24 mb-24">
           <div className="flex flex-row ">
             <div className="aspect-[4/3] w-1/4">
               <img
@@ -113,8 +103,8 @@ function Team() {
               />
             </div>
             <div className="p-10 w-3/4">
-              <h2 className="text-xl font-bold mb-2">Our founder</h2>
-              <p>
+              <h2 className="text-2xl font-bold mb-2">Our founder</h2>
+              <p className="text-xl">
                 Dr. Monroe Weber-Shirk is an environmental engineer who founded
                 the AguaClara program to develop sustainable municipal scale
                 water treatment for resource poor communities. His work has been
@@ -128,8 +118,8 @@ function Team() {
           </div>
           <div className="flex flex-row ">
             <div className="p-10 w-3/4">
-              <h2 className="text-xl font-bold mb-2">Our Advisor</h2>
-              <p>
+              <h2 className="text-2xl font-bold mb-2">Our Advisor</h2>
+              <p className="text-xl">
                 Dr. Ruth Richardson is a professor of civil and environmental
                 engineering at Cornell University. Her research is focused on
                 the application of molecular biological tools to improve basic
@@ -149,7 +139,7 @@ function Team() {
           </div>
         </div>
       </div>
-      <Footer /> {/* Footer component at the bottom */}
+      <Footer />
     </>
   );
 }
