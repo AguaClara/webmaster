@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import banner from "../assets/img/donatebanner.jpg";
+import banner from "../assets/img/donatebanner.png";
 
 function Donate() {
   return (
@@ -28,17 +28,35 @@ function Donate() {
         </div>
 
         <div className="text-3xl mb-10">How your donation supports us</div>
-        <div className="flex flex-row justify-between  w-full text-center ">
-          <div className="flex-1">prototypes</div>
-          <div className="flex-1">summer research</div>
-          <div className="flex-1">honduras</div>
+        <div className="flex flex-row justify-between w-full text-center">
+          <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
+            <div className="text-2xl mb-5">Prototypes Supplies</div>
+            <div>
+              Your donation funds essential supplies for our groundbreaking
+              prototypes, driving innovation in water filtration.
+            </div>
+          </div>
+          <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
+            <div className="text-2xl mb-5">Summer Research Support</div>
+            <div>
+              Support our summer research program, advancing water filtration
+              solutions through in-depth studies and collaboration.
+            </div>
+          </div>
+          <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
+            <div className="text-2xl mb-5">Annual Trips to Honduras</div>
+            <div>
+              Support our members' travel to Honduras, gaining new perspectives
+              on the usage of our pants with your contribution.
+            </div>
+          </div>
         </div>
         <a
           href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1"
-          className="text-[#39B54A] mt-[10%] text-xl"
+          className="text-[#39B54A] mt-10 text-xl"
         >
-          <button className="text-2xl hover:scale-110 border border-[#39B54A] bg-transparent rounded-lg px-4 py-2">
-            Donate
+          <button className="mt-[10%] font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
+            DONATE
           </button>
         </a>
       </div>
