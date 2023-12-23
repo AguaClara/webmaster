@@ -225,16 +225,16 @@
           "lead": {
             "name": "George Dong",
             "email": "gd289@cornell.edu",
-            "linkedin": "",
-            "major_year": "",
+            "linkedin": "https://www.linkedin.com/in/george-dong/",
+            "major_year": "CS and Applied Economics",
             "img": "src/assets/img/headshots/gd289.jpeg"
           },
           "members": [
             {
               "name": "Tim Holt",
               "email": "tch83@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
+              "linkedin": "https://www.linkedin.com/in/timholt3/",
+              "major_year": "Computer Science",
               "img": "src/assets/img/headshots/tch83.jpeg"
             },
             {
