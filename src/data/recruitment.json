@@ -1,0 +1,28 @@
+{
+  "Applications Open": {
+    "Date": "Aug. 14",
+    "Application Link": "",
+    "General Application Link": ""
+  },
+  "Information Sessions": {
+    "Session #1": {
+      "Date": "Aug. 20",
+      "Time": "5:00 pm - 6:00 pm",
+      "Location": "location"
+    },
+    "Session #2": {
+      "Date": "Aug. 23",
+      "Time": "5:00 pm - 6:00 pm",
+      "Location": "location"
+    }
+  },
+  "Application Deadline": {
+    "Date": "Aug. 31"
+  },
+  "Interview Period": {
+    "Date": "Sept. 7 - Sept. 14"
+  },
+  "Decisions Released": {
+    "Date": "Sept. 21"
+  }
+}

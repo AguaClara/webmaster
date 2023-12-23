@@ -26,8 +26,17 @@ function Donate() {
           safe water on tap to whole communities. Donate today and support our
           mission.
         </div>
-
-        <div className="text-3xl mb-10">How your donation supports us</div>
+        <a
+          href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1"
+          className="text-[#39B54A] text-xl"
+        >
+          <button className="font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
+            DONATE
+          </button>
+        </a>
+        <div className="text-3xl mt-10 mb-10">
+          How your donation supports us
+        </div>
         <div className="flex flex-row justify-between w-full text-center">
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Prototypes Supplies</div>
@@ -51,14 +60,6 @@ function Donate() {
             </div>
           </div>
         </div>
-        <a
-          href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1"
-          className="text-[#39B54A] mt-10 text-xl"
-        >
-          <button className="mt-[10%] font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
-            DONATE
-          </button>
-        </a>
       </div>
       <Footer />
     </>

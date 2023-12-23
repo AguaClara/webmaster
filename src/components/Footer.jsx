@@ -6,7 +6,7 @@ import insta from "../assets/img/socials/instagram.png";
 const Footer = () => {
   return (
     <footer className="bg-[#003C08] text-white rounded-tl-3xl rounded-tr-3xl">
-      <div className="flex flex-row justify-between items-center py-20 px-12">
+      <div className="flex flex-row justify-between items-center py-16 px-12">
         <p className="text-white text-sm">&copy; 2023 AguaClara Cornell</p>
         <div className="flex flex-row items-center space-x-8">
           <a href="https://github.com/AguaClara" className="w-8 h-8">
