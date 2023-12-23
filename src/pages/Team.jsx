@@ -40,7 +40,7 @@ function Team() {
         <div className="text-5xl my-[5%]">Our Team</div>
 
         <div className="flex flex-row justify-center space-x-24">
-          <img src={teampic} className="w-[50%] rounded-2xl" />
+          <img src={teampic} className="w-[50%] rounded-3xl" />
           <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
             community-scale water treatment technologies. AguaClara Cornell has
@@ -72,7 +72,7 @@ function Team() {
                 )}
               </div>
               <div>
-                <img src={teamPic} className="rounded-2xl " />
+                <img src={teamPic} className="rounded-3xl " />
               </div>
             </div>
           </section>
@@ -99,7 +99,7 @@ function Team() {
               <img
                 src={monroe}
                 alt="monroe"
-                className="object-cover rounded-2xl"
+                className="object-cover rounded-3xl"
               />
             </div>
             <div className="p-10 w-3/4">
@@ -133,7 +133,7 @@ function Team() {
               <img
                 src={richardson}
                 alt="richardson"
-                className="object-cover rounded-2xl"
+                className="object-cover rounded-3xl"
               />
             </div>
           </div>

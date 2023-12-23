@@ -10,7 +10,7 @@ const FeaturedPlants = ({ plants }) => {
         <img
           src={plant.image}
           alt={plant.name}
-          className="object-cover rounded-2xl"
+          className="object-cover rounded-3xl"
         />
       </div>
       <div className="p-10 w-[40%] flex flex-col justify-center">

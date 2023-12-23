@@ -116,7 +116,7 @@ function OurPlants() {
             href="https://www.aguaclarareach.org/project-sites"
             className=" w-[70%]"
           >
-            <img src={m} className="rounded-2xl" />
+            <img src={m} className="rounded-3xl" />
           </a>
           <div className=" flex flex-col justify-center text-xl w-64">
             AguaClara Technology is currently in operation at 24 water treatment

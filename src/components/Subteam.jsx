@@ -21,12 +21,6 @@ function Subteam({ name }) {
             <div className="mb-20">
               <div className="mb-10 text-xl flex flex-row space-x-10">
                 <div className="">{foundSubteam.description}</div>
-                {/* <div className="aspect-y-3 aspect-x-4">
-                  <img
-                    src={foundSubteam.teampic}
-                    className="rounded-3xl object-cover"
-                  />
-                </div> */}
               </div>
               <div className="grid grid-cols-4 gap-20 mb-4">
                 <Member
