@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"; // Import useEffect for lifecycle hooks, useRef for creating mutable ref objects.
 import Navbar from "../components/Navbar"; // Importing the Navbar component.
 import Footer from "../components/Footer"; // Importing the Footer component.
-import teampic from "../assets/img/team.jpg"; // Importing an image for use in the team component.
+import teampic from "../assets/img/Team.jpg"; // Importing an image for use in the team component.
 import Subteam from "../components/Subteam"; // Importing the Subteam component.
 import Leadership from "../components/Leadership"; // Importing the Leadership component.
 import memberData from "../data/members.json"; // Importing the member data from a JSON file.
