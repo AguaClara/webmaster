@@ -8,7 +8,7 @@ import bannerimg from "../assets/img/HomeBanner.png";
 import plant from "../assets/img/graciasplant.jpg";
 import whoweare from "../assets/img/whoweare.jpg";
 
-import TLs from "../assets/img/tls.jpeg";
+import TLs from "../assets/img/TLS.jpeg";
 import logo from "../assets/img/Logo.png";
 import plantcad from "../assets/img/plant cad.png";
 import wwa1 from "../assets/img/wwa1.jpg";
@@ -30,35 +30,28 @@ function Home() {
             className="w-full object-cover mt-[1%]"
           />
           <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white">
-            <div className="text-7xl sm:text-3xl lg:text-3xl xl:text-7xl bold-text py-1">
-              Safe Water on Tap
-            </div>
-            <div className="text-sm lg:text-lg xl:text-2xl">
+            <div className="text-5xl bold-text py-1">Safe Water on Tap</div>
+            <div className="text-xl">
               Protecting the Universal Right to Clean Water
             </div>
           </div>
         </div>
         {/* our plant section */}
-        <div className="mx-auto max-w-screen-xl mb-40 mt-40">
-          {/* <div className="text-5xl bold-text mt-[10%] mb-[3%]">Our Plants</div> */}
-          <div className="flex flew-row items-center space-x-20">
+        <div className="mx-auto max-w-screen-xl px-10 mb-40 mt-40">
+          <div className="flex flew-row sm:flex-col items-center space-x-20">
             <img
               src={plant}
               alt="san marias"
               class="object-cover aspect-[5/3] w-[50%] rounded-3xl"
             />
 
-            {/* <img
-              src={plantcad}
-              className="w-[20%] absolute top-[25%] left-[35%] right-[10%] bottom-[-25%]s"
-            /> */}
             <div className="w-full flex flex-col align-left space-y-7">
               <div className="text-xl">
                 We design gravity powered water treatment plants with movable
                 parts that can be easily constructed with local materials.
               </div>
               <Link to="/OurPlants" className="text-[#39B54A]">
-                <button className="transform transition-all border-2 border-[#39B54A] bg-transparent hover:bg-[#39B54A] hover:text-white rounded-3xl px-4 py-2 font-bold">
+                <button className="text-xl transform transition-all border-2 border-[#39B54A] bg-transparent hover:bg-[#39B54A] hover:text-white rounded-3xl px-4 py-2 font-bold">
                   LEARN MORE
                 </button>
               </Link>
@@ -66,14 +59,14 @@ function Home() {
           </div>
         </div>
         {/* Who we are section */}
-        <div className="mx-auto max-w-screen-xl">
+        <div className="mx-auto max-w-screen-xl  px-20 ">
           <div className="relative mb-[20%]">
             <div className="text-5xl mt-[10%] mb-[3%] text-center">
               Who We Are
             </div>
             <img src={whoweare} alt="crossing water" className="rounded-3xl" />
             <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-10%] z-10 rounded-3xl shadow-lg">
-              <div className="text-xl mt-8 px-[5%]">
+              <div className="text-2xl mt-8 px-[5%]">
                 AguaClara Cornell is a student-led program that develops and
                 implements sustainable, gravity-powered water treatment
                 technologies to bring safe water on tap to communities around
@@ -99,7 +92,7 @@ function Home() {
               />
             </div>
 
-            <div className="row-span-2 bg-[#75DC83] rounded-3xl space-y-4 flex flex-col justify-center px-6">
+            <div className="row-span-2 bg-white shadow-lg rounded-3xl space-y-4 flex flex-col justify-center px-6">
               <div className="font-bold text-2xl">
                 Our annual trip to Honduras!
               </div>
@@ -123,17 +116,16 @@ function Home() {
               />
             </div>
 
-            <div className="bg-[#75DC83]  rounded-3xl justify-center p-6">
+            <div className="bg-white shadow-lg rounded-3xl justify-center p-6">
               <div className="text-xl">
                 Visiting Honduras provides insights into our plant's filtering
-                processes, highlighting ways to improve user-friendliness and
-                better meet local needs.
+                processes and help find ways to better meet local needs.
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mx-auto max-w-screen-xl">
+        <div className="mx-auto max-w-screen-xl  px-20 ">
           {/* Meet the team */}
           <div>
             <div className="relative mb-[20%] mt-[20%]">

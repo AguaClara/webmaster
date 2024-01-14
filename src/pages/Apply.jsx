@@ -8,7 +8,7 @@ function Apply() {
     <>
       <Navbar />
       <div className="text-center text-5xl mt-10 mb-10">Recruitment</div>
-      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20">
+      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20  ml-20 mr-20">
         <div className="text-xl">
           AguaClara is looking for <span> </span>
           <span className="underline">innovative</span>,<span> </span>

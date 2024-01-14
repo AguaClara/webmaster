@@ -15,7 +15,7 @@ function OurPlants() {
       <Navbar />
       <section id="banner" className="py-2">
         <div className="text-center text-5xl mt-[5%] mb-4">Our Plants</div>
-        <div className="flex flex-row justify-center items-center space-x-20 mx-auto max-w-screen-xl shadow-lg rounded-3xl py-10">
+        <div className="flex flex-row justify-center items-center space-x-20 mx-auto max-w-screen-xl shadow-lg rounded-3xl ml-20 mr-20 py-10">
           <div className="flex flex-col w-1/2 space-y-6">
             <div className="text-4xl underline decoration-[#39B54A]">
               Gravity Powered Purity
@@ -45,7 +45,7 @@ function OurPlants() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-screen-xl px-5">
+      <div className="mx-auto max-w-screen-xl px-5 ml-20 mr-20 ">
         {/* Our plants */}
         <div className="text-5xl mt-30 mb-5">The Filtration Process</div>
         <div>

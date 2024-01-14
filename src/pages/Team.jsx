@@ -36,7 +36,7 @@ function Team() {
     <>
       <Navbar />
       <BackTo section="teams" />
-      <div className="mx-auto max-w-screen-xl">
+      <div className="mx-auto max-w-screen-xl px-20 ">
         <div className="text-5xl my-[5%]">Our Team</div>
 
         <div className="flex flex-row justify-center space-x-24">
@@ -46,8 +46,8 @@ function Team() {
             community-scale water treatment technologies. AguaClara Cornell has
             partnered with AguaClara Reach and other local organizations to
             build fourteen AguaClara plants that provide safe water on tap to
-            over 65,000 people, with the flagship plant in Ojojona, Honduras and
-            other plants in India.
+            over 65,000 people, with the flagship plant in Ojojona, Honduras,
+            India, and Nicaragua.
           </div>
         </div>
         <div className="mb-10">
