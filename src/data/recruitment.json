@@ -1,28 +1,28 @@
 {
   "Applications Open": {
-    "Date": "Feb. 1",
+    "Date": "Jan. 1",
     "Application Link": "",
-    "General Application Link": ""
+    "General Application Link": "https://cornell.ca1.qualtrics.com/jfe/form/SV_3dF2fjywuzGG1wi"
   },
   "Information Sessions": {
     "Session #1": {
-      "Date": "Aug. 20",
+      "Date": "TBD",
       "Time": "5:00 pm - 6:00 pm",
       "Location": "location"
     },
     "Session #2": {
-      "Date": "Aug. 23",
+      "Date": "TBD",
       "Time": "5:00 pm - 6:00 pm",
       "Location": "location"
     }
   },
   "Application Deadline": {
-    "Date": "Aug. 31"
+    "Date": "Feb. 1"
   },
   "Interview Period": {
-    "Date": "Sept. 7 - Sept. 14"
+    "Date": "Feb. 9 - Feb. 10"
   },
   "Decisions Released": {
-    "Date": "Sept. 21"
+    "Date": "Feb. ~14"
   }
 }
