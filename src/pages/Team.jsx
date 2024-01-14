@@ -1,12 +1,12 @@
-import React, { useEffect, useRef } from "react"; // Import useEffect for lifecycle hooks, useRef for creating mutable ref objects.
-import Navbar from "../components/Navbar"; // Importing the Navbar component.
-import Footer from "../components/Footer"; // Importing the Footer component.
-import teampic from "../assets/img/Team.jpg"; // Importing an image for use in the team component.
-import Subteam from "../components/Subteam"; // Importing the Subteam component.
-import Leadership from "../components/Leadership"; // Importing the Leadership component.
-import memberData from "../data/members.json"; // Importing the member data from a JSON file.
-import BackTo from "../components/BackTo"; // Importing the BackTo component for navigation.
-import teamPic from "../assets/img/oldfullteam.png"; // Importing another team image.
+import React, { useEffect, useRef } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import teampic from "../assets/img/Team.jpg";
+import Subteam from "../components/Subteam";
+import Leadership from "../components/Leadership";
+import memberData from "../data/members.json";
+import BackTo from "../components/BackTo";
+import teamPic from "../assets/img/oldfullteam.png";
 import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
 
@@ -93,7 +93,7 @@ function Team() {
       <div className="mx-auto max-w-screen-xl flex flex-col ">
         <div className="text-5xl my-10">Our Advisors</div>
 
-        <div className="container mx-auto p-10 space-y-24 mb-24">
+        <div className=" mx-auto p-10 space-y-24 mb-24">
           <div className="flex flex-row ">
             <div className="aspect-[4/3] w-1/4">
               <img
