@@ -13,7 +13,7 @@ function OurPlants() {
   return (
     <>
       <Navbar />
-      <section id="banner" className="py-2">
+      <section id="banner" className="py-2 px-">
         <div className="text-center text-5xl mt-[5%] mb-4">Our Plants</div>
         <div className="flex flex-row justify-center items-center space-x-20 mx-auto max-w-screen-xl shadow-lg rounded-3xl ml-20 mr-20 py-10">
           <div className="flex flex-col w-1/2 space-y-6">
@@ -38,11 +38,10 @@ function OurPlants() {
         </div>
       </section>
 
-      <div className="mx-auto max-w-screen-xl mt-10 p-10 mb-10 ">
+      <div className=" mt-10 p-10 mb-10 ">
         <div className="text-5xl text-center">Featured Plants</div>
-        <div className="flex justify-center">
-          <FeaturedPlants plants={plantsData} />
-        </div>
+
+        <FeaturedPlants plants={plantsData} className="w-full" />
       </div>
 
       <div className="mx-auto max-w-screen-xl px-5 ml-20 mr-20 ">

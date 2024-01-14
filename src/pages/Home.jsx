@@ -37,7 +37,7 @@ function Home() {
           </div>
         </div>
         {/* our plant section */}
-        <div className="mx-auto max-w-screen-xl px-10 mb-40 mt-40">
+        <div className="mx-auto max-w-screen-xl px-20 mb-40 mt-40">
           <div className="flex flew-row sm:flex-col items-center space-x-20">
             <img
               src={plant}
@@ -65,8 +65,8 @@ function Home() {
               Who We Are
             </div>
             <img src={whoweare} alt="crossing water" className="rounded-3xl" />
-            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-10%] z-10 rounded-3xl shadow-lg">
-              <div className="text-2xl mt-8 px-[5%]">
+            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-8%] z-10 rounded-3xl shadow-lg">
+              <div className="text-xl mt-8 px-[5%]">
                 AguaClara Cornell is a student-led program that develops and
                 implements sustainable, gravity-powered water treatment
                 technologies to bring safe water on tap to communities around
