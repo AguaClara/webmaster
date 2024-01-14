@@ -37,7 +37,7 @@ function Donate() {
         <div className="text-3xl mt-10 mb-10">
           How your donation supports us
         </div>
-        <div className="flex flex-row justify-between text-center space-x-16 ml-10 mr-10">
+        <div className="flex flex-row justify-between text-center space-x-16 px-64">
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Prototypes Supplies</div>
             <div>
