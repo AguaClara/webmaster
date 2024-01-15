@@ -2,13 +2,19 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Recruitment from "../components/Recruitment";
 import Footer from "../components/Footer";
+import MobileNavbar from "../components/MobileNavbar";
 
 function Apply() {
   return (
     <>
-      <Navbar />
+      <div className="sm:hidden">
+        <Navbar />
+      </div>
+      <div className="md:hidden lg:hidden xl:hidden">
+        <MobileNavbar />
+      </div>
       <div className="text-center text-5xl mt-10 mb-10">Recruitment</div>
-      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20  ml-20 mr-20">
+      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20 ml-20 mr-20">
         <div className="text-xl">
           AguaClara is looking for <span> </span>
           <span className="underline">innovative</span>,<span> </span>

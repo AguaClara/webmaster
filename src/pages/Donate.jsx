@@ -1,24 +1,29 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
+import MobileNavbar from "../components/MobileNavbar";
 import banner from "../assets/img/donatebanner.png";
 
 function Donate() {
   return (
     <>
-      <Navbar />
+      <div className="sm:hidden">
+        <Navbar />
+      </div>
+      <div className="md:hidden lg:hidden xl:hidden">
+        <MobileNavbar />
+      </div>
 
       <div className="relative">
         <img src={banner} className="w-full object-cover mt-[1%]" />
         <div className="text-center absolute top-[75%] left-1/2 transform translate-x-[-50%] text-white">
-          <div className="text-center text-6xl mt-[5%]">
+          <div className="text-center text-5xl mt-[5%]">
             Making a Difference
           </div>
         </div>
       </div>
       <div className="mx-auto max-w-screen-xl flex items-center justify-center flex-col mb-20">
-        <div className="w-[70%] text-center text-lg mt-10 mb-10">
+        <div className="w-[70%] text-center text-xl sm:text-sm mt-10 mb-10">
           AguaClara Cornell researches, invents, and designs resilient,
           gravity-powered, community-managed water and wastewater treatment
           technologies for villages, towns, and cities. We work with partner
@@ -37,24 +42,24 @@ function Donate() {
         <div className="text-3xl mt-10 mb-10">
           How your donation supports us
         </div>
-        <div className="flex flex-row justify-between text-center space-x-16 px-64">
+        <div className="flex flex-row sm:flex-col justify-between text-center space-x-16 sm:space-x-0 sm:space-y-6 px-64 sm:px-5">
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Prototypes Supplies</div>
-            <div>
+            <div className="text-xl">
               Your donation funds essential supplies for our groundbreaking
               prototypes, driving innovation in water filtration.
             </div>
           </div>
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Summer Research Support</div>
-            <div>
+            <div className="text-xl">
               Support our summer research program, advancing water filtration
               solutions through in-depth studies and collaboration.
             </div>
           </div>
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Annual Trips to Honduras</div>
-            <div>
+            <div className="text-xl">
               Support our members' travel to Honduras, gaining new perspectives
               on the usage of our pants with your contribution.
             </div>

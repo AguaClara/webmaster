@@ -16,12 +16,19 @@ import wwa2 from "../assets/img/wwa2.jpeg";
 import wwa3 from "../assets/img/wwa3.jpeg";
 import wwa4 from "../assets/img/wwa4.jpeg";
 import wwa5 from "../assets/img/wwa5.jpeg";
+import MobileNavbar from "../components/MobileNavbar";
 
 function Home() {
   return (
     <>
       <div className="w-full relative">
-        <Navbar />
+        <div className="sm:hidden">
+          <Navbar />
+        </div>
+        <div className="md:hidden lg:hidden xl:hidden">
+          <MobileNavbar />
+        </div>
+
         {/* banner */}
         <div className="relative">
           <img
@@ -139,7 +146,7 @@ function Home() {
                 alt="team leads"
                 className="rounded-3xl w-[70%] "
               />
-              <div className="bg-white shadow-lg absolute top-[50%] left-[60%] right-[0%] bottom-[-15%] z-10 rounded-3xl p-[8%]">
+              <div className="bg-white shadow-lg absolute top-[45%] left-[60%] right-[0%] bottom-[-15%] z-10 rounded-3xl p-[8%]">
                 <div className="text-xl">
                   Since the start of AguaClara in 2005, we have always been a
                   project team dedicated to drinking water treatment so that
@@ -178,7 +185,7 @@ function Home() {
           </div>
 
           {/* Join us */}
-          <div className="flex flex-row mb-[10%] rounded-3xl shadow-lg">
+          <div className="flex flex-row mb-[10%] rounded-3xl shadow-lg ">
             <div className="text-3xl w-[70%] p-[10%] ">
               Does our mission resonate with you? Explore our exciting
               opportunities and join our team!

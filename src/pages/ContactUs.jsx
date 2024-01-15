@@ -2,11 +2,17 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import groupPic from "../assets/img/group_pic.jpg";
+import MobileNavbar from "../components/MobileNavbar";
 
 function ContactUs() {
   return (
     <>
-      <Navbar />
+      <div className="sm:hidden">
+        <Navbar />
+      </div>
+      <div className="md:hidden lg:hidden xl:hidden">
+        <MobileNavbar />
+      </div>
       <div className="mx-auto max-w-screen-xl mb-20">
         <div className=" text-5xl mt-[5%]">Questions?</div>
         <div className=" text-3xl mt-[3%]"></div>

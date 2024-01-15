@@ -49,12 +49,24 @@
   .text-5xl {
     font-size: 1rem;
   }
+  .text-4xl {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
   .text-3xl {
     font-size: 0.75rem;
     line-height: 0.9rem;
   }
+  .text-2xl {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
   .text-xl {
     font-size: 0.55rem;
     line-height: 0.75rem;
+  }
+  .text-lg {
+    font-size: 0.65rem;
+    line-height: 0.5rem;
   }
 }

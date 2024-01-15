@@ -8,15 +8,25 @@ import FeaturedPlants from "../components/FeaturedPlants";
 import plantsData from "../data/featuredplants";
 import treatmentprocess from "../assets/img/treatment_process.png";
 import greenArrow from "../assets/img/icons/arrow.png";
+import MobileNavbar from "../components/MobileNavbar";
 
 function OurPlants() {
   return (
     <>
-      <Navbar />
-      <section id="banner" className="py-2 px-">
-        <div className="text-center text-5xl mt-[5%] mb-4">Our Plants</div>
-        <div className="flex flex-row justify-center items-center space-x-20 mx-auto max-w-screen-xl shadow-lg rounded-3xl ml-20 mr-20 py-10">
-          <div className="flex flex-col w-1/2 space-y-6">
+      <div className="w-full relative">
+        <div className="sm:hidden">
+          <Navbar />
+        </div>
+        <div className="md:hidden lg:hidden xl:hidden">
+          <MobileNavbar />
+        </div>
+      </div>
+      <section id="banner" className="py-2 px-2">
+        <div className="text-center text-5xl mt-[5%] mb-4 sm:mb-2">
+          Our Plants
+        </div>
+        <div className="flex flex-row sm:flex-col justify-center items-center space-x-20 sm:space-x-0 mx-auto max-w-screen-xl shadow-lg rounded-3xl ml-20 mr-20 py-10 sm:py-2">
+          <div className="flex flex-col w-1/2 sm:w-full space-y-6 sm:p-4">
             <div className="text-4xl underline decoration-[#39B54A]">
               Gravity Powered Purity
             </div>
@@ -32,7 +42,7 @@ function OurPlants() {
               vision.
             </div>
           </div>
-          <div className="w-[30%] text-center text-xl ">
+          <div className="w-[30%] sm:w-[80%] text-center ">
             <img src={gracias} className="rounded-3xl" />
           </div>
         </div>
@@ -47,9 +57,14 @@ function OurPlants() {
       <div className="mx-auto max-w-screen-xl px-5 ml-20 mr-20 ">
         {/* Our plants */}
         <div className="text-5xl mt-30 mb-5">The Filtration Process</div>
-        <div>
-          <img src={treatmentprocess} className="px-40 py-[2%]" />
+        <div className="sm:w-auto">
+          <img
+            src={treatmentprocess}
+            className="w-full sm:px-0  sm:justify-center px-40 py-[2%]"
+            alt="Filtration Process"
+          />
         </div>
+
         <div className="flex flex-col space-y-6 text-xl">
           <div className="flex items-start">
             <img src={greenArrow} alt="Arrow" className="w-8 h-8 mr-2" />
@@ -109,11 +124,13 @@ function OurPlants() {
         {/* our approach */}
         <div className="text-5xl mt-[5%] mb-[5%]"></div>
 
-        <div className="text-5xl mt-32 mb-10">Location of our plants</div>
-        <div className="flex flex-row space-x-10 mb-24">
+        <div className="text-5xl mt-32 mb-10 sm:mb-4">
+          Location of our plants
+        </div>
+        <div className="flex flex-row sm:flex-col space-x-10 sm:space-x-0 mb-24 sm:space-y-5">
           <a
             href="https://www.aguaclarareach.org/project-sites"
-            className=" w-[70%]"
+            className=" w-[70%] sm:w-full"
           >
             <img src={m} className="rounded-3xl" />
           </a>
@@ -125,6 +142,7 @@ function OurPlants() {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );

@@ -3,7 +3,7 @@ import recruitmentData from "../data/recruitment.json";
 
 function MyComponent() {
   const renderApplicationsOpen = (data) => (
-    <div className="p-10 h-60 rounded-3xl shadow-lg space-y-3">
+    <div className="p-10 h-60 rounded-3xl  space-y-3">
       <div className="font-bold text-2xl">Applications Open</div>
       <h3>{data.Date}</h3>
       <p>
@@ -25,7 +25,7 @@ function MyComponent() {
   );
 
   const renderInformationSessions = (sessions) => (
-    <div className="p-10 h-60 w-full rounded-3xl shadow-lg space-y-3">
+    <div className="p-10 h-60 w-full rounded-3xl  space-y-3">
       <div className="font-bold text-2xl">Information Sessions</div>
       {Object.entries(sessions).map(([sessionName, sessionData], index) => (
         <div key={index}>
@@ -42,7 +42,7 @@ function MyComponent() {
   );
 
   const renderApplicationDeadline = (data) => (
-    <div className="p-10 h-60 w-full rounded-3xl shadow-lg space-y-3">
+    <div className="p-10 h-60 w-full rounded-3xl  space-y-3">
       <div className="font-bold text-2xl">Applications Deadline</div>
       <h3>{data.Date}</h3>
       <p>Want to learn more?</p>
@@ -52,7 +52,7 @@ function MyComponent() {
   );
 
   const renderInterviewPeriod = (data) => (
-    <div className="p-10 h-60 w-full rounded-3xl shadow-lg space-y-3">
+    <div className="p-10 h-60 w-full rounded-3xl space-y-3">
       <div className="font-bold text-2xl">Interview Period</div>
       <div>{data.Date}</div>
       <p>
@@ -63,7 +63,7 @@ function MyComponent() {
   );
 
   const renderDecisions = (data) => (
-    <div className="p-10 h-60 w-full rounded-3xl shadow-lg space-y-3">
+    <div className="p-10 h-60 w-full rounded-3xl  space-y-3">
       <div className="font-bold text-2xl">Decisions Released</div>
       <h3>{data.Date}</h3>
       <p>
@@ -74,7 +74,7 @@ function MyComponent() {
   );
 
   const renderDefault = (data) => (
-    <div className="p-10 h-60 w-full rounded-3xl shadow-lg space-y-3"></div>
+    <div className="p-10 h-60 w-full rounded-3xl space-y-3"></div>
   );
 
   const choices = Object.entries(recruitmentData).map(
@@ -103,8 +103,8 @@ function MyComponent() {
   const [selectedChoice, setSelectedChoice] = useState(choices[0]);
 
   return (
-    <div className="flex w-full">
-      <nav className="w-1/4  p-4">
+    <div className="flex w-full sm:flex-col ">
+      <nav className="w-1/4 sm:w-auto p-4 sm:p-0">
         {choices.map((choice) => (
           <button
             key={choice.id}
@@ -118,8 +118,8 @@ function MyComponent() {
         ))}
       </nav>
 
-      <div className="w-3/4 p-4">
-        <div className="w-full h-60 overflow-auto rounded-3xl shadow-lg">
+      <div className="w-3/4  sm:w-auto p-4">
+        <div className="w-full h-60 sm:h-auto sm:py-5 overflow-auto rounded-3xl shadow-lg">
           {selectedChoice.content}
         </div>
       </div>

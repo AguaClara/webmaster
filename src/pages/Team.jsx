@@ -9,6 +9,7 @@ import BackTo from "../components/BackTo";
 import teamPic from "../assets/img/oldfullteam.png";
 import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
+import MobileNavbar from "../components/MobileNavbar";
 
 function Team() {
   useEffect(() => {
@@ -34,12 +35,17 @@ function Team() {
 
   return (
     <>
-      <Navbar />
+      <div className="sm:hidden">
+        <Navbar />
+      </div>
+      <div className="md:hidden lg:hidden xl:hidden">
+        <MobileNavbar />
+      </div>
       <BackTo section="teams" />
       <div className="mx-auto max-w-screen-xl px-20 ">
         <div className="text-5xl my-[5%]">Our Team</div>
 
-        <div className="flex flex-row justify-center space-x-24">
+        <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5">
           <img src={teampic} className="w-[50%] rounded-3xl" />
           <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
@@ -57,7 +63,7 @@ function Team() {
           <section id="teams" className="py-4">
             <div className="mb-10 text-4xl flex justify-center">Subteams</div>
             {/* Subteam navbar */}
-            <div className="flex flex-row mb-[10%] space-x-10">
+            <div className="flex flex-row sm:flex-col mb-[10%] space-x-10">
               <div className="flex flex-col space-y-3">
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
@@ -94,7 +100,7 @@ function Team() {
         <div className="text-5xl my-10">Our Advisors</div>
 
         <div className=" mx-auto p-10 space-y-24 mb-24">
-          <div className="flex flex-row ">
+          <div className="flex flex-row sm:flex-col">
             <div className="aspect-[4/3] w-1/4">
               <img
                 src={monroe}
@@ -116,7 +122,7 @@ function Team() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-row sm:flex-col">
             <div className="p-10 w-3/4">
               <h2 className="text-2xl font-bold mb-2">Our Advisor</h2>
               <p className="text-xl">
