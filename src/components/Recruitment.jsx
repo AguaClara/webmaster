@@ -119,7 +119,7 @@ function MyComponent() {
       </nav>
 
       <div className="w-3/4  sm:w-auto p-4">
-        <div className="w-full h-60 sm:h-auto sm:py-5 overflow-auto rounded-3xl shadow-lg">
+        <div className="w-full h-60 sm:h-64 overflow-auto rounded-3xl shadow-lg">
           {selectedChoice.content}
         </div>
       </div>

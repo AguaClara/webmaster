@@ -221,7 +221,7 @@
         {
           "name": "Plant Operations Smartphone Tracker (POST)",
           "teampic": "src/assets/img/teampic/POST.jpeg",
-          "description": "",
+          "description": "The AguaClara POST App is a solution that aims to streamline how water operators in Honduras monitor and analyze water filtration data. Developed with Flutter, this application serves as a tool for water plant operators, enabling them to submit various metrics through a flexible, user-friendly, and offline-capable survey form directly from their Android devices.",
           "lead": {
             "name": "George Dong",
             "email": "gd289@cornell.edu",

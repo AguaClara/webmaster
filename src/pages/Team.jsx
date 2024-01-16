@@ -61,9 +61,11 @@ function Team() {
         </div>
         <div>
           <section id="teams" className="py-4">
-            <div className="mb-10 text-4xl flex justify-center">Subteams</div>
+            <div className="mb-10 text-4xl flex justify-center sm:mb-2">
+              Subteams
+            </div>
             {/* Subteam navbar */}
-            <div className="flex flex-row sm:flex-col mb-[10%] space-x-10">
+            <div className="flex flex-row sm:flex-col mb-[10%] space-x-10 sm:space-x-0">
               <div className="flex flex-col space-y-3">
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
@@ -78,7 +80,7 @@ function Team() {
                 )}
               </div>
               <div>
-                <img src={teamPic} className="rounded-3xl " />
+                <img src={teamPic} className="rounded-3xl sm:mt-2" />
               </div>
             </div>
           </section>
@@ -96,19 +98,19 @@ function Team() {
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-screen-xl flex flex-col ">
-        <div className="text-5xl my-10">Our Advisors</div>
+      <div className="mx-auto max-w-screen-xl flex flex-col px-24 sm:px-0 ">
+        <div className="text-5xl my-10 ml-10">Our Advisors</div>
 
         <div className=" mx-auto p-10 space-y-24 mb-24">
           <div className="flex flex-row sm:flex-col">
-            <div className="aspect-[4/3] w-1/4">
+            <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <img
                 src={monroe}
                 alt="monroe"
                 className="object-cover rounded-3xl"
               />
             </div>
-            <div className="p-10 w-3/4">
+            <div className="p-10 w-3/4 sm:w-full">
               <h2 className="text-2xl font-bold mb-2">Our founder</h2>
               <p className="text-xl">
                 Dr. Monroe Weber-Shirk is an environmental engineer who founded
@@ -123,7 +125,7 @@ function Team() {
             </div>
           </div>
           <div className="flex flex-row sm:flex-col">
-            <div className="p-10 w-3/4">
+            <div className="p-10 w-3/4 sm:w-full">
               <h2 className="text-2xl font-bold mb-2">Our Advisor</h2>
               <p className="text-xl">
                 Dr. Ruth Richardson is a professor of civil and environmental
@@ -135,7 +137,7 @@ function Team() {
                 processes in environmental and reactor systems.
               </p>
             </div>
-            <div className="aspect-[4/3] w-1/4 flex justify-center">
+            <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <img
                 src={richardson}
                 alt="richardson"

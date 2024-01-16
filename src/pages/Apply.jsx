@@ -36,9 +36,38 @@ function Apply() {
           <Recruitment />
         </div>
         <div className="space-y-1 text-center">
-          <div className="font-bold text-3xl mb-5"> Common FAQs</div>
-          <div>Do I need experience to join?</div>
-          <div>Nope! </div>
+          <div className="font-bold text-3xl"> Common FAQs</div>
+          <br></br>
+          <div>What does the application process look like?</div>
+          <div>
+            The application process is simple! We just have a few short essay
+            questions to better understand why applications are interested in
+            joining and whether or not they would be a good fit.
+          </div>
+          <br></br>
+          {/* <div>How many people are you guys accepting?</div>
+          <div>
+            It varies by semester but this semester we are accepting around _
+            for research, () for apps and algos, () for PR/business
+          </div>
+          <br></br> */}
+          <div>
+            Do we need prior skill (does having prior experience boost your
+            application?){" "}
+          </div>
+          <div>
+            You don’t need prior knowledge or skill to join, but it does help a
+            candidate stand out. What week are mainly looking for in applicants
+            is a willingness to learn and being passionate about Aguaclara’s
+            mission!
+          </div>
+          <br></br>
+          <div>What are some things I need to highlight in my application?</div>
+          <div>
+            Some things that you would want to highlight are why you are
+            interested in joining Aguaclara and your previous experiences that
+            show you’d make a good team member!
+          </div>
         </div>
       </div>
       <Footer />
