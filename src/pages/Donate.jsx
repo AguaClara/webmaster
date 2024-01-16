@@ -46,24 +46,34 @@ function Donate() {
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Prototypes Supplies</div>
             <div className="text-xl">
-              Your donation funds essential supplies for our groundbreaking
-              prototypes, driving innovation in water filtration.
+              Your donation funds essential supplies for our prototypes,
+              enabling us to explore and implement advanced technologies in
+              water filtration and drive innovation in water filtration.
             </div>
           </div>
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Summer Research Support</div>
             <div className="text-xl">
-              Support our summer research program, advancing water filtration
-              solutions through in-depth studies and collaboration.
+              Support our summer research program, and enable us to engage in
+              in-depth studies, employ state-of-the-art equipment, and
+              collaborate with leading experts, ultimately advancing our
+              understanding of water purification.
             </div>
           </div>
           <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Annual Trips to Honduras</div>
             <div className="text-xl">
-              Support our members' travel to Honduras, gaining new perspectives
-              on the usage of our pants with your contribution.
+              Support our trip to Honduras. This annual trip allows us to gain
+              new perspectives on the usage of our plants. During these visits,
+              we engage with local communities, assess the effectiveness of our
+              solutions, and gather insights for refining our approaches
             </div>
           </div>
+        </div>
+        <div className="text-xl text-center w-[70%] mt-5">
+          Thank you for considering a donation to our cause. Your support
+          empowers us to make a meaningful difference in the world of water
+          filtration and purification.
         </div>
       </div>
       <Footer />
