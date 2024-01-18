@@ -42,17 +42,17 @@ function Team() {
         <MobileNavbar />
       </div>
       <BackTo section="teams" />
-      <div className="mx-auto max-w-screen-xl px-20 ">
+      <div className="mx-auto max-w-screen-xl px-20 sm:px-8">
         <div className="text-5xl my-[5%]">Our Team</div>
 
         <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5">
-          <img src={teampic} className="w-[50%] rounded-3xl" />
+          <img src={teampic} className="w-[50%] rounded-3xl sm:w-full" />
           <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
             community-scale water treatment technologies. AguaClara Cornell has
             partnered with AguaClara Reach and other local organizations to
-            build fourteen AguaClara plants that provide safe water on tap to
-            over 65,000 people, with the flagship plant in Ojojona, Honduras,
+            build more than 24 AguaClara plants that provide safe water on tap
+            to over 96,000 people, with the flagship plant in Ojojona, Honduras,
             India, and Nicaragua.
           </div>
         </div>
@@ -99,9 +99,9 @@ function Team() {
         </div>
       </div>
       <div className="mx-auto max-w-screen-xl flex flex-col px-24 sm:px-0 ">
-        <div className="text-5xl my-10 ml-10">Our Advisors</div>
+        <div className="text-5xl my-10 sm:my-0 ml-10">Our Advisors</div>
 
-        <div className=" mx-auto p-10 space-y-24 mb-24">
+        <div className=" mx-auto p-10 space-y-24 sm:space-y-6 mb-24">
           <div className="flex flex-row sm:flex-col">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <img

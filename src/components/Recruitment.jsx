@@ -47,7 +47,6 @@ function MyComponent() {
       <h3>{data.Date}</h3>
       <p>Want to learn more?</p>
       <p>Schedule a coffee chat with one of our members!</p>
-      <p>You can find their emails on the team page!</p>
     </div>
   );
 

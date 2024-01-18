@@ -135,10 +135,10 @@ function OurPlants() {
             <img src={m} className="rounded-3xl" />
           </a>
           <div className=" flex flex-col justify-center text-xl w-64 sm:w-full">
-            AguaClara Technology is currently in operation at 24 water treatment
-            plants, serving over 96,000 people in Central America and India.
-            These plants reliably provide safe water to community members year
-            after year.
+            AguaClara Technology is currently in operation at more than 24 water
+            treatment plants, serving over 96,000 people in Central America and
+            India. These plants reliably provide safe water to community members
+            year after year.
           </div>
         </div>
       </div>

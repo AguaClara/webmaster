@@ -11,7 +11,7 @@ function Member({ name, email, linkedin, major_year, img }) {
   return (
     <div className="bg-white w-full max-w-[240px] shadow-lg px-3 py-3 rounded-3xl flex flex-col items-center">
       <div
-        className={`aspect-[5/6] w-full flex justify-center items-center rounded-3xl overflow-hidden mb-3 ${
+        className={` sm:hidden aspect-[5/6] w-full flex justify-center items-center rounded-3xl overflow-hidden mb-3 ${
           imgValid ? "bg-[#f0f0f0]" : "bg-gray-400"
         }`}
       >

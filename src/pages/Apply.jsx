@@ -14,7 +14,7 @@ function Apply() {
         <MobileNavbar />
       </div>
       <div className="text-center text-5xl mt-10 mb-10">Recruitment</div>
-      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20 ml-20 mr-20">
+      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20 ml-20 mr-20 sm:ml-10 sm:mr-10">
         <div className="text-xl">
           AguaClara is looking for <span> </span>
           <span className="underline">innovative</span>,<span> </span>
@@ -38,7 +38,9 @@ function Apply() {
         <div className="space-y-1 text-center">
           <div className="font-bold text-3xl"> Common FAQs</div>
           <br></br>
-          <div>What does the application process look like?</div>
+          <div className="font-bold">
+            What does the application process look like?
+          </div>
           <div>
             The application process is simple! We just have a few short essay
             questions to better understand why applications are interested in
@@ -51,7 +53,7 @@ function Apply() {
             for research, () for apps and algos, () for PR/business
           </div>
           <br></br> */}
-          <div>
+          <div className="font-bold">
             Do we need prior skill (does having prior experience boost your
             application?){" "}
           </div>
@@ -62,7 +64,9 @@ function Apply() {
             mission!
           </div>
           <br></br>
-          <div>What are some things I need to highlight in my application?</div>
+          <div className="font-bold">
+            What are some things I need to highlight in my application?
+          </div>
           <div>
             Some things that you would want to highlight are why you are
             interested in joining Aguaclara and your previous experiences that

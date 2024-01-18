@@ -11,8 +11,8 @@ function Leadership() {
           <div
             className={`mb-12 ${
               section.members.length < 5
-                ? "flex justify-center sm:hidden"
-                : "grid grid-cols-5 gap-x-4 sm:hidden"
+                ? "flex justify-center sm:flex-col sm:space-y-2 sm:items-center"
+                : "grid grid-cols-5 gap-x-4 sm:flex sm:flex-col sm:items-center sm:space-y-2"
             }`}
           >
             {section.members.map((member, memberIndex) => (
