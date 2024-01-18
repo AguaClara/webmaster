@@ -77,7 +77,7 @@ function Home() {
               alt="crossing water"
               className="rounded-3xl sm:w-72 sm:mx-auto "
             />
-            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-8%] sm:bottom-[-110%] z-10 rounded-3xl shadow-lg">
+            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-8%] sm:bottom-[-100%] z-10 rounded-3xl shadow-lg">
               <div className="text-xl mt-8 sm:mt-2 px-[5%]">
                 AguaClara Cornell is a student-led program that develops and
                 implements sustainable, gravity-powered water treatment

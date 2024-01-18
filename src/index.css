@@ -3,12 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Set the default light theme */
 :root {
   font-family: Lato, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light;
+  color: #003c08;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,23 +19,16 @@
   -webkit-text-size-adjust: 100%;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #003c08;
-    background-color: #ffffff;
-  }
-  /* a:hover {
-    color: #28c3ee;
-  } */
-  button {
-    background-color: #f9f9f9;
-  }
-}
-/* laptops xl*/
-@media screen and (min-width: 1480) {
+/* Define button styles for the light theme */
+button {
+  background-color: #f9f9f9;
 }
 
-/* tablets md*/
+/* laptops xl */
+@media screen and (min-width: 1480px) {
+}
+
+/* tablets md */
 @media screen and (max-width: 800px) {
   .text-5xl {
     font-size: 2.5rem;
@@ -44,7 +39,7 @@
   }
 }
 
-/* phones sm*/
+/* phones sm */
 @media screen and (max-width: 650px) {
   .text-5xl {
     font-size: 1.5rem;
