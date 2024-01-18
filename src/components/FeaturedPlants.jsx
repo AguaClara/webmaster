@@ -25,7 +25,7 @@ const FeaturedPlants = ({ plants }) => {
   ));
 
   return (
-    <div className=" mx-auto p-10 ">
+    <div className=" mx-auto p-10 sm:p-0">
       <div className="shadow-lg rounded-3xl">
         <Carousel
           showArrows={true}

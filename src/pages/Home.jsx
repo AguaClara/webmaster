@@ -36,7 +36,7 @@ function Home() {
             alt="Home Banner"
             className="w-full object-cover mt-[1%]"
           />
-          <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white">
+          <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white sm:w-full">
             <div className="text-5xl bold-text py-1">Safe Water on Tap</div>
             <div className="text-xl">
               Protecting the Universal Right to Clean Water
@@ -77,7 +77,7 @@ function Home() {
               alt="crossing water"
               className="rounded-3xl sm:w-72 sm:mx-auto "
             />
-            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-8%] sm:bottom-[-33%] z-10 rounded-3xl shadow-lg">
+            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-8%] sm:bottom-[-110%] z-10 rounded-3xl shadow-lg">
               <div className="text-xl mt-8 sm:mt-2 px-[5%]">
                 AguaClara Cornell is a student-led program that develops and
                 implements sustainable, gravity-powered water treatment
@@ -162,7 +162,7 @@ function Home() {
           </div>
 
           {/* small screens */}
-          <div className="md:hidden lg:hidden xl:hidden">
+          <div className="md:hidden lg:hidden xl:hidden mt-52">
             <div className="flex flex-col items-center space-y-5 mb-12">
               <img src={TLs} alt="team leads" className="rounded-3xl w-52" />
               <div className="bg-white shadow-lg rounded-3xl p-[8%]">
@@ -185,21 +185,21 @@ function Home() {
           </div>
 
           {/* Join us */}
-          <div className="flex flex-row mb-[10%] rounded-3xl shadow-lg ">
-            <div className="text-3xl w-[70%] p-[10%] ">
+          <div className="flex flex-row sm:flex-col mb-[10%] rounded-3xl shadow-lg ">
+            <div className="text-3xl w-[70%] sm:w-full p-[10%] ">
               Does our mission resonate with you? Explore our exciting
               opportunities and join our team!
             </div>
-            <div className=" w-[30%] flex flex-col items-center justify-center">
+            <div className=" w-[30%] sm:w-full flex flex-col sm:flex-row items-center justify-center sm:mb-5">
               <div className="flex flex-row items-center mb-[5%]">
                 <img src={logo} className="w-[20%]" />
-                <div className="ml-4 sm:ml-2 text-4xl sm:text-sm bold">
+                <div className="ml-4 sm:ml-2 text-4xl sm:text-sm bold sm:w-auto">
                   Join us.
                 </div>
               </div>
 
               <Link to="/Apply" className="">
-                <button className="mt-[10%] font-bold text-xl transform transition-all hover:bg-[#003C08] hover:text-white border-2 border-[#003C08] bg-transparent rounded-3xl px-4 py-2 sm:px-2 sm:py-1 ">
+                <button className="mt-[10%] sm:mt-0 font-bold text-xl transform transition-all hover:bg-[#003C08] hover:text-white border-2 border-[#003C08] bg-transparent rounded-3xl px-4 py-2 sm:px-2 sm:py-1 ">
                   Apply
                 </button>
               </Link>

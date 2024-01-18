@@ -21,12 +21,12 @@ function OurPlants() {
           <MobileNavbar />
         </div>
       </div>
-      <section id="banner" className="py-2 px-2">
+      <section id="banner" className="py-2 px-2 sm:px-0">
         <div className="text-center text-5xl mt-[5%] mb-4 sm:mb-2">
           Our Plants
         </div>
-        <div className="flex flex-row sm:flex-col justify-center items-center space-x-20 sm:space-x-0 mx-auto max-w-screen-xl shadow-lg rounded-3xl ml-20 mr-20 py-10 sm:py-2">
-          <div className="flex flex-col w-1/2 sm:w-full space-y-6 sm:p-4">
+        <div className="flex flex-row sm:flex-col justify-center items-center space-x-20 sm:space-x-0 mx-auto max-w-screen-xl shadow-lg rounded-3xl ml-20 mr-20 sm:ml-5 sm:mr-5 py-10 sm:py-5">
+          <div className="flex flex-col w-1/2 sm:w-full space-y-6 sm:space-y-2 sm:p-4">
             <div className="text-4xl underline decoration-[#39B54A]">
               Gravity Powered Purity
             </div>
@@ -42,7 +42,7 @@ function OurPlants() {
               vision.
             </div>
           </div>
-          <div className="w-[30%] sm:w-[80%] text-center ">
+          <div className="w-[30%] sm:w-[80%] sm:mt-2 text-center ">
             <img src={gracias} className="rounded-3xl" />
           </div>
         </div>
@@ -54,7 +54,7 @@ function OurPlants() {
         <FeaturedPlants plants={plantsData} className="w-full" />
       </div>
 
-      <div className="mx-auto max-w-screen-xl px-5 ml-20 mr-20 ">
+      <div className="mx-auto max-w-screen-xl px-5 ml-20 mr-20 sm:ml-5 sm:mr-5 ">
         {/* Our plants */}
         <div className="text-5xl mt-30 mb-5">The Filtration Process</div>
         <div className="sm:w-auto">
@@ -134,7 +134,7 @@ function OurPlants() {
           >
             <img src={m} className="rounded-3xl" />
           </a>
-          <div className=" flex flex-col justify-center text-xl w-64">
+          <div className=" flex flex-col justify-center text-xl w-64 sm:w-full">
             AguaClara Technology is currently in operation at 24 water treatment
             plants, serving over 96,000 people in Central America and India.
             These plants reliably provide safe water to community members year
