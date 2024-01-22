@@ -3,7 +3,7 @@ import recruitmentData from "../data/recruitment.json";
 
 function MyComponent() {
   const renderApplicationsOpen = (data) => (
-    <div className="p-10 h-60 rounded-3xl  space-y-3">
+    <div className="p-10 h-60 rounded-3xl space-y-3">
       <div className="font-bold text-2xl">Applications Open</div>
       <h3>{data.Date}</h3>
       <p>
@@ -25,8 +25,11 @@ function MyComponent() {
   );
 
   const renderInformationSessions = (sessions) => (
-    <div className="p-10 h-60 w-full rounded-3xl  space-y-3">
+    <div className="p-10 h-60 w-full rounded-3xl space-y-2">
       <div className="font-bold text-2xl">Information Sessions</div>
+      <p>
+        We have two information sessions, one through Zoom and one in-person
+      </p>
       {Object.entries(sessions).map(([sessionName, sessionData], index) => (
         <div key={index}>
           <h4>{sessionName}</h4>
@@ -34,9 +37,14 @@ function MyComponent() {
             {sessionData.Date} {" • "}
             {sessionData.Time}
             {" • "}
-            {sessionData.Location}
+            {sessionData.Zoom ? (
+              <a href={sessionData.Zoom} className="underline">
+                {sessionData.Location}
+              </a>
+            ) : (
+              sessionData.Location
+            )}
           </p>
-          <a href={sessionData.Zoom}>Zoom Link</a>
         </div>
       ))}
     </div>
@@ -118,7 +126,7 @@ function MyComponent() {
         ))}
       </nav>
 
-      <div className="w-3/4  sm:w-auto p-4">
+      <div className="w-3/4 sm:w-auto p-4">
         <div className="w-full h-60 sm:h-64 overflow-auto rounded-3xl shadow-lg">
           {selectedChoice.content}
         </div>
