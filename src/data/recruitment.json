@@ -8,12 +8,14 @@
     "Session #1": {
       "Date": "Jan. 23",
       "Time": "5:00 pm",
-      "Location": "Zoom"
+      "Location": "Zoom",
+      "Zoom": "https://cornell.zoom.us/j/99378747317?pwd=eDU3d2hiN21ZZ0tkZ3FscjVXNmVKdz09"
     },
     "Session #2": {
       "Date": "Jan. 27",
       "Time": "5:00 pm",
-      "Location": "TBD"
+      "Location": "TBD",
+      "Zoom": ""
     }
   },
   "Application Deadline": {

@@ -36,6 +36,7 @@ function MyComponent() {
             {" • "}
             {sessionData.Location}
           </p>
+          <a href={sessionData.Zoom}>Zoom Link</a>
         </div>
       ))}
     </div>
