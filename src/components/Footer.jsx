@@ -10,6 +10,10 @@ const Footer = () => {
         <p className="text-white text-sm sm:text-xs mr-5">
           &copy; 2023 AguaClara Cornell
         </p>
+        <p>
+          This organization is a registered student organization of Cornell
+          University
+        </p>
         <div className="flex flex-row items-center space-x-8 sm:space-x-4">
           <a
             href="https://github.com/AguaClara"
