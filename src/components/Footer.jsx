@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-[#003C08] text-white rounded-tl-3xl rounded-tr-3xl">
       <div className="flex flex-row justify-between items-center py-16 px-12 sm:py-8">
         <p className="text-white text-sm sm:text-xs mr-5">
-          &copy; 2023 AguaClara Cornell
+          &copy; 2024 AguaClara Cornell
         </p>
         <p>
           This organization is a registered student organization of Cornell
