@@ -66,7 +66,7 @@ function Team() {
             </div>
             {/* Subteam navbar */}
             <div className="flex flex-row sm:flex-col mb-[10%] space-x-10 sm:space-x-0">
-              <div className="flex flex-col space-y-3 w-[40%]">
+              <div className="flex flex-col space-y-3 w-[40%] justify-center">
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
                     <button
@@ -80,7 +80,7 @@ function Team() {
                 )}
               </div>
               <div className="w-[60%]">
-                <img src={teamPic} className="rounded-3xl w-full aspect-[4/3] sm:mt-2" />
+                <img src={teamPic} className="rounded-3xl w-full object-cover aspect-[4/3] sm:mt-2" />
               </div>
             </div>
           </section>
