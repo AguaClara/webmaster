@@ -13,7 +13,7 @@ function MyComponent() {
         </a>
       </p>
       <p>
-        Don’t forget to submit general application{" "}
+        Don't forget to submit general application{" "}
         <a
           href={data["General Application Link"]}
           className="underline font-bold"

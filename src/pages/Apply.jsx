@@ -47,20 +47,14 @@ function Apply() {
             joining and whether or not they would be a good fit.
           </div>
           <br></br>
-          {/* <div>How many people are you guys accepting?</div>
-          <div>
-            It varies by semester but this semester we are accepting around _
-            for research, () for apps and algos, () for PR/business
-          </div>
-          <br></br> */}
           <div className="font-bold">
             Do we need prior skill (does having prior experience boost your
-            application?){" "}
+            application)?{" "}
           </div>
           <div>
-            You don’t need prior knowledge or skill to join, but it does help a
+            You don't need prior knowledge or skill to join, but it does help a
             candidate stand out. What week are mainly looking for in applicants
-            is a willingness to learn and being passionate about Aguaclara’s
+            is a willingness to learn and being passionate about Aguaclara's
             mission!
           </div>
           <br></br>
@@ -70,7 +64,7 @@ function Apply() {
           <div>
             Some things that you would want to highlight are why you are
             interested in joining Aguaclara and your previous experiences that
-            show you’d make a good team member!
+            show you'd make a good team member!
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="text-white text-sm sm:text-xs mr-5">
           &copy; 2024 AguaClara Cornell
         </p>
-        <p>
+        <p className="text-sm">
           This organization is a registered student organization of Cornell
           University
         </p>

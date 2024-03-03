@@ -11,18 +11,18 @@
           "img": "src/assets/img/headshots/isc25.jpeg"
         },
         {
-          "name": "Annie Hsu",
-          "email": "yh533@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/annie-hsu-8754381a8/",
-          "major_year": "Biomedical Engineering",
-          "img": "src/assets/img/headshots/yh533.jpeg"
+          "name": "Arron Chang",
+          "email": "ac2787@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/arron-chang-5910a8148/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/ac2787.jpeg"
         },
         {
-          "name": "Ian Lillie",
-          "email": "iml34@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/ian-lillie-4566991b5/",
-          "major_year": "Materials Science",
-          "img": "src/assets/img/headshots/iml34.jpeg"
+          "name": "Sarah Bae",
+          "email": "ssb238@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/sarah-bae-803985184/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/ssb238.jpeg"
         }
       ]
     },
@@ -46,48 +46,42 @@
           "img": "src/assets/img/headshots/yc763.jpeg"
         },
         {
-          "name": "Brooke Paykin",
-          "category": "Going Global & Drinking Water",
-          "email": "bsp67@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/brooke-paykin-8b4b01212",
-          "major_year": "Environmental Engineering",
-          "img": "src/assets/img/headshots/bsp67.jpeg"
-        },
-        {
-          "name": "Kelly Tran",
-          "category": "Apps & Algo",
-          "email": "kt457@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/kelly-tran-458327221/",
+          "name": "Ashwin Char",
+          "category": "A&A",
+          "email": "akc95@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/ashwinchar/",
           "major_year": "Computer Science",
-          "img": "src/assets/img/headshots/kt457.jpeg"
+          "img": "src/assets/img/headshots/akc95.jpeg"
         },
         {
-          "name": "Badyn Milstein-Touesnard",
-          "category": "Wastewater",
-          "email": "bmm98@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/badyn-milstein-touesnard-650529222/",
+          "name": "Camden Wehrle",
+          "category": "Wastewater & PR",
+          "email": "cw566@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/camden-wehrle-4853b7220",
           "major_year": "Environmental Engineering",
-          "img": "src/assets/img/headshots/bmm98.jpeg"
+          "img": "src/assets/img/headshots/cw566.jpeg"
+        },
+        {
+          "name": "Elizabeth Bunker",
+          "category": "Fabrication",
+          "email": "elb248@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/elizabeth-bunker-6b91141a7/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/elb248.jpeg"
+        },
+        {
+          "name": "Zachary Kwon",
+          "category": "Drinking Water & Investments",
+          "email": "zk49@cornell.edu",
+          "linkedin": " https://www.linkedin.com/in/zachary-kwon/",
+          "major_year": "Chemical Engineering",
+          "img": "src/assets/img/headshots/zk49.jpeg"
         }
       ]
     },
     {
       "name": "Chairs",
       "members": [
-        {
-          "name": "Abby Kim",
-          "email": "sk2459@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/sulim-abby-kim/",
-          "major_year": "Information Science",
-          "img": "src/assets/img/headshots/sk2459.jpeg"
-        },
-        {
-          "name": "Arron Chang",
-          "email": "ac2787@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/arron-chang-5910a8148/",
-          "major_year": "Environmental Engineering",
-          "img": "src/assets/img/headshots/ac2787.jpeg"
-        },
         {
           "name": "Erica Ruan",
           "email": "er439@cornell.edu",
@@ -96,18 +90,39 @@
           "img": "src/assets/img/headshots/er439.jpeg"
         },
         {
-          "name": "Dennis Wu",
-          "email": "djw323@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/dennis-wu-301806230/",
-          "major_year": "Chemical Engineering",
-          "img": "src/assets/img/headshots/djw323.jpeg"
+          "name": "Dora Weng",
+          "email": "cw749@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/chuyinweng/",
+          "major_year": "Computer Science",
+          "img": "src/assets/img/headshots/cw749.jpeg"
         },
         {
-          "name": "Laila Salih",
-          "email": "lms388@cornell.edu",
-          "linkedin": "",
-          "major_year": "Biological Sciences",
-          "img": "src/assets/img/headshots/lms388.jpeg"
+          "name": "Annie Hsu",
+          "email": "yh533@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/annie-hsu-8754381a8/",
+          "major_year": "Biomedical Engineering",
+          "img": "src/assets/img/headshots/yh533.jpeg"
+        },
+        {
+          "name": "Ruby Pascual",
+          "email": "rp554@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/ruby-p-aa7250209/",
+          "major_year": "Environmental Engineering",
+          "img": "src/assets/img/headshots/rp554.jpeg"
+        },
+        {
+          "name": "Diya Tanwar",
+          "email": "dt422@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/diya-tanwar77/",
+          "major_year": "Biometry and Statistics",
+          "img": "src/assets/img/headshots/dt422.jpeg"
+        },
+        {
+          "name": "Ian Lillie",
+          "email": "iml34@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/ian-lillie-4566991b5/",
+          "major_year": "Materials Science",
+          "img": "src/assets/img/headshots/iml34.jpeg"
         }
       ]
     }

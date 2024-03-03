@@ -11,8 +11,8 @@ function Member({ name, email, linkedin, major_year, img }) {
   return (
     <div className="bg-white w-full max-w-[240px] shadow-lg px-3 py-3 rounded-3xl flex flex-col items-center">
       <div
-        className={` sm:hidden aspect-[5/6] w-full flex justify-center items-center rounded-3xl overflow-hidden mb-3 ${
-          imgValid ? "bg-[#f0f0f0]" : "bg-gray-400"
+        className={`sm:hidden aspect-[5/6] w-full flex justify-center items-center rounded-3xl overflow-hidden mb-3 ${
+          imgValid ? "" : "bg-gray-400 object-cover"
         }`}
       >
         {imgValid ? (
@@ -23,7 +23,7 @@ function Member({ name, email, linkedin, major_year, img }) {
             onError={handleImageError}
           />
         ) : (
-          <div className="w-full h-full flex justify-center items-center" />
+          <div className="bg-gray-400 w-full h-full object-cover" />
         )}
       </div>
       <div className="flex flex-row items-center justify-center w-full">
@@ -41,8 +41,8 @@ function Member({ name, email, linkedin, major_year, img }) {
           />
         </a>
       </div>
-      <div>{email}</div>
-      <div>{major_year}</div>
+      <div className="flex flex-row items-center justify-center w-full text-center">{email}</div>
+      <div className="flex flex-row items-center justify-center w-full text-center">{major_year}</div>
     </div>
   );
 }

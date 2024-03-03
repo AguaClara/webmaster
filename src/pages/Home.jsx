@@ -37,7 +37,7 @@ function Home() {
             className="w-full object-cover mt-[1%]"
           />
           <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white sm:w-full">
-            <div className="text-5xl bold-text py-1">Safe Water on Tap</div>
+            <div className="text-5xl py-1">Safe Water on Tap</div>
             <div className="text-xl">
               Protecting the Universal Right to Clean Water
             </div>
@@ -69,16 +69,16 @@ function Home() {
         {/* Who we are section */}
         <div className=" px-20 sm:px-10">
           <div className="relative mb-[20%]">
-            <div className="text-5xl mt-[10%] mb-[3%] text-center">
+            <div className="text-5xl mt-[10%] mb-[3%] text-center ">
               Who We Are
             </div>
             <img
               src={whoweare}
               alt="crossing water"
-              className="rounded-3xl sm:w-72 sm:mx-auto "
+              className="object-cover aspect-[3/1] rounded-3xl sm:w-72 sm:mx-auto "
             />
-            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-8%] sm:bottom-[-100%] z-10 rounded-3xl shadow-lg">
-              <div className="text-xl mt-8 sm:mt-2 px-[5%]">
+            <div className="bg-white text-center absolute top-[85%] left-[10%] right-[10%] bottom-[-10%] sm:bottom-[-100%] z-10 rounded-3xl shadow-lg">
+              <div className="text-xl mt-4 sm:mt-2 px-[5%]">
                 AguaClara Cornell is a student-led program that develops and
                 implements sustainable, gravity-powered water treatment
                 technologies to bring safe water on tap to communities around

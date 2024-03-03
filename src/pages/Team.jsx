@@ -6,7 +6,7 @@ import Subteam from "../components/Subteam";
 import Leadership from "../components/Leadership";
 import memberData from "../data/members.json";
 import BackTo from "../components/BackTo";
-import teamPic from "../assets/img/oldfullteam.png";
+import teamPic from "../assets/img/hondurasteam.jpg";
 import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
 import MobileNavbar from "../components/MobileNavbar";
@@ -66,21 +66,21 @@ function Team() {
             </div>
             {/* Subteam navbar */}
             <div className="flex flex-row sm:flex-col mb-[10%] space-x-10 sm:space-x-0">
-              <div className="flex flex-col space-y-3">
+              <div className="flex flex-col space-y-3 w-[40%]">
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
                     <button
                       key={subteamIndex}
                       onClick={() => scrollToSubteam(subteam.name)}
-                      className="mb-2 text-xl px-4 hover:underline rounded bg-transparent"
+                      className="mb-2 text-xl px-4 underline hover:font-bold rounded bg-transparent"
                     >
                       {subteam.name}
                     </button>
                   ))
                 )}
               </div>
-              <div>
-                <img src={teamPic} className="rounded-3xl sm:mt-2" />
+              <div className="w-[60%]">
+                <img src={teamPic} className="rounded-3xl h-full sm:mt-2" />
               </div>
             </div>
           </section>
@@ -100,9 +100,8 @@ function Team() {
       </div>
       <div className="mx-auto max-w-screen-xl flex flex-col px-24 sm:px-0 ">
         <div className="text-5xl my-10 sm:my-0 ml-10">Our Advisors</div>
-
         <div className=" mx-auto p-10 space-y-24 sm:space-y-6 mb-24">
-          <div className="flex flex-row sm:flex-col">
+          <div className="flex flex-row space-x-12 sm:flex-col">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <img
                 src={monroe}
@@ -124,7 +123,7 @@ function Team() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row sm:flex-col">
+          <div className="flex flex-row space-x-12 sm:flex-col">
             <div className="p-10 w-3/4 sm:w-full">
               <h2 className="text-2xl font-bold mb-2">Our Advisor</h2>
               <p className="text-xl">
