@@ -80,7 +80,7 @@ function Team() {
                 )}
               </div>
               <div className="w-[60%]">
-                <img src={teamPic} className="rounded-3xl h-full sm:mt-2" />
+                <img src={teamPic} className="rounded-3xl w-full aspect-[4/3] sm:mt-2" />
               </div>
             </div>
           </section>

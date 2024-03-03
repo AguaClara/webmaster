@@ -118,7 +118,7 @@
         {
           "name": "Upflow Anaerobic Sludge Blanket (UASB)",
           "teampic": "src/assets/img/teampic/UASB.jpeg",
-          "description": "",
+          "description": "The UASB subteam is testing a gravity-powered reactor for wastewater treatment at the Ithaca Area Wastewater Treatment Facility (IAWWTF). Transportation to the plant has been provided by students on the team with personal vehicles. The team also has a contract (contact Professor Ruth Richardson for more information) with IAWWTF to conduct COD, BOD, phosphorous, and fecal coliform tests in the IAWWTF lab space, under the close supervision of IAWWTF lab technicians. ",
           "lead": {
             "name": "Alex Fitenko",
             "email": "anf44@cornell.edu",
@@ -216,7 +216,7 @@
         {
           "name": "Coagulant Dosing",
           "teampic": "src/assets/img/teampic/Coagulant.jpeg",
-          "description": "",
+          "description": "The AguaClara Pilot Plant at the Cornell University Water Filtration Plant provides an opportunity to operate a 0.5 L/s AguaClara plant, compare it with a conventional water treatment plant, and test new technologies. The first technology to test is the ability to control the coagulant dose automatically. As advances are made in floc recycling for enhanced floc filter performance it may be possible to test that technology using the 3' diameter bent pipe clarifier.",
           "lead": {
             "name": "Kayla Stephenson",
             "email": "ks929@cornell.edu",
@@ -402,7 +402,7 @@
         {
           "name": "Investments",
           "teampic": "src/assets/img/teampic/PR.jpeg",
-          "description": "Public Relations of AguaClara Cornell focuses on increasing overall exposure of the project team within Cornell and the global community. Public Relations creates and manages a consistent brand image that communicate AguaClara Cornell’s innovative, minimalistic, and sustainable ideals. Internal team pride and campus exposure is increased by designing team merchandise, maintaining regular social media presence, and overseeing recruitment materials. Press kits, brand books, and templates for promotional materials ensure a uniform message of AguaClara Cornell’s mission is promoted to external sources and maintained within the team.",
+          "description": "The Investments team works closely with AguaClara Reach and members of fundraising and grant departments at Cornell to find new funding sources and opportunities to help spread AguaClara technology around the world. On campus, the team initiates and manages fundraising campaigns, including crowdfunding in the fall and Giving Day in the spring, and they have also worked with research subteams to write and submit EPA proposals.",
           "lead": {
             "name": "Angie Nuisud",
             "email": "agn43@cornell.edu",
