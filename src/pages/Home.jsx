@@ -89,7 +89,7 @@ function Home() {
         </div>
         <div className="mx-auto max-w-screen-full px-10 mb-40 mt-40 sm:hidden">
           {/* <div className="bg-[#003C08] max-w-full px-20 py-20 rounded-tl-3xl rounded-tr-3xl"> */}
-          <div className="grid grid-rows-6 grid-flow-col grid-cols-2 gap-16 text-right">
+          <div className="grid grid-rows-6 grid-flow-col grid-cols-2 gap-4 text-right">
             <div className="row-span-3 bg-slate-50 rounded-3xl overflow-hidden">
               <img
                 src={wwa4}

@@ -22,8 +22,8 @@ function Donate() {
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-screen-xl flex items-center justify-center flex-col mb-20">
-        <div className="w-[70%] text-center text-xl sm:text-sm mt-10 mb-10">
+      <div className="mx-auto w-full max-w-screen-xl flex items-center justify-center flex-col mb-20">
+        <div className="w-[70%] text-center text-xl sm:text-sm mt-10">
           AguaClara Cornell researches, invents, and designs resilient,
           gravity-powered, community-managed water and wastewater treatment
           technologies for villages, towns, and cities. We work with partner
@@ -31,19 +31,28 @@ function Donate() {
           safe water on tap to whole communities. Donate today and support our
           mission.
         </div>
-        <a
+        <div className="w-[70%] text-center text-2xl sm:text-sm mt-10 mb-10">
+          It's <strong>GIVING DAY</strong>! Donate and support our cause!
+        </div>
+
+        <a href="https://givingday.cornell.edu/campaigns/cu-agua-clara" className="text-[#39B54A] text-xl">
+          <button className="font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
+            DONATE
+          </button>
+        </a>
+        {/* <a
           href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1"
           className="text-[#39B54A] text-xl"
         >
           <button className="font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
             DONATE
           </button>
-        </a>
+        </a> */}
         <div className="text-3xl mt-10 mb-10">
           How your donation supports us
         </div>
-        <div className="flex flex-row sm:flex-col justify-between text-center space-x-16 sm:space-x-0 sm:space-y-6 px-64 sm:px-5">
-          <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
+        <div className="flex flex-row sm:flex-col justify-between text-center w-full space-x-10 sm:space-x-0 sm:space-y-6 px-64 sm:px-5">
+          <div className="flex flex-col flex-1 py-5 px-8 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Prototypes Supplies</div>
             <div>
               Your donation funds essential supplies for our prototypes,
@@ -51,8 +60,8 @@ function Donate() {
               water filtration and drive innovation in water filtration.
             </div>
           </div>
-          <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
-            <div className="text-2xl mb-5">Summer Research Support</div>
+          <div className="flex flex-col flex-1 py-5 px-8 rounded-3xl shadow-lg">
+            <div className="text-2xl mb-5">Summer Research</div>
             <div >
               Support our summer research program, and enable us to engage in
               in-depth studies, employ state-of-the-art equipment, and
@@ -60,7 +69,7 @@ function Donate() {
               understanding of water purification.
             </div>
           </div>
-          <div className="flex flex-col flex-1 py-5 px-10 rounded-3xl shadow-lg">
+          <div className="flex flex-col flex-1 py-5 px-8 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Annual Trips to Honduras</div>
             <div >
               Our annual trip to Honduras allows us to gain

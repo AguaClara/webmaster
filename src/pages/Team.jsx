@@ -100,8 +100,8 @@ function Team() {
       </div>
       <div className="mx-auto max-w-screen-xl flex flex-col px-24 sm:px-0 ">
         <div className="text-5xl my-10 sm:my-0 ml-10">Our Advisors</div>
-        <div className=" mx-auto p-10 space-y-24 sm:space-y-6 mb-24">
-          <div className="flex flex-row space-x-12 sm:flex-col">
+        <div className=" mx-auto space-y-20 sm:space-y-6 mb-24">
+          <div className="flex flex-row space-x-12 sm:flex-col items-center">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <img
                 src={monroe}
@@ -123,7 +123,7 @@ function Team() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row space-x-12 sm:flex-col">
+          <div className="flex flex-row space-x-12 sm:flex-col items-center">
             <div className="p-10 w-3/4 sm:w-full">
               <h2 className="text-2xl font-bold mb-2">Our Advisor</h2>
               <p className="text-xl">
