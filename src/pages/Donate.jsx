@@ -23,7 +23,7 @@ function Donate() {
         </div>
       </div>
       <div className="mx-auto w-full max-w-screen-xl flex items-center justify-center flex-col mb-20">
-        <div className="w-[70%] text-center text-xl sm:text-sm mt-10">
+        <div className="w-[70%] text-center text-xl sm:text-sm mt-10 mb-10">
           AguaClara Cornell researches, invents, and designs resilient,
           gravity-powered, community-managed water and wastewater treatment
           technologies for villages, towns, and cities. We work with partner
@@ -31,23 +31,20 @@ function Donate() {
           safe water on tap to whole communities. Donate today and support our
           mission.
         </div>
-        <div className="w-[70%] text-center text-2xl sm:text-sm mt-10 mb-10">
-          It's <strong>GIVING DAY</strong>! Donate and support our cause!
-        </div>
 
-        <a href="https://givingday.cornell.edu/campaigns/cu-agua-clara" className="text-[#39B54A] text-xl">
+        {/* <a href="https://givingday.cornell.edu/campaigns/cu-agua-clara" className="text-[#39B54A] text-xl">
           <button className="font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
             DONATE
           </button>
-        </a>
-        {/* <a
+        </a> */}
+        <a
           href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1"
           className="text-[#39B54A] text-xl"
         >
           <button className="font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
             DONATE
           </button>
-        </a> */}
+        </a>
         <div className="text-3xl mt-10 mb-10">
           How your donation supports us
         </div>
