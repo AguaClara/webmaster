@@ -17,7 +17,7 @@ import wwa3 from "../assets/img/wwa3.jpeg";
 import wwa4 from "../assets/img/wwa4.jpeg";
 import wwa5 from "../assets/img/wwa5.jpeg";
 import MobileNavbar from "../components/MobileNavbar";
-
+import honduraspic from  "../assets/img/honduras_pic.jpg"
 function Home() {
   return (
     <>
@@ -123,7 +123,7 @@ function Home() {
 
             <div className="row-span-3 bg-slate-50 rounded-3xl overflow-hidden">
               <img
-                src={wwa3}
+                src={honduraspic}
                 className="w-full h-full object-cover rounded-3xl"
               />
             </div>
