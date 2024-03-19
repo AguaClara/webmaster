@@ -27,6 +27,9 @@ function Apply() {
           investments, grant-writing, and finance skills. We look forward to
           building a diverse community at AguaClara!
         </div>
+        <div className="text-xl">
+          Currently the application cycle has closed. Please check back when it opens next semester!
+        </div>
         <div>
           Contact the team leads at{" "}
           <span className="underline">aguaclara@cornell.edu</span> with any
