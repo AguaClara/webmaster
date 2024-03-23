@@ -17,7 +17,10 @@ import wwa3 from "../assets/img/wwa3.jpeg";
 import wwa4 from "../assets/img/wwa4.jpeg";
 import wwa5 from "../assets/img/wwa5.jpeg";
 import MobileNavbar from "../components/MobileNavbar";
-import honduraspic from  "../assets/img/honduras_pic.jpg"
+import newhonduraspic1 from "../assets/img/newhonduraspic1.jpg"
+import newhonduraspic2 from "../assets/img/newhonduraspic2.jpg"
+import hikingpic from "../assets/img/hikingpic.jpg";
+import newhonduraspic3 from "../assets/img/newhonduraspic3.jpg";
 function Home() {
   return (
     <>
@@ -92,14 +95,14 @@ function Home() {
           <div className="grid grid-rows-6 grid-flow-col grid-cols-2 gap-4 text-right">
             <div className="row-span-3 bg-slate-50 rounded-3xl overflow-hidden">
               <img
-                src={wwa4}
+                src={newhonduraspic3}
                 className="w-full h-full object-cover rounded-3xl"
               />
             </div>
 
             <div className="row-span-3 bg-slate-50 rounded-3xl overflow-hidden">
               <img
-                src={wwa5}
+                src={newhonduraspic2}
                 className="w-full h-full object-cover rounded-3xl"
               />
             </div>
@@ -123,7 +126,7 @@ function Home() {
 
             <div className="row-span-3 bg-slate-50 rounded-3xl overflow-hidden">
               <img
-                src={honduraspic}
+                src={hikingpic}
                 className="w-full h-full object-cover rounded-3xl"
               />
             </div>
