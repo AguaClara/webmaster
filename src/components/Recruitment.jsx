@@ -116,9 +116,8 @@ function MyComponent() {
         {choices.map((choice) => (
           <button
             key={choice.id}
-            className={`w-full text-left p-2 mb-1 bg-transparent${
-              selectedChoice.id === choice.id ? " underline text-[#05C6F1]" : ""
-            }`}
+            className={`w-full text-left p-2 mb-1 bg-transparent${selectedChoice.id === choice.id ? " underline text-[#05C6F1]" : ""
+              }`}
             onClick={() => setSelectedChoice(choice)}
           >
             {choice.title}

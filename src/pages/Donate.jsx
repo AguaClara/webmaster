@@ -60,14 +60,14 @@ function Donate() {
           <div className="flex flex-col flex-1 py-5 px-8 rounded-3xl shadow-lg">
             <div className="text-2xl mb-5">Summer Research</div>
             <div >
-              Support our summer research program, and enable us to engage in
+              Support our summer research program (SIP), and enable us to engage in
               in-depth studies, employ state-of-the-art equipment, and
               collaborate with leading experts, advancing our
               understanding of water purification.
             </div>
           </div>
           <div className="flex flex-col flex-1 py-5 px-8 rounded-3xl shadow-lg">
-            <div className="text-2xl mb-5">Annual Trips to Honduras</div>
+            <div className="text-2xl mb-5">Honduras</div>
             <div >
               Our annual trip to Honduras allows us to gain
               new perspectives on the usage of our plants. We engage with local communities, assess the effectiveness of our

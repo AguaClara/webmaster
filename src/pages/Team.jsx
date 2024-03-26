@@ -43,7 +43,7 @@ function Team() {
       </div>
       <BackTo section="teams" />
       <div className="mx-auto max-w-screen-xl px-20 sm:px-8">
-        <div className="text-5xl my-[5%]">Our Team</div>
+        <div className="text-5xl my-[5%] text-center">Our Team</div>
 
         <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5">
           <img src={teampic} className="w-[50%] rounded-3xl sm:w-full" />
@@ -65,8 +65,8 @@ function Team() {
               Subteams
             </div>
             {/* Subteam navbar */}
-            <div className="flex flex-row sm:flex-col mb-[10%] space-x-10 sm:space-x-0">
-              <div className="flex flex-col space-y-3 w-[40%] justify-center">
+            <div className="flex flex-row sm:flex-col-reverse mb-[10%] space-x-10 sm:space-x-0">
+              <div className="flex flex-col space-y-3 w-[40%] justify-center sm:w-full">
                 {memberData.sections.map((section) =>
                   section.subteams.map((subteam, subteamIndex) => (
                     <button
@@ -79,8 +79,8 @@ function Team() {
                   ))
                 )}
               </div>
-              <div className="w-[60%]">
-                <img src={teamPic} className="rounded-3xl w-full object-cover aspect-[4/3] sm:mt-2" />
+              <div className="w-[60%] sm:flex sm:justify-center sm:w-full">
+                <img src={teamPic} className="rounded-3xl w-full object-cover aspect-[4/3] sm:mb-2" />
               </div>
             </div>
           </section>
@@ -99,9 +99,9 @@ function Team() {
         </div>
       </div>
       <div className="mx-auto max-w-screen-xl flex flex-col px-24 sm:px-0 ">
-        <div className="text-5xl my-10 sm:my-0 ml-10">Our Advisors</div>
-        <div className=" mx-auto space-y-20 sm:space-y-6 mb-24">
-          <div className="flex flex-row space-x-12 sm:flex-col items-center">
+        <div className="text-5xl my-10 sm:my-0 ml-10 sm:mb-10">Our Advisors</div>
+        <div className=" mx-auto space-y-20 sm:space-y-2 mb-24">
+          <div className="flex flex-row space-x-12 sm:flex-col items-center sm:space-x-0">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <img
                 src={monroe}

@@ -3,8 +3,12 @@ import Navbar from "../components/Navbar";
 import Recruitment from "../components/Recruitment";
 import Footer from "../components/Footer";
 import MobileNavbar from "../components/MobileNavbar";
+import { useEffect } from "react";
 
 function Apply() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="sm:hidden">

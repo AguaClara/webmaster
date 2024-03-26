@@ -11,6 +11,9 @@ import greenArrow from "../assets/img/icons/arrow.png";
 import MobileNavbar from "../components/MobileNavbar";
 
 function OurPlants() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="w-full relative">
@@ -116,7 +119,7 @@ function OurPlants() {
               by gravity to surrounding homes!
             </p>
           </div>
-          <a href="https://www.aguaclarareach.org/the-aguaclara-plant">
+          <a href="https://www.aguaclarareach.org/the-aguaclara-plant" className="underline">
             Learn More
           </a>
         </div>

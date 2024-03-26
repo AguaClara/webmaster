@@ -37,7 +37,7 @@ function Home() {
           <img
             src={bannerimg}
             alt="Home Banner"
-            className="w-full object-cover mt-[1%]"
+            className="w-full object-cover mt-[2%]"
           />
           <div className="text-center absolute top-[70%] left-1/2 transform translate-x-[-50%] text-white sm:w-full">
             <div className="text-5xl py-1">Safe Water on Tap</div>
@@ -56,7 +56,7 @@ function Home() {
             />
 
             <div className="w-full flex flex-col space-y-7 sm:space-y-2 sm:mt-12 sm:w-64 sm:items-center">
-              <div className="text-xl text-left sm:text-center">
+              <div className="text-2xl text-left sm:text-center">
                 We design gravity powered water treatment plants with movable
                 parts that can be easily constructed with local materials.
               </div>
@@ -143,13 +143,13 @@ function Home() {
         <div className="mx-auto max-w-screen-xl px-20 mt-20">
           {/* Meet the team */}
           <div className="sm:hidden">
-            <div className="relative mb-[20%] mt-[20%] ">
+            <div className="relative mb-[20%] mt-[20%] ml-[10%]">
               <img
                 src={TLs}
                 alt="team leads"
-                className="rounded-3xl w-[70%] "
+                className="rounded-3xl w-[50%] "
               />
-              <div className="bg-white shadow-lg absolute top-[45%] left-[60%] right-[0%] bottom-[-15%] z-10 rounded-3xl p-[8%]">
+              <div className="bg-white shadow-lg absolute top-[35%] left-[45%] right-[10%] bottom-[-15%] z-10 rounded-3xl p-[8%]">
                 <div className="text-xl">
                   Since the start of AguaClara in 2005, we have always been a
                   project team dedicated to drinking water treatment so that

@@ -8,13 +8,12 @@ function Leadership() {
       {data.sections.map((section, sectionIndex) => (
         <div key={sectionIndex} className="mt-10">
           <h2 className="text-3xl mb-2 text-center">{section.name}</h2>
-          
+
           <div
-            className={`mb-12 ${
-              section.members.length < 4
-                ? "flex justify-center space-x-20 sm:flex-col sm:space-y-2 sm:items-center"
-                : "grid grid-cols-4 gap-20 mb-4  sm:flex sm:flex-col sm:items-center sm:space-y-2"
-            }`}
+            className={`mb-12 ${section.members.length < 4
+              ? "flex justify-center space-x-20 sm:flex-col sm:space-y-2 sm:items-center sm:space-x-0"
+              : "grid grid-cols-4 gap-20 mb-4 sm:gap-0 sm:flex sm:flex-col sm:items-center sm:space-x-0 sm:space-y-2"
+              }`}
           >
             {section.members.map((member, memberIndex) => (
               <div
