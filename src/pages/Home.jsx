@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 // import Whoweare from "../components/Whoweare";
 
-import bannerimg from "../assets/img/HomeBanner.png";
+import bannerimg from "/src/assets/img/HomeBanner.png";
 import plant from "../assets/img/graciasplant.jpg";
 import whoweare from "../assets/img/whoweare.jpg";
 
@@ -21,6 +21,9 @@ import newhonduraspic1 from "../assets/img/newhonduraspic1.jpg"
 import newhonduraspic2 from "../assets/img/newhonduraspic2.jpg"
 import hikingpic from "../assets/img/hikingpic.jpg";
 import newhonduraspic3 from "../assets/img/newhonduraspic3.jpg";
+import ParallaxBanner from "../components/HomeBanner";
+
+
 function Home() {
   return (
     <>
@@ -33,7 +36,7 @@ function Home() {
         </div>
 
         {/* banner */}
-        <div className="relative">
+        {/* <div className="relative">
           <img
             src={bannerimg}
             alt="Home Banner"
@@ -45,7 +48,16 @@ function Home() {
               Protecting the Universal Right to Clean Water
             </div>
           </div>
-        </div>
+        </div> */}
+        <ParallaxBanner img={bannerimg}>
+          <div className="text-5xl py-1">
+            Safe Water on Tap
+          </div>
+
+          <div className="text-xl">
+            Protecting the Universal Right to Clean Water
+          </div>
+        </ParallaxBanner>
         {/* our plant section */}
         <div className="mx-auto max-w-screen-xl px-20 mb-40 mt-40 sm:mt-12 sm:mb-12 sm:px-0">
           <div className="flex flex-row items-center space-x-20 sm:flex-col sm:items-center sm:space-x-0 sm:space-y-5">

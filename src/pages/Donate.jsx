@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MobileNavbar from "../components/MobileNavbar";
 import banner from "../assets/img/donatebanner.jpg";
+import ParallaxBanner from "../components/HomeBanner";
 
 function Donate() {
   return (
@@ -14,14 +15,19 @@ function Donate() {
         <MobileNavbar />
       </div>
 
-      <div className="relative">
+      {/* <div className="relative">
         <img src={banner} className="w-full object-cover aspect-[5/2] mt-[1%]" />
         <div className="text-center absolute top-[75%] sm:top-[60%] left-1/2 transform translate-x-[-50%] text-white sm:w-full">
           <div className="text-center text-5xl mt-[5%] ">
             Making a Difference
           </div>
         </div>
-      </div>
+      </div> */}
+      <ParallaxBanner img={banner}>
+        <div className="text-center text-5xl mt-[5%] ">
+          Making a Difference
+        </div>
+      </ParallaxBanner>
       <div className="mx-auto w-full max-w-screen-xl flex items-center justify-center flex-col mb-20">
         <div className="w-[70%] text-center text-xl sm:text-sm mt-10 mb-10">
           AguaClara Cornell researches, invents, and designs resilient,
