@@ -201,7 +201,7 @@ function Home() {
 
           {/* Join us */}
           <div className="flex flex-row sm:flex-col mb-[10%] rounded-3xl shadow-lg ">
-            <div className="text-3xl w-[70%] sm:w-full p-[10%] ">
+            <div className="text-3xl w-[70%] sm:w-full p-[5%] ">
               Does our mission resonate with you? Explore our exciting
               opportunities and join our team!
             </div>

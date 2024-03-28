@@ -13,13 +13,13 @@ function Subteam({ name }) {
   return (
     <div>
       {foundSubteam ? (
-        <div>
+        <div className="flex flex-col ">
           <h2 className="text-3xl text-center font-bold mb-2">
             {foundSubteam.name}
           </h2>
           <div className="mb-4">
-            <div className="mb-20">
-              <div className="mb-10 text-xl flex flex-row space-x-10">
+            <div className="mb-20 ">
+              <div className="mb-10 text-xl space-x-10">
                 <div className="">{foundSubteam.description}</div>
               </div>
               <div className="sm:flex sm:flex-col sm:gap-0 sm:space-y-2 sm:items-center grid grid-cols-4 gap-20 mb-4">

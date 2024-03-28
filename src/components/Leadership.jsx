@@ -6,7 +6,7 @@ function Leadership() {
   return (
     <div>
       {data.sections.map((section, sectionIndex) => (
-        <div key={sectionIndex} className="mt-10">
+        <div key={sectionIndex} className="mt-10 flex justify-center flex-col items-center">
           <h2 className="text-3xl mb-2 text-center">{section.name}</h2>
 
           <div
