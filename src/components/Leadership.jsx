@@ -26,6 +26,7 @@ function Leadership() {
                   linkedin={member.linkedin}
                   major_year={member.major_year}
                   img={member.img}
+                  category={member.category}
                 />
               </div>
             ))}

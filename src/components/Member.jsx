@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import linkedinlogo from "../assets/img/linkedin.svg";
 
-function Member({ name, email, linkedin, major_year, img }) {
+function Member({ name, email, linkedin, major_year, img, category }) {
   const [imgValid, setImgValid] = useState(true);
 
   const handleImageError = () => {
@@ -25,6 +25,14 @@ function Member({ name, email, linkedin, major_year, img }) {
           <div className="bg-gray-400 w-full h-auto object-cover" />
         )}
       </div>
+      {category ? (
+        <div className="flex flex-row items-center justify-center w-full text-center font-bold">{category}</div>
+
+      ) : (
+        <div>
+        </div>
+
+      )}
       <div className="flex flex-row items-center justify-center w-full">
         <div>{name}</div>
         <a

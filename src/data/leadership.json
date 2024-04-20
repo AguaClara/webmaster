@@ -71,7 +71,7 @@
         },
         {
           "name": "Zachary Kwon",
-          "category": "Drinking Water & Investments",
+          "category": "Drinking Water & Invest.",
           "email": "zk49@cornell.edu",
           "linkedin": " https://www.linkedin.com/in/zachary-kwon/",
           "major_year": "Chemical Engineering",
@@ -84,6 +84,7 @@
       "members": [
         {
           "name": "Erica Ruan",
+          "category": "Community",
           "email": "er439@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/erica-ruan-ba2095215/",
           "major_year": "Biochem. & Molecular Biology",
@@ -91,6 +92,7 @@
         },
         {
           "name": "Dora Weng",
+          "category": "Website",
           "email": "cw749@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/chuyinweng/",
           "major_year": "Computer Science",
@@ -98,6 +100,7 @@
         },
         {
           "name": "Annie Hsu",
+          "category": "Community",
           "email": "yh533@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/annie-hsu-8754381a8/",
           "major_year": "Biomedical Engineering",
@@ -105,6 +108,7 @@
         },
         {
           "name": "Ruby Pascual",
+          "category": "Recruitment",
           "email": "rp554@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/ruby-p-aa7250209/",
           "major_year": "Environmental Engineering",
@@ -112,6 +116,7 @@
         },
         {
           "name": "Diya Tanwar",
+          "category": "MNC",
           "email": "dt422@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/diya-tanwar77/",
           "major_year": "Biometry and Statistics",
@@ -119,6 +124,7 @@
         },
         {
           "name": "Ian Lillie",
+          "category": "New Member Edu.",
           "email": "iml34@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/ian-lillie-4566991b5/",
           "major_year": "Materials Science",
