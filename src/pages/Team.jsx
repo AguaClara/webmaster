@@ -133,7 +133,7 @@ function Team() {
                 understanding of microbes relevant to bioremediation,
                 sustainable wastewater treatment and sustainable bioenergy and
                 apply this understanding to the deployment of microbial
-                processes in environmental and reactor systems.
+                processes in environmental and reactor systems
               </p>
             </div>
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
