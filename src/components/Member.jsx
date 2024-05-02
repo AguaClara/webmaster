@@ -5,6 +5,7 @@ function Member({ name, email, linkedin, major_year, img, category }) {
   const [imgValid, setImgValid] = useState(true);
 
   const handleImageError = () => {
+    console.log(img)
     setImgValid(false);
   };
 
