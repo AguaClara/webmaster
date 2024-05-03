@@ -12,7 +12,7 @@
             "email": "hl777@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/henry-lin-14a7a5203/",
             "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/HenryLin.jpg"
+            "img": "src/assets/img/headshots/hl777.jpg"
           },
           "members": [
             {
@@ -20,28 +20,28 @@
               "email": "rml267@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/rachel-lai-rml8/",
               "major_year": "Chemical Engineering",
-              "img": "src/assets/img/headshots/RachelLai.jpg"
+              "img": "src/assets/img/headshots/rml267.jpg"
             },
             {
               "name": "Johan DeMessie",
               "email": "jd2294@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/JohanDeMessie.jpg"
+              "img": "src/assets/img/headshots/jd2294.jpg"
             },
             {
               "name": "Ryan Moradei",
               "email": "rtm83@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/RyanMoradei.jpg"
+              "img": "src/assets/img/headshots/rtm83.jpg"
             },
             {
               "name": "Noyonima Masud",
               "email": "nsm89@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/NoyonimaMasud.jpg"
+              "img": "src/assets/img/headshots/nsm89.jpg"
             }
           ]
         },
@@ -69,14 +69,14 @@
               "email": "gz266@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/GeorgeZeng.jpg"
+              "img": "src/assets/img/headshots/gz266.jpg"
             },
             {
               "name": "Theodore Foulen",
               "email": "rf444@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/TheodoreFoulen.jpg"
+              "img": "src/assets/img/headshots/rf444.jpg"
             }
           ]
         },
@@ -89,7 +89,7 @@
             "email": "ghb72@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/gina-bae-721b63229",
             "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/GinaBae.jpg"
+            "img": "src/assets/img/headshots/ghb72.jpg"
           },
           "members": [
             {
@@ -97,21 +97,21 @@
               "email": "cjh343@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/cjh343.jpeg"
+              "img": "src/assets/img/headshots/cjh343.jpg"
             },
             {
               "name": "Christine Berlingeri",
               "email": "cnb53@cornell.edu",
               "linkedin": "",
               "major_year": "Environmental Engineering",
-              "img": "src/assets/img/headshots/cnb53.jpeg"
+              "img": "src/assets/img/headshots/cnb53.jpg"
             },
             {
               "name": "Ananya Bansal",
               "email": "ab2836@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/AnanyaBansal.jpg"
+              "img": "src/assets/img/headshots/ab2836.jpg"
             }
           ]
         },
@@ -124,7 +124,7 @@
             "email": "anf44@cornell.edu",
             "linkedin": "",
             "major_year": "",
-            "img": "src/assets/img/headshots/anf44.jpeg"
+            "img": "src/assets/img/headshots/anf44.jpg"
           },
           "members": [
             {
@@ -132,14 +132,14 @@
               "email": "dgr79@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/DavidRha.jpg"
+              "img": "src/assets/img/headshots/dgr79.jpg"
             },
             {
               "name": "Kaitlyn Canivel",
               "email": "kgc44@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/KaitlynCanivel.jpg"
+              "img": "src/assets/img/headshots/kgc44.jpg"
             }
           ]
         },
@@ -152,7 +152,7 @@
             "email": "led92@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/lily-duplooy-31b562209/",
             "major_year": "Biological Engineering",
-            "img": "src/assets/img/headshots/LilyDuPlooy.jpg"
+            "img": "src/assets/img/headshots/led92.jpg"
           },
           "members": [
             {
@@ -160,34 +160,34 @@
               "email": "tmk89@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/twinomugisha-matthew-k-03426612a/",
               "major_year": "Civil Engineering",
-              "img": "src/assets/img/headshots/MatthewKajura.jpg"
+              "img": "src/assets/img/headshots/tmk89.jpg"
             },
             {
               "name": "Christopher Miranda Soto",
               "email": "cm2233@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/cm2233.jpeg"
+              "img": "src/assets/img/headshots/cm2233.jpg"
             },
             {
               "name": "Grace Raab",
               "email": "gar238@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/GraceRabb.jpg"
+              "img": "src/assets/img/headshots/gar238.jpg"
             }
           ]
         },
         {
           "name": "Plantita (PF200)",
-          "teampic": "src/assets/img/teampic/Plantita.jpeg",
+          "teampic": "src/assets/img/teampic/Plantita.jpg",
           "description": "PF200, also referred to as Plantita, is a prefabricated water treatment plant designed for a community of 200. The team's goal is to implement a PF200 pilot model in Puerto Rico that is acclimated to its climate. Puerto Rico has frequent storms that lead to highly turbid water. The dose of coagulant, which is a chemical used to aggregate particles for easier filtration, needs to be increased based on these turbidity levels. Often, these rural communities cannot afford to hire a full time operator to monitor the plant's performance and adjust this coagulant dosing as necessary. PF200's current goal is to create an automated coagulant dosing model to respond to fluctuating turbidites with minimal interference from an operator. We are studying the amount of coagulant needed per mass of particles present in the influent water and also working on some design changes in the clarifier.",
           "lead": {
             "name": "Jiaming Yuan",
             "email": "jy729@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/jiaming-yuan-4268a5141/",
             "major_year": "Environmental Engineering",
-            "img": "src/assets/img/headshots/JiamingYuan.jpg"
+            "img": "src/assets/img/headshots/jy729.jpg"
           },
           "members": [
             {
@@ -195,21 +195,21 @@
               "email": "aes392@cornell.edu",
               "linkedin": "",
               "major_year": "Environmental Engineering",
-              "img": "src/assets/img/headshots/AriSchor.jpg"
+              "img": "src/assets/img/headshots/aes392.jpg"
             },
             {
               "name": "Anjali Asthagiri",
               "email": "aa2549@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/AnjaliAsthagiri.jpg"
+              "img": "src/assets/img/headshots/aa2549.jpg"
             },
             {
               "name": "Claire Wang",
               "email": "cyw34@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/ClaireWang.jpg"
+              "img": "src/assets/img/headshots/cyw34.jpg"
             }
           ]
         },
@@ -222,7 +222,7 @@
             "email": "ks929@cornell.edu",
             "linkedin": "",
             "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/KaylaStephenson.jpg"
+            "img": "src/assets/img/headshots/ks929.jpg"
           },
           "members": [
             {
@@ -230,21 +230,21 @@
               "email": "ajv85@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/ajv85.jpeg"
+              "img": "src/assets/img/headshots/ajv85.jpg"
             },
             {
               "name": "Sweksha Mehta",
               "email": "sm2593@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/sm2593.jpeg"
+              "img": "src/assets/img/headshots/sm2593.jpg"
             },
             {
               "name": "Ulises Balbuena",
               "email": "umb5@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/UlisesBalbuena.jpg"
+              "img": "src/assets/img/headshots/umb5.jpg"
             }
           ]
         }
@@ -255,14 +255,14 @@
       "subteams": [
         {
           "name": "Floc App",
-          "teampic": "src/assets/img/teampic/FlocApp.jpeg",
+          "teampic": "src/assets/img/teampic/FlocApp.jpg",
           "description": "The Floc App team is dedicated to accurately sizing and counting flocculation particles in turbid water. Flocculation is the process of fine particles clumping together due to coagulant. These particles, called flocs, are then filtered out of the water using a sand filtration process. Floc App's aim is to count and size the particles that will not be caught by the filter in order to determine how much coagulant needs to be added or removed. Our team uses machine learning, computer vision, and image segmentation in order to detect these particles. We then work in a full stack environment to develop an application for use by plant operators in countries around the world serving over 96,000 people.",
           "lead": {
             "name": "Shreehari Srinivasan",
             "email": "ss2732@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/shreehari-srinivasan-843469177/",
             "major_year": "Computer Science",
-            "img": "src/assets/img/headshots/ss2732.jpeg"
+            "img": "src/assets/img/headshots/ss2732.jpg"
           },
           "members": [
             {
@@ -270,48 +270,48 @@
               "email": "sh2276@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/sahil-hosalli-63b015208/",
               "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/SahilHosalli.jpg"
+              "img": "src/assets/img/headshots/sh2276.jpg"
             },
             {
               "name": "Jacqueline Hui",
               "email": "jeh362@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/jacqueline-hui-922996222/",
               "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/jeh362.jpeg"
+              "img": "src/assets/img/headshots/jeh362.jpg"
             },
             {
               "name": "Becca Jeffries",
               "email": "rcj63@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/BeccaJeffries.jpg"
+              "img": "src/assets/img/headshots/rcj63.jpg"
             },
             {
               "name": "Caleb Kim",
               "email": "ck586@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/ck586.jpeg"
+              "img": "src/assets/img/headshots/ck586.jpg"
             },
             {
               "name": "Alvaro Deras",
               "email": "ad2226@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/AlvaroDeras.jpg"
+              "img": "src/assets/img/headshots/ad2226.jpg"
             }
           ]
         },
         {
           "name": "Plant Operations Smartphone Tracker (POST)",
-          "teampic": "src/assets/img/teampic/POST.jpeg",
+          "teampic": "src/assets/img/teampic/POST.jpg",
           "description": "The AguaClara POST App is a solution that aims to streamline how water operators in Honduras monitor and analyze water filtration data. Developed with Flutter, this application serves as a tool for water plant operators, enabling them to submit various metrics through a flexible, user-friendly, and offline-capable survey form directly from their Android devices.",
           "lead": {
             "name": "George Dong",
             "email": "gd289@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/george-dong/",
             "major_year": "CS and Applied Economics",
-            "img": "src/assets/img/headshots/gd289.jpeg"
+            "img": "src/assets/img/headshots/gd289.jpg"
           },
           "members": [
             {
@@ -319,14 +319,14 @@
               "email": "hyl8@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/hyl8.jpeg"
+              "img": "src/assets/img/headshots/hyl8.jpg"
             },
             {
               "name": "Abby Kim",
               "email": "sk2459@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/sk2459.jpeg"
+              "img": "src/assets/img/headshots/sk2459.jpg"
             },
             {
               "name": "Kelly Tran",
@@ -334,28 +334,28 @@
               "email": "kt457@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/kelly-tran-458327221/",
               "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/kt457.jpeg"
+              "img": "src/assets/img/headshots/kt457.jpg"
             },
             {
               "name": "Joseph Valenti",
               "email": "jrv67@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/jrv67.jpeg"
+              "img": "src/assets/img/headshots/jrv67.jpg"
             },
             {
               "name": "Patrick Egan",
               "email": "pje42@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/pje42.jpeg"
+              "img": "src/assets/img/headshots/pje42.jpg"
             },
             {
               "name": "Jason Fu",
               "email": "jlf344@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/JasonFu.jpg"
+              "img": "src/assets/img/headshots/jlf344.jpg"
             }
           ]
         }
@@ -373,7 +373,7 @@
             "email": "vss32@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/nessa-sandoval-5aa977258/",
             "major_year": "Environment and Sustainability",
-            "img": "src/assets/img/headshots/vss32.jpeg"
+            "img": "src/assets/img/headshots/vss32.jpg"
           },
           "members": [
             {
@@ -381,21 +381,21 @@
               "email": "smc449@cornell.edu",
               "linkedin": "",
               "major_year": "Animal Science",
-              "img": "src/assets/img/headshots/StellaCanez.jpg"
+              "img": "src/assets/img/headshots/smc449.jpg"
             },
             {
               "name": "Liam Deacon",
               "email": "lbd55@cornell.edu",
               "linkedin": "",
               "major_year": "Electrical and Computer Engineering",
-              "img": "src/assets/img/headshots/lbd55.jpeg"
+              "img": "src/assets/img/headshots/lbd55.jpg"
             },
             {
               "name": "Sophia Ukeni",
               "email": "siu2@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/SophiaUkeni.jpg"
+              "img": "src/assets/img/headshots/siu2.jpg"
             }
           ]
         },
@@ -408,7 +408,7 @@
             "email": "agn43@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/angienuisud/",
             "major_year": "Human Biology Health and Society",
-            "img": "src/assets/img/headshots/agn43.jpeg"
+            "img": "src/assets/img/headshots/agn43.jpg"
           },
           "members": [
             {
@@ -416,28 +416,28 @@
               "email": "as3747@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/ArjunSen.jpg"
+              "img": "src/assets/img/headshots/as3747.jpg"
             },
             {
               "name": "Sunny Liu",
               "email": "kl797@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/SunnyLiu.jpg"
+              "img": "src/assets/img/headshots/kl797.jpg"
             },
             {
               "name": "Shivas Khera",
               "email": "sk2692@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/sk2692.jpeg"
+              "img": "src/assets/img/headshots/sk2692.jpg"
             },
             {
               "name": "Diya Bhageria",
               "email": "db926@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/db926.jpeg"
+              "img": "src/assets/img/headshots/db926.jpg"
             }
           ]
         }
