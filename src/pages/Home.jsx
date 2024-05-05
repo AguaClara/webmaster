@@ -8,7 +8,7 @@ import bannerimg from "/src/assets/img/HomeBanner.png";
 import plant from "../assets/img/graciasplant.jpg";
 import whoweare from "../assets/img/whoweare.jpg";
 
-import TLs from "../assets/img/TLs.jpeg";
+import TLs from "../assets/img/TLsMonroe.jpeg";
 import logo from "../assets/img/Logo.png";
 import plantcad from "../assets/img/plant cad.png";
 import wwa1 from "../assets/img/wwa1.jpg";
