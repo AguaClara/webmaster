@@ -24,16 +24,11 @@ function Apply() {
           <span className="underline">innovative</span>,<span> </span>
           <span className="underline">passionate</span>, and<span> </span>
           <span className="underline">hard-working</span> students to join our
-          team and help us solve global water problems. There are spots open on
-          our team not only for engineering students interested in water
-          treatment research but also students with CAD or app design
-          experience, as well as students with web development, marketing,
-          investments, grant-writing, and finance skills. We look forward to
-          building a diverse community at AguaClara!
+          team and help us solve global water problems. We are committed to the ongoing development of resilient, gravity-powered drinking water and wastewater treatment technologies. We look forward to building a diverse community at AguaClara!
         </div>
-        <div className="text-xl">
+        {/* <div className="text-xl">
           Currently the application cycle has closed. Please check back when it opens next semester!
-        </div>
+        </div> */}
         <div>
           Contact the team leads at{" "}
           <span className="underline">aguaclara@cornell.edu</span> with any

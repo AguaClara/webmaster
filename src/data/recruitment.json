@@ -1,29 +1,35 @@
 {
   "Applications Open": {
-    "Date": "Jan. 1",
-    "Application Link": "https://forms.gle/FueYvGVC5u1HcmNc9",
-    "General Application Link": "https://cornell.ca1.qualtrics.com/jfe/form/SV_3dF2fjywuzGG1wi"
+    "Date": "Aug. 19",
+    "Upperclassmen Application Link": "https://forms.gle/fX7aBSrmqgxZaRvY8",
+    "First Year Application Link": "https://forms.gle/SxR51XKDeLKWgjzy8",
+    "General Application Link": "https://cornell.ca1.qualtrics.com/jfe/form/SV_cuXl2vYgb5sNPWS"
   },
   "Information Sessions": {
     "Session #1": {
-      "Date": "Jan. 23",
-      "Time": "5:00 pm",
+      "Date": "Aug. 31st",
+      "Time": "3:00 pm",
       "Location": "Zoom",
-      "Zoom": "https://cornell.zoom.us/j/99378747317?pwd=eDU3d2hiN21ZZ0tkZ3FscjVXNmVKdz09"
+      "Zoom": "https://cornell.zoom.us/j/93491849567?pwd=T4GJtxGtkX1YxzeTRRnPQDfBCyj5Go.1"
     },
     "Session #2": {
-      "Date": "Jan. 27",
+      "Date": "Sept. 1st",
       "Time": "5:00 pm",
-      "Location": "Hollister 314"
+      "Location": "TBD"
+    },
+    "Session #3": {
+      "Date": "Oct. 9th",
+      "Time": "5:00 pm",
+      "Location": "TBD"
     }
   },
   "Application Deadline": {
-    "Date": "Feb. 1"
+    "Date": "Sept. 5th & Oct. 17th"
   },
   "Interview Period": {
-    "Date": "Feb. 9 - Feb. 10"
+    "Date": "Sept. 6th - Sept. 18th"
   },
   "Decisions Released": {
-    "Date": "Feb. ~14"
+    "Date": "Sept. ~18"
   }
 }

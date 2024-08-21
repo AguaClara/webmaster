@@ -7,19 +7,26 @@ function MyComponent() {
       <div className="font-bold text-2xl">Applications Open</div>
       <h3>{data.Date}</h3>
       <p>
-        Find the application form{" "}
-        <a href={data["Application Link"]} className="underline font-bold">
+        Find the upperclassmen application form{" "}
+        <a href={data["Upperclassmen Application Link"]} className="underline font-bold">
           here
         </a>
       </p>
       <p>
-        Don't forget to submit general application{" "}
+        Find the first year & transfer application form{" "}
+        <a href={data["First Year Application Link"]} className="underline font-bold">
+          here
+        </a>
+      </p>
+      <p>
+        Don't forget to submit the general project team application{" "}
         <a
           href={data["General Application Link"]}
           className="underline font-bold"
         >
           here
         </a>
+        {" "} :)
       </p>
     </div>
   );
@@ -28,12 +35,12 @@ function MyComponent() {
     <div className="p-10 h-60 w-full rounded-3xl space-y-2">
       <div className="font-bold text-2xl">Information Sessions</div>
       <p>
-        We have two information sessions, one through Zoom and one in-person
+        We have three information sessions, one through Zoom and two in-person
       </p>
       {Object.entries(sessions).map(([sessionName, sessionData], index) => (
-        <div key={index}>
-          <h4>{sessionName}</h4>
-          <p>
+        <div key={index} className="flex items-center gap-4">
+          <h4 className="flex-none">{sessionName}</h4>
+          <p className="flex-auto">
             {sessionData.Date} {" • "}
             {sessionData.Time}
             {" • "}
@@ -50,12 +57,13 @@ function MyComponent() {
     </div>
   );
 
+
   const renderApplicationDeadline = (data) => (
     <div className="p-10 h-60 w-full rounded-3xl  space-y-3">
       <div className="font-bold text-2xl">Applications Deadline</div>
       <h3>{data.Date}</h3>
       <p>Want to learn more?</p>
-      <p>Schedule a coffee chat with one of our members!</p>
+      <p>Schedule a coffee chat with one of our members! You can find their emails on the team page.</p>
     </div>
   );
 
