@@ -24,7 +24,8 @@
     }
   },
   "Application Deadline": {
-    "Date": "Sept. 5th & Oct. 17th"
+    "UpperDate": "Upperclassmen: Sept. 5th",
+    "FirstYear": "First year & transfer: Oct. 17th"
   },
   "Interview Period": {
     "Date": "Sept. 6th - Sept. 18th"
