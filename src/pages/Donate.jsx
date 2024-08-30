@@ -44,7 +44,7 @@ function Donate() {
           </button>
         </a> */}
         <a
-          href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1"
+          href="https://securelb.imodules.com/s/1717/giving/interior.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=2"
           className="text-[#39B54A] text-xl"
         >
           <button className="font-bold transform transition-all hover:bg-[#39B54A] hover:text-white border-2 border-[#39B54A] bg-transparent rounded-3xl px-8 py-2">
