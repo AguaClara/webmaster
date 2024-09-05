@@ -24,15 +24,24 @@ button {
   background-color: #f9f9f9;
 }
 
-/* laptops xl */
-@media screen and (min-width: 1480px) {
+.lazy-image {
+  filter: blur(20px);
+  transition: filter 0.5s ease-out;
 }
+
+.lazy-image-loaded {
+  filter: blur(0);
+}
+
+/* laptops xl */
+@media screen and (min-width: 1480px) {}
 
 /* tablets md */
 @media screen and (max-width: 800px) {
   .text-5xl {
     font-size: 2.5rem;
   }
+
   .text-xl {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -44,19 +53,24 @@ button {
   .text-5xl {
     font-size: 1.5rem;
   }
+
   .text-4xl {
     font-size: 1.3rem;
   }
+
   .text-3xl {
     font-size: 1.25rem;
   }
+
   .text-2xl {
     font-size: 1.1rem;
   }
+
   .text-xl {
     font-size: 1rem;
     line-height: 1.2rem;
   }
+
   .text-lg {
     font-size: 0.65rem;
   }
