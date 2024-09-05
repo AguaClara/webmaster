@@ -10,9 +10,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -21,4 +23,13 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+
+.lazy-image {
+  filter: blur(20px);
+  transition: filter 0.5s ease-out;
+}
+
+.lazy-image-loaded {
+  filter: blur(0);
 }

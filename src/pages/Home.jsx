@@ -20,6 +20,8 @@ import wwa2 from "../assets/img/wwa2.jpeg";
 import wwa3 from "../assets/img/wwa3.jpeg";
 import wwa4 from "../assets/img/wwa4.jpeg";
 import wwa5 from "../assets/img/wwa5.jpeg";
+import '../index.css';  // or './app.css'
+
 
 function LazyImage({ src, alt, className }) {
   const [loaded, setLoaded] = useState(false);

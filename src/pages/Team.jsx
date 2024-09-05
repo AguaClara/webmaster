@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import teampic from "../assets/img/Team.jpg";
@@ -10,6 +10,22 @@ import teamPic from "../assets/img/hondurasteam.jpg";
 import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
 import MobileNavbar from "../components/MobileNavbar";
+import '../index.css';  // or './app.css'
+
+function LazyImage({ src, alt, className }) {
+  const [loaded, setLoaded] = useState(false);
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={`${className} ${loaded ? 'lazy-image-loaded' : 'lazy-image'}`}
+      loading="lazy"
+      onLoad={() => setLoaded(true)}
+    />
+  );
+}
+
 
 function Team() {
   useEffect(() => {
@@ -46,7 +62,7 @@ function Team() {
         <div className="text-5xl my-[5%] text-center">Our Team</div>
 
         <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5">
-          <img src={teampic} className="w-[50%] rounded-3xl sm:w-full" />
+          <LazyImage src={teampic} className="w-[50%] rounded-3xl sm:w-full" />
           <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
             community-scale water treatment technologies. AguaClara Cornell has
@@ -80,7 +96,7 @@ function Team() {
                 )}
               </div>
               <div className="w-[60%] sm:flex sm:justify-center sm:w-full">
-                <img src={teamPic} className="rounded-3xl w-full object-cover aspect-[4/3] sm:mb-2" />
+                <LazyImage src={teamPic} className="rounded-3xl w-full object-cover aspect-[4/3] sm:mb-2" />
               </div>
             </div>
           </section>
@@ -103,7 +119,7 @@ function Team() {
         <div className=" mx-auto space-y-20 sm:space-y-2 mb-24">
           <div className="flex flex-row space-x-12 sm:flex-col items-center sm:space-x-0">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
-              <img
+              <LazyImage
                 src={monroe}
                 alt="monroe"
                 className="object-cover rounded-3xl"
@@ -137,7 +153,7 @@ function Team() {
               </p>
             </div>
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
-              <img
+              <LazyImage
                 src={richardson}
                 alt="richardson"
                 className="object-cover rounded-3xl"
