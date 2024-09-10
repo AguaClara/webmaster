@@ -8,27 +8,13 @@
           "teampic": "src/assets/img/teampic/DOM.jpeg",
           "description": "The DOM team is dedicated to improving the removal process of dissolved organic matter from water sources. DOM naturally forms as organic materials, such as decomposed feces and decaying leaves, break down. When DOM reacts with coagulants, the contaminants aggregate into larger clusters known as flocs, which can be readily separated during the filtration stage. At the AguaClara plant in Gracias, Honduras, there is an issue where these flocs aren't sufficiently dense within the sedimentation tank, resulting in their presence in the treated drinking water. To address this challenge, our team is actively exploring methods to increase the density of these particles by adjusting concentrations of clay and activated carbon, making them easier to remove in our AguaClara clarifiers.",
           "lead": {
-            "name": "Henry Lin",
-            "email": "hl777@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/henry-lin-14a7a5203/",
-            "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/hl777.jpg"
+            "name": "Johan DeMessie",
+            "email": "jd2294@cornell.edu",
+            "linkedin": "",
+            "major_year": "",
+            "img": "src/assets/img/headshots/jd2294.jpg"
           },
           "members": [
-            {
-              "name": "Rachel Lai",
-              "email": "rml267@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/rachel-lai-rml8/",
-              "major_year": "Chemical Engineering",
-              "img": "src/assets/img/headshots/rml267.jpg"
-            },
-            {
-              "name": "Johan DeMessie",
-              "email": "jd2294@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/jd2294.jpg"
-            },
             {
               "name": "Ryan Moradei",
               "email": "rtm83@cornell.edu",
@@ -50,20 +36,13 @@
           "teampic": "src/assets/img/teampic/RamPump.jpeg",
           "description": "The Ram Pump team focuses on the research, design and fabrication of the AguaClara Vertical Ram Pump (ACVRP), a proprietary, open source technology developed within the AguaClara orginization. Its purpose within the AguaClara plants is to pump the cleaned water back upstream into the treatment facility, without the use of electricity and minimizing clean water waste. The work of the team includes reviewing previous literature on topics such as turbulent fluid flow, dynamic physics, and ram pump modeling. Additionally, the team designs experiments and fabricates parts in order to test different methods of optimizing the pump. Currently, the work is focused on optmizing the spring configuration used to operate the pump by  applying fluid mechanics to experimental design.",
           "lead": {
-            "name": "Zach Marshall",
-            "email": "zdm6@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/zachary-marshall-51bbb224a/",
-            "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/zdm6.jpeg"
-          },
-          "members": [
-            {
-              "name": "Athavan Shanmuganathan",
+            "name": "Athavan Shanmuganathan",
               "email": "as3277@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/athavan-shanmuganathan-412900249/",
               "major_year": "Chemical Engineering",
               "img": "src/assets/img/headshots/as3277.jpeg"
-            },
+          },
+          "members": [
             {
               "name": "George Zeng",
               "email": "gz266@cornell.edu",
@@ -81,41 +60,6 @@
           ]
         },
         {
-          "name": "Membrane Biofilm Reactor (MBFR)",
-          "teampic": "src/assets/img/teampic/MBFR.jpeg",
-          "description": "The Membrane Biofilm Reactor (MBFR) team is working to design a polishing reactor for use in wastewater treatment. Following treatment by the UASB, wastewater will enter the MBFR and be treated to remove dissolved ammonia, methane, and sulfides. Microorganisms living in an oxygen rich environment are used for this treatment process. Currently, the team is working on testing an upscale reactor and planning ways to balance the flow of both oxygen and water in the reactor.",
-          "lead": {
-            "name": "Gina Bae",
-            "email": "ghb72@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/gina-bae-721b63229",
-            "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/ghb72.jpg"
-          },
-          "members": [
-            {
-              "name": "Caleb Humphreys",
-              "email": "cjh343@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/cjh343.jpg"
-            },
-            {
-              "name": "Christine Berlingeri",
-              "email": "cnb53@cornell.edu",
-              "linkedin": "",
-              "major_year": "Environmental Engineering",
-              "img": "src/assets/img/headshots/cnb53.jpg"
-            },
-            {
-              "name": "Ananya Bansal",
-              "email": "ab2836@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/ab2836.jpg"
-            }
-          ]
-        },
-        {
           "name": "Upflow Anaerobic Sludge Blanket (UASB)",
           "teampic": "src/assets/img/teampic/UASB.jpeg",
           "description": "The UASB subteam is testing a gravity-powered reactor for wastewater treatment at the Ithaca Area Wastewater Treatment Facility (IAWWTF). Transportation to the plant has been provided by students on the team with personal vehicles. The team also has a contract (contact Professor Ruth Richardson for more information) with IAWWTF to conduct COD, BOD, phosphorous, and fecal coliform tests in the IAWWTF lab space, under the close supervision of IAWWTF lab technicians. ",
@@ -127,6 +71,13 @@
             "img": "src/assets/img/headshots/anf44.jpg"
           },
           "members": [
+            {
+              "name": "Caleb Humphreys",
+              "email": "cjh343@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/cjh343.jpg"
+            },
             {
               "name": "David Rha",
               "email": "dgr79@cornell.edu",
@@ -148,33 +99,19 @@
           "teampic": "src/assets/img/teampic/FlocFiltration.jpeg",
           "description": "The floc filtration subteam is investigating the potential for a floc recycle system in the AguaClara clarifer. With the current system, as flocs in the floc filter capture more and more primary particles, they become \"full,\" leaving them unable to capture more particles. As this happens, the removal efficiency of the clarifier decreases. In order to retain the efficiency in the clarifier over time, floc filtration looks to a recycle system that would use shear force to break flocs up enough that they would be able to continue to capture primary particles.",
           "lead": {
-            "name": "Lily DuPlooy",
-            "email": "led92@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/lily-duplooy-31b562209/",
-            "major_year": "Biological Engineering",
-            "img": "src/assets/img/headshots/led92.jpg"
+              "name": "Grace Raab",
+              "email": "gar238@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/gar238.jpg"
           },
           "members": [
-            {
-              "name": "Matthew Kajura",
-              "email": "tmk89@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/twinomugisha-matthew-k-03426612a/",
-              "major_year": "Civil Engineering",
-              "img": "src/assets/img/headshots/tmk89.jpg"
-            },
             {
               "name": "Christopher Miranda Soto",
               "email": "cm2233@cornell.edu",
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/cm2233.jpg"
-            },
-            {
-              "name": "Grace Raab",
-              "email": "gar238@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/gar238.jpg"
             }
           ]
         },
@@ -198,18 +135,18 @@
               "img": "src/assets/img/headshots/aes392.jpg"
             },
             {
-              "name": "Anjali Asthagiri",
-              "email": "aa2549@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/aa2549.jpg"
-            },
-            {
               "name": "Claire Wang",
               "email": "cyw34@cornell.edu",
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/cyw34.jpg"
+            },
+            {
+              "name": "Ananya Bansal",
+              "email": "ab2836@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/ab2836.jpg"
             }
           ]
         },
@@ -226,18 +163,11 @@
           },
           "members": [
             {
-              "name": "Alex Van Den Hende",
-              "email": "ajv85@cornell.edu",
+              "name": "Christine Berlingeri",
+              "email": "cnb53@cornell.edu",
               "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/ajv85.jpg"
-            },
-            {
-              "name": "Sweksha Mehta",
-              "email": "sm2593@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/sm2593.jpg"
+              "major_year": "Environmental Engineering",
+              "img": "src/assets/img/headshots/cnb53.jpg"
             },
             {
               "name": "Ulises Balbuena",
@@ -245,6 +175,13 @@
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/umb5.jpg"
+            },
+            {
+              "name": "Anjali Asthagiri",
+              "email": "aa2549@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/aa2549.jpg"
             }
           ]
         }
@@ -258,33 +195,19 @@
           "teampic": "src/assets/img/teampic/FlocApp.jpg",
           "description": "The Floc App team is dedicated to accurately sizing and counting flocculation particles in turbid water. Flocculation is the process of fine particles clumping together due to coagulant. These particles, called flocs, are then filtered out of the water using a sand filtration process. Floc App's aim is to count and size the particles that will not be caught by the filter in order to determine how much coagulant needs to be added or removed. Our team uses machine learning, computer vision, and image segmentation in order to detect these particles. We then work in a full stack environment to develop an application for use by plant operators in countries around the world serving over 96,000 people.",
           "lead": {
-            "name": "Shreehari Srinivasan",
-            "email": "ss2732@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/shreehari-srinivasan-843469177/",
-            "major_year": "Computer Science",
-            "img": "src/assets/img/headshots/ss2732.jpg"
-          },
-          "members": [
-            {
               "name": "Sahil Hosalli",
               "email": "sh2276@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/sahil-hosalli-63b015208/",
               "major_year": "Computer Science",
               "img": "src/assets/img/headshots/sh2276.jpg"
-            },
+          },
+          "members": [
             {
-              "name": "Jacqueline Hui",
-              "email": "jeh362@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/jacqueline-hui-922996222/",
-              "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/jeh362.jpg"
-            },
-            {
-              "name": "Becca Jeffries",
-              "email": "rcj63@cornell.edu",
+              "name": "Patrick Egan",
+              "email": "pje42@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/rcj63.jpg"
+              "img": "src/assets/img/headshots/pje42.jpg"
             },
             {
               "name": "Caleb Kim",
@@ -307,26 +230,33 @@
           "teampic": "src/assets/img/teampic/POST.jpg",
           "description": "The AguaClara POST App is a solution that aims to streamline how water operators in Honduras monitor and analyze water filtration data. Developed with Flutter, this application serves as a tool for water plant operators, enabling them to submit various metrics through a flexible, user-friendly, and offline-capable survey form directly from their Android devices.",
           "lead": {
-            "name": "George Dong",
-            "email": "gd289@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/george-dong/",
-            "major_year": "CS and Applied Economics",
-            "img": "src/assets/img/headshots/gd289.jpg"
+            "name": "Becca Jeffries",
+            "email": "rcj63@cornell.edu",
+            "linkedin": "",
+            "major_year": "",
+            "img": "src/assets/img/headshots/rcj63.jpg"
           },
           "members": [
             {
-              "name": "Hannah Lee",
-              "email": "hyl8@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/hyl8.jpg"
+              "name": "George Dong",
+              "email": "gd289@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/george-dong/",
+              "major_year": "CS and Applied Economics",
+              "img": "src/assets/img/headshots/gd289.jpg"
             },
             {
-              "name": "Abby Kim",
-              "email": "sk2459@cornell.edu",
+              "name": "Tim Holt",
+              "email": "",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/sk2459.jpg"
+              "img": ""
+            },
+            {
+              "name": "Aasha Yeluri",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": ""
             },
             {
               "name": "Kelly Tran",
@@ -337,25 +267,18 @@
               "img": "src/assets/img/headshots/kt457.jpg"
             },
             {
-              "name": "Joseph Valenti",
-              "email": "jrv67@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/jrv67.jpg"
-            },
-            {
-              "name": "Patrick Egan",
-              "email": "pje42@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/pje42.jpg"
-            },
-            {
               "name": "Jason Fu",
               "email": "jlf344@cornell.edu",
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/jlf344.jpg"
+            },
+            {
+              "name": "Dora Weng",
+              "email": "cw749@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/chuyinweng/",
+              "major_year": "Computer Science",
+              "img": "src/assets/img/headshots/cw749.jpeg"
             }
           ]
         }
@@ -404,11 +327,11 @@
           "teampic": "src/assets/img/teampic/PR.jpeg",
           "description": "The Investments team works closely with AguaClara Reach and members of fundraising and grant departments at Cornell to find new funding sources and opportunities to help spread AguaClara technology around the world. On campus, the team initiates and manages fundraising campaigns, including crowdfunding in the fall and Giving Day in the spring, and they have also worked with research subteams to write and submit EPA proposals.",
           "lead": {
-            "name": "Angie Nuisud",
-            "email": "agn43@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/angienuisud/",
-            "major_year": "Human Biology Health and Society",
-            "img": "src/assets/img/headshots/agn43.jpg"
+              "name": "Sunny Liu",
+              "email": "kl797@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/kl797.jpg"
           },
           "members": [
             {
@@ -419,25 +342,11 @@
               "img": "src/assets/img/headshots/as3747.jpg"
             },
             {
-              "name": "Sunny Liu",
-              "email": "kl797@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/kl797.jpg"
-            },
-            {
               "name": "Shivas Khera",
               "email": "sk2692@cornell.edu",
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/sk2692.jpg"
-            },
-            {
-              "name": "Diya Bhageria",
-              "email": "db926@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/db926.jpg"
             }
           ]
         }
