@@ -62,12 +62,12 @@
           "img": "src/assets/img/headshots/ghb72.jpg"
         },
         {
-          "name": "Elizabeth Bunker",
+          "name": "Lily DuPlooy",
           "category": "Floc Filtration & Coagulant Dosing",
-          "email": "elb248@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/elizabeth-bunker-6b91141a7/",
+          "email": "led92@cornell.edu",
+          "linkedin": "",
           "major_year": "Environmental Engineering",
-          "img": "src/assets/img/headshots/elb248.jpg"
+          "img": "src/assets/img/headshots/led92.jpg"
         },
         {
           "name": "Zach Marshall",
@@ -105,7 +105,6 @@
           "linkedin": "https://www.linkedin.com/in/diya-tanwar77/",
           "major_year": "Biometry and Statistics",
           "img": "src/assets/img/headshots/dt422.jpeg"
-          
         },
         {
           "name": "Sweksha Mehta",
@@ -129,7 +128,7 @@
           "email": "dgr79@cornell.edu",
           "linkedin": "",
           "major_year": "",
-          "img": "src/assets/img/headshots/dgr79.jpg"  
+          "img": "src/assets/img/headshots/dgr79.jpg"
         },
         {
           "name": "Isabel Crovella",

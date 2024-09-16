@@ -37,10 +37,10 @@
           "description": "Ram Pump focuses on the research, design, and fabrication of the AguaClara Vertical Ram Pump (ACVRP), a proprietary, open-source technology developed within AguaClara. The team designs experiments and fabricates parts to test different pump optimization methods. Its purpose within the AguaClara plant is to pump filtered water from the bottom to chemical stock tanks located at higher elevations without using electricity and minimizing clean water waste. This eliminates the need for operators to move clean water themselves manually.",
           "lead": {
             "name": "Athavan Shanmuganathan",
-              "email": "as3277@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/athavan-shanmuganathan-412900249/",
-              "major_year": "Chemical Engineering",
-              "img": "src/assets/img/headshots/as3277.jpeg"
+            "email": "as3277@cornell.edu",
+            "linkedin": "https://www.linkedin.com/in/athavan-shanmuganathan-412900249/",
+            "major_year": "Chemical Engineering",
+            "img": "src/assets/img/headshots/as3277.jpeg"
           },
           "members": [
             {
@@ -99,11 +99,11 @@
           "teampic": "src/assets/img/teampic/FlocFiltration.jpeg",
           "description": "Floc Filtration is investigating the potential for a floc recycle system in the AguaClara clarifier. In the current system, flocs in the floc filter become full as they capture more primary particles, reducing their ability to capture additional particles and decreasing the clarifier's removal efficiency over time. To maintain efficiency, the subteam proposes a recycle system that would use shear force to break up flocs, maximizing their surface area and allowing them to continue capturing primary particles. This system aims to improve the clarifier's efficiency while using a similar coagulant dosage, enhancing its relevance to AguaClara.",
           "lead": {
-              "name": "Grace Raab",
-              "email": "gar238@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/gar238.jpg"
+            "name": "Grace Raab",
+            "email": "gar238@cornell.edu",
+            "linkedin": "",
+            "major_year": "",
+            "img": "src/assets/img/headshots/gar238.jpg"
           },
           "members": [
             {
@@ -153,7 +153,7 @@
         {
           "name": "Coagulant Dosing",
           "teampic": "src/assets/img/teampic/Coagulant.jpeg",
-          "description": "Coagulant Dosing is working on an equation to output the correct dosage for Plantita. The AguaClara Pilot Plant at Cornell’s Water Filtration Plant provides an opportunity test new changes on a 0.5 L/s AguaClara plant and compare it to a conventional water treatment plant. The first technology to test is the ability to control the coagulant dose automatically. As advances are made in floc recycling for enhanced floc filter performance it may be possible to test that technology using the 3' diameter bent pipe clarifier.",
+          "description": "Coagulant Dosing is currently working on an equation to output the correct dosage for Plantita. The AguaClara Pilot Plant at Cornell’s Water Filtration Plant provides an opportunity test new changes on a 0.5 L/s AguaClara plant and compare it to a conventional water treatment plant. The first technology to test is the ability to control the coagulant dose automatically. As advances are made in floc recycling for enhanced floc filter performance it may be possible to test that technology using the 3' diameter bent pipe clarifier.",
           "lead": {
             "name": "Kayla Stephenson",
             "email": "ks929@cornell.edu",
@@ -195,11 +195,11 @@
           "teampic": "src/assets/img/teampic/FlocApp.jpg",
           "description": "Floc App is focused on accurately sizing and counting flocculation particles in turbid water by using machine learning, computer vision, and image segmentation. The app's goal is to quantify the floc particles that are not caught by the filter, helping to determine the optimal coagulant dosage. By developing a full-stack application for global use by plant operators, serving over 100,000 people, the team aims to adjust coagulant levels and potentially eliminate the need for expensive turbidimeters, improving efficiency for AguaClara plants.",
           "lead": {
-              "name": "Sahil Hosalli",
-              "email": "sh2276@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/sahil-hosalli-63b015208/",
-              "major_year": "Computer Science",
-              "img": "src/assets/img/headshots/sh2276.jpg"
+            "name": "Sahil Hosalli",
+            "email": "sh2276@cornell.edu",
+            "linkedin": "https://www.linkedin.com/in/sahil-hosalli-63b015208/",
+            "major_year": "Computer Science",
+            "img": "src/assets/img/headshots/sh2276.jpg"
           },
           "members": [
             {
@@ -327,11 +327,11 @@
           "teampic": "src/assets/img/teampic/PR.jpeg",
           "description": "The Investments team works with AguaClara Reach and Cornell’s fundraising and grant departments to secure funding and expand AguaClara technology worldwide. On campus, they lead fundraising campaigns like fall crowdfunding and spring Giving Day and assist research subteams with EPA proposal submissions. Their ultimate goal is to take the lead in grant applications and fundraisers, ensuring funding for summer research, materials, and trips to Honduras.",
           "lead": {
-              "name": "Sunny Liu",
-              "email": "kl797@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/kl797.jpg"
+            "name": "Sunny Liu",
+            "email": "kl797@cornell.edu",
+            "linkedin": "",
+            "major_year": "",
+            "img": "src/assets/img/headshots/kl797.jpg"
           },
           "members": [
             {
