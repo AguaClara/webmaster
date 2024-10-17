@@ -30,6 +30,7 @@ function Subteam({ name }) {
                   linkedin={foundSubteam.lead.linkedin}
                   major_year={foundSubteam.lead.major_year}
                   img={foundSubteam.lead.img}
+                  category={"Subteam Lead"}
                 />
                 {foundSubteam.members.map((member, memberIndex) => (
                   <Member
@@ -39,6 +40,7 @@ function Subteam({ name }) {
                     linkedin={member.linkedin}
                     major_year={member.major_year}
                     img={member.img}
+                    category={"Subteam Member"}
                   />
                 ))}
               </div>

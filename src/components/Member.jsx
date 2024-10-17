@@ -35,7 +35,7 @@ function Member({ name, email, linkedin, major_year, img, category }) {
 
       )}
       <div className="flex flex-row items-center justify-center w-full">
-        <div>{name}</div>
+        <div className="flex text-center">{name}</div>
         <a
           href={linkedin}
           target="_blank"
