@@ -61,8 +61,8 @@ function Team() {
       <div className="mx-auto max-w-screen-xl px-20 sm:px-8">
         <div className="text-5xl my-[5%] text-center">Our Team</div>
 
-        <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5">
-          <LazyImage src={teampic} className="w-[50%] rounded-3xl sm:w-full" />
+        <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5 md:flex-col md:space-x-0 md:space-y-5">
+          <LazyImage src={teampic} className="w-[50%] rounded-3xl md:w-full sm:w-full" />
           <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
             community-scale water treatment technologies. AguaClara Cornell has

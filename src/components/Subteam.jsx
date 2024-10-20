@@ -22,7 +22,7 @@ function Subteam({ name }) {
               <div className="mb-10 text-xl space-x-10">
                 <div className="">{foundSubteam.description}</div>
               </div>
-              <div className="sm:flex sm:flex-col sm:gap-0 sm:space-y-2 sm:items-center grid grid-cols-4 gap-20 mb-4">
+              <div className="sm:flex sm:flex-col sm:gap-0 sm:space-y-2 sm:items-center grid grid-cols-4 gap-20 mb-4 md:grid md:grid-cols-2">
                 <Member
                   key={`lead`}
                   name={foundSubteam.lead.name}
