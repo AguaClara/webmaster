@@ -40,7 +40,7 @@
             "email": "as3277@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/athavan-shanmuganathan-412900249/",
             "major_year": "Chemical Engineering",
-            "img": "src/assets/img/headshots/as3277.jpeg"
+            "img": "src/assets/img/headshots/as3277.jpg"
           },
           "members": [
             {
@@ -249,7 +249,7 @@
               "email": "",
               "linkedin": "",
               "major_year": "",
-              "img": ""
+              "img": "src/assets/img/headshots/tch83.jpg"
             },
             {
               "name": "Aasha Yeluri",
@@ -346,7 +346,7 @@
               "email": "sk2692@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/sk2692.jpg"
+              "img": "src/assets/img/headshots/sk2692.jpeg"
             }
           ]
         }

@@ -22,7 +22,7 @@
           "email": "ssb238@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/sarah-bae-803985184/",
           "major_year": "Environmental Engineering",
-          "img": "src/assets/img/headshots/ssb238.jpeg"
+          "img": "src/assets/img/headshots/ssb238.jpg"
         }
       ]
     },
@@ -35,7 +35,7 @@
           "email": "bmm98@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/badyn-milstein-touesnard-650529222/",
           "major_year": "Environmental Engineering",
-          "img": ""
+          "img": "src/assets/img/headshots/bmm98.jpg"
         },
         {
           "name": "Yuhjin Chung",
@@ -59,7 +59,7 @@
           "email": "ghb72@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/gina-bae-721b63229",
           "major_year": "Chemical Engineering",
-          "img": "src/assets/img/headshots/ghb72.jpg"
+          "img": "src/assets/img/headshots/ghb72.jpeg"
         },
         {
           "name": "Lily DuPlooy",
@@ -75,7 +75,7 @@
           "email": "zdm6@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/zachary-marshall-51bbb224a/",
           "major_year": "Chemical Engineering",
-          "img": "src/assets/img/headshots/zdm6.jpeg"
+          "img": "src/assets/img/headshots/zdm6.jpg"
         },
         {
           "name": "Henry Lin",
