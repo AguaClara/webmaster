@@ -9,6 +9,7 @@ import BackTo from "../components/BackTo";
 import teamPic from "../assets/img/hondurasteam.jpg";
 import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
+import hwang from "../assets/img/Hwang.jpg";
 import MobileNavbar from "../components/MobileNavbar";
 import '../index.css';  // or './app.css'
 
@@ -141,7 +142,7 @@ function Team() {
           </div>
           <div className="flex flex-row space-x-12 sm:flex-col items-center">
             <div className="p-10 w-3/4 sm:w-full">
-              <h2 className="text-2xl font-bold mb-2">Our Advisor</h2>
+              <h2 className="text-2xl font-bold mb-2">Our Advisors</h2>
               <p className="text-xl">
                 Dr. Ruth Richardson is a professor of civil and environmental
                 engineering at Cornell University. Her research is focused on
@@ -160,8 +161,29 @@ function Team() {
               />
             </div>
           </div>
+          <div className="flex flex-row space-x-12 sm:flex-col items-center">
+          <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
+              <LazyImage
+                src={hwang}
+                alt="hwang"
+                className="object-cover rounded-3xl"
+              />
+            </div>
+            <div className="p-10 w-3/4 sm:w-full">
+
+              <p className="text-xl">
+              Professor James Hwang graduated from the Department of Materials 
+              Science and Engineering, Cornell University with a PhD degree.  
+              He has published approximately 400 refereed technical papers and 
+              been granted eight U.S. patents. He has researched electronic, optical, 
+              and micro-electromechanical devices and circuits. His current research 
+              interest includes scanning microwave microscopy, two-dimensional atomic-layered 
+              materials and devices, and electromagnetic sensors for individual biological cells.
+              </p>
+            </div>
+            </div>
+            </div>
         </div>
-      </div>
       <Footer />
     </>
   );
