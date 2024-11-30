@@ -43,20 +43,7 @@
             "img": "src/assets/img/headshots/as3277.jpg"
           },
           "members": [
-            {
-              "name": "George Zeng",
-              "email": "gz266@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/gz266.jpg"
-            },
-            {
-              "name": "Theodore Foulen",
-              "email": "rf444@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/rf444.jpg"
-            }
+
           ]
         },
         {
@@ -72,13 +59,6 @@
           },
           "members": [
             {
-              "name": "Caleb Humphreys",
-              "email": "cjh343@cornell.edu",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/cjh343.jpg"
-            },
-            {
               "name": "David Rha",
               "email": "dgr79@cornell.edu",
               "linkedin": "",
@@ -91,6 +71,13 @@
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/kgc44.jpg"
+            },
+            {
+              "name": "Evan Sims",
+              "email": "ems452@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/ems452.jpg"
             }
           ]
         },
@@ -112,6 +99,13 @@
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/cm2233.jpg"
+            },
+            {
+              "name": "Jeffery Wang",
+              "email": "yw2645@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/yw2645.jpg"
             }
           ]
         },
