@@ -1,41 +1,31 @@
 {
   "Applications Open": {
-    "Date": "Aug. 19",
-    "Upperclassmen Application Link": "https://forms.gle/fX7aBSrmqgxZaRvY8",
-    "First Year Application Link": "https://forms.gle/SxR51XKDeLKWgjzy8",
-    "General Application Link": "https://cornell.ca1.qualtrics.com/jfe/form/SV_cuXl2vYgb5sNPWS"
+    "Date": "Jan. 3rd",
+    "Upperclassmen Application Link": "https://docs.google.com/forms/d/1rIoNVD_eUkxXZg9K9qZPzeNyAD9_03IJtSx53g-T4Uc/edit",
+    "First Year Application Link": "https://docs.google.com/forms/d/1rIoNVD_eUkxXZg9K9qZPzeNyAD9_03IJtSx53g-T4Uc/edit",
+    "General Application Link": "https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team"
   },
   "Information Sessions": {
     "Session #1": {
-      "Date": "Saturday Aug. 31st",
+      "Date": "Thursday Jan. 23rd",
       "Time": "6:00 pm",
-      "Location": "Zoom",
-      "Zoom": "https://cornell.zoom.us/j/93491849567?pwd=T4GJtxGtkX1YxzeTRRnPQDfBCyj5Go.1"
+      "Location": "In person, TBD"
     },
     "Session #2": {
-      "Date": "Tuesday Sept. 3st",
-      "Time": "5:00 pm",
-      "Location": "Hollister 401"
-    },
-    "Session #2.5": {
-      "Date": "Tuesday Tuesday Sept. 24th",
-      "Time": "7:00 pm",
-      "Location": "Zoom"
-    },
-    "Session #3": {
-      "Date": "Wednesday Oct. 9th",
-      "Time": "5:00 pm",
-      "Location": "Hollister 401"
+      "Date": "Sunday Jan. 26th",
+      "Time": "3:00 pm",
+      "Location": "Zoom",
+      "Zoom": ""
     }
   },
   "Application Deadline": {
-    "UpperDate": "Upperclassmen: Sept. 5th",
-    "FirstYear": "First year & transfer: Oct. 17th"
+    "UpperDate": "Upperclassmen: Jan. 30th",
+    "FirstYear": "First year & transfer: Jan. 30th"
   },
   "Interview Period": {
-    "Date": "Sept. 6th - Sept. 18th"
+    "Date": "Feb. 1st - Feb. 11th"
   },
   "Decisions Released": {
-    "Date": "Sept. ~18"
+    "Date": "Feb. ~12"
   }
 }

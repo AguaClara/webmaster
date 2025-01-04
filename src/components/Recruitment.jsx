@@ -35,7 +35,7 @@ function MyComponent() {
     <div className="p-10 h-60 w-full rounded-3xl space-y-2">
       <div className="font-bold text-2xl">Information Sessions</div>
       <p>
-        We have three information sessions, one through Zoom and two in-person
+        We have two information sessions planned so far, one in-person and one over zoom.
       </p>
       {Object.entries(sessions).map(([sessionName, sessionData], index) => (
         <div key={index} className="flex items-center gap-4">
