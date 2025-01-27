@@ -7,7 +7,12 @@ export default {
       md: { min: "650px", max: "900px" }, // Between 650px and 900px
       lg: { min: "901px" }, // Everything larger than 900px
     },
-    extend: {},
+    extend: {
+      colors: {
+        aguaBlue: '#27C3EE',
+        aguaGreen: '#3CB64B', 
+      },
+    },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
 };

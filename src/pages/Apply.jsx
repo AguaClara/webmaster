@@ -18,7 +18,7 @@ function Apply() {
         <MobileNavbar />
       </div>
       <div className="text-center text-5xl mt-10 mb-10">Recruitment</div>
-      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20 ml-20 mr-20 sm:ml-10 sm:mr-10">
+      <div className="mx-auto max-w-screen-xl flex items-center justify-center space-y-4 flex-col mb-20 ml-52 mr-52 sm:ml-10 sm:mr-10">
         <div className="text-xl">
           AguaClara is looking for <span> </span>
           <span className="underline">innovative</span>,<span> </span>

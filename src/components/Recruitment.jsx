@@ -5,15 +5,15 @@ function MyComponent() {
   const renderApplicationsOpen = (data) => (
     <div className="p-10 h-60 rounded-3xl space-y-3">
       <div className="font-bold text-2xl">Applications Open</div>
-      <h3>{data.Date}</h3>
+      <h3>Opened {data.Date} for Spring 2025 Semester</h3>
       <p>
-        Find the upperclassmen application form{" "}
+        Upperclassmen application form:{" "}
         <a href={data["Upperclassmen Application Link"]} className="underline font-bold">
           here
         </a>
       </p>
       <p>
-        Find the first year & transfer application form{" "}
+        First year & transfer application form:{" "}
         <a href={data["First Year Application Link"]} className="underline font-bold">
           here
         </a>
