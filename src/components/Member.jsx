@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import linkedinlogo from "../assets/img/linkedin.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 
 function Member({ name, email, linkedin, major_year, img, category }) {
   const [imgValid, setImgValid] = useState(true);
@@ -12,19 +15,20 @@ function Member({ name, email, linkedin, major_year, img, category }) {
   return (
     <div className="bg-white w-full max-w-[240px] shadow-lg px-3 py-3 rounded-3xl flex flex-col items-center ">
       <div
-        className={`aspect-[5/6] w-full flex justify-center items-center rounded-3xl overflow-hidden mb-3 ${imgValid ? "" : "bg-gray-400 object-cover"
-          }`}
+        className={`relative aspect-[5/6] w-full flex justify-center items-center rounded-3xl overflow-hidden mb-3 ${imgValid ? "" : "bg-gray-400 object-cover"
+          }`} 
       >
         
         {imgValid ? (
-          <img
+          <LazyLoadImage
             src={img}
             alt="Member"
-            className="w-full h-full object-cover "
+            effect="blur"
+            className="h-full w-full object-cover "
             onError={handleImageError}
           />
         ) : (
-          <div className="bg-gray-400 w-full h-auto object-cover " />
+          <div className="bg-gray-400 h-full w-full object-cover " />
         )}
       </div>
       {category ? (

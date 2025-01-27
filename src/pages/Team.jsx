@@ -12,21 +12,8 @@ import richardson from "../assets/img/Richardson.png";
 import hwang from "../assets/img/Hwang.jpg";
 import MobileNavbar from "../components/MobileNavbar";
 import '../index.css';  // or './app.css'
-
-function LazyImage({ src, alt, className }) {
-  const [loaded, setLoaded] = useState(false);
-
-  return (
-    <img
-      src={src}
-      alt={alt}
-      className={`${className} ${loaded ? 'lazy-image-loaded' : 'lazy-image'}`}
-      loading="lazy"
-      onLoad={() => setLoaded(true)}
-    />
-  );
-}
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Team() {
   useEffect(() => {
@@ -63,7 +50,7 @@ function Team() {
         <div className="text-5xl my-[5%] text-center">Our Team</div>
 
         <div className="flex flex-row sm:flex-col justify-center space-x-24 sm:space-x-0 sm:space-y-5 md:flex-col md:space-x-0 md:space-y-5">
-          <LazyImage src={teampic} className="w-[50%] rounded-3xl md:w-full sm:w-full" />
+          <LazyLoadImage src={teampic} effect="blur" className="rounded-3xl w-full object-cover aspect-[4/3] sm:mb-2" />
           <div className="self-center text-xl">
             Founded in 2005, AguaClara Cornell pioneers research in
             community-scale water treatment technologies. AguaClara Cornell has
@@ -97,7 +84,7 @@ function Team() {
                 )}
               </div>
               <div className="w-[60%] sm:flex sm:justify-center sm:w-full">
-                <LazyImage src={teamPic} className="rounded-3xl w-full object-cover aspect-[4/3] sm:mb-2" />
+                <LazyLoadImage src={teamPic} effect="blur" className="rounded-3xl w-full object-cover aspect-[4/3] sm:mb-2" />
               </div>
             </div>
           </section>
@@ -120,9 +107,10 @@ function Team() {
         <div className=" mx-auto space-y-20 sm:space-y-2 mb-24">
           <div className="flex flex-row space-x-12 sm:flex-col items-center sm:space-x-0">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
-              <LazyImage
+              <LazyLoadImage
                 src={monroe}
                 alt="monroe"
+                effect="blur"
                 className="object-cover rounded-3xl"
               />
             </div>
@@ -154,18 +142,20 @@ function Team() {
               </p>
             </div>
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
-              <LazyImage
+              <LazyLoadImage
                 src={richardson}
                 alt="richardson"
+                effect="blur"
                 className="object-cover rounded-3xl"
               />
             </div>
           </div>
           <div className="flex flex-row space-x-12 sm:flex-col items-center">
           <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
-              <LazyImage
+              <LazyLoadImage
                 src={hwang}
                 alt="hwang"
+                effect="blur"
                 className="object-cover rounded-3xl"
               />
             </div>
