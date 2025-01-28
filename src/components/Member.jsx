@@ -41,18 +41,20 @@ function Member({ name, email, linkedin, major_year, img, category }) {
       )}
       <div className="flex flex-row items-center justify-center w-full ">
         <div className="flex text-center">{name}</div>
-        <a
-          href={linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="ml-2"
-        >
-          <img
-            src={linkedinlogo}
-            alt="LinkedIn logo"
-            className="inline-block"
-          />
-        </a>
+        {linkedin && (
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2"
+          >
+            <img
+              src={linkedinlogo}
+              alt="LinkedIn logo"
+              className="inline-block"
+            />
+          </a>
+        )}
       </div>
       <div className="flex flex-row items-center justify-center w-full text-center">{email}</div>
       <div className="flex flex-row items-center justify-center w-full text-center">{major_year}</div>
