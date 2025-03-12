@@ -35,6 +35,20 @@
               "linkedin": "https://www.linkedin.com/in/chloetseng/",
               "major_year": "Chemical Engineering '28",
               "img": "src/assets/img/headshots/ct685.jpg"
+            }, 
+            {
+              "name": "Ayesha Abdiel",
+              "email": "asa253@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
+              "major_year": "Computer Science '27",
+              "img": "src/assets/img/headshots/asa253.jpg"
+            }, 
+            {
+              "name": "Youyou Xie",
+              "email": "yx645@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/youyou-xie-2aa7ba326/",
+              "major_year": "Chemical Engineering '28",
+              "img": "src/assets/img/headshots/yx645.jpg"
             }
           ]
         },
@@ -98,6 +112,13 @@
               "linkedin": "https://www.linkedin.com/in/evan-sims/",
               "major_year": "Environmental Engineering '26",
               "img": "src/assets/img/headshots/ems452.jpg"
+            },
+            {
+              "name": "Fiona Chen",
+              "email": "fc379@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/fiona-chen-405025328/",
+              "major_year": "Environmental Engineering '28",
+              "img": "src/assets/img/headshots/fc379.jpg"
             }
           ]
         },
@@ -189,6 +210,13 @@
               "linkedin": "https://www.linkedin.com/in/laurenhsu/",
               "major_year": "Chemical Engineering '28",
               "img": "src/assets/img/headshots/lkh58.jpg"
+            },
+            {
+              "name": "Max Zheng",
+              "email": "hz687@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/haojun-zheng-06296531b/",
+              "major_year": "Biology & Computer Science '28",
+              "img": "src/assets/img/headshots/hz687.jpg"
             }
           ]
         }
@@ -277,6 +305,13 @@
               "linkedin": "https://www.linkedin.com/in/byul-kim/",
               "major_year": "ILR '28",
               "img": "src/assets/img/headshots/bk482.jpg"
+            },
+            {
+              "name": "Sriniketh Velagapudi",
+              "email": "sv532@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/srinikethv/",
+              "major_year": "Environment & Sustainability '28",
+              "img": "src/assets/img/headshots/sv532.jpg"
             }
           ]
         }
