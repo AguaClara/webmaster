@@ -1,31 +1,31 @@
 {
   "Applications Open": {
-    "Date": "Jan. 3rd",
-    "Upperclassmen Application Link": "https://docs.google.com/forms/d/1rIoNVD_eUkxXZg9K9qZPzeNyAD9_03IJtSx53g-T4Uc/edit",
-    "First Year Application Link": "https://docs.google.com/forms/d/1rIoNVD_eUkxXZg9K9qZPzeNyAD9_03IJtSx53g-T4Uc/edit",
-    "General Application Link": "https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team"
+    "Date": "Aug. 18th",
+    "Upperclassmen Application Link": "https://forms.gle/TVbZVk4rVXVecLoF8",
+    "First Year Application Link": "https://forms.gle/DKfzoJQygZDroFEFA",
+    "General Application Link": "https://cornell.ca1.qualtrics.com/jfe/form/SV_bp7LpXCVGOYVSoC"
   },
   "Information Sessions": {
     "Session #1": {
-      "Date": "Thursday Jan. 23rd",
+      "Date": "Saturday Aug. 30th",
       "Time": "6:00 pm",
-      "Location": "In person, TBD"
-    },
-    "Session #2": {
-      "Date": "Sunday Jan. 26th",
-      "Time": "3:00 pm",
       "Location": "Zoom",
       "Zoom": ""
+    },
+    "Session #2": {
+      "Date": "Monday Sept. 1st",
+      "Time": "3:00 pm",
+      "Location": "In person, TBD"
     }
   },
   "Application Deadline": {
-    "UpperDate": "Upperclassmen: Jan. 30th",
-    "FirstYear": "First year & transfer: Jan. 30th"
+    "UpperDate": "Upperclassmen: Sept. 4th",
+    "FirstYear": "First year & transfer: Oct. 16th"
   },
   "Interview Period": {
-    "Date": "Feb. 1st - Feb. 11th"
+    "Date": "-"
   },
   "Decisions Released": {
-    "Date": "Feb. ~12"
+    "Date": "Upperclassmen: Sept 17th, First year & transfer: Nov 3rd"
   }
 }

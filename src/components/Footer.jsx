@@ -8,11 +8,21 @@ const Footer = () => {
     <footer className="bg-[#003C08] text-white rounded-tl-3xl rounded-tr-3xl">
       <div className="flex flex-row justify-between items-center py-16 px-12 sm:py-8">
         <p className="text-white text-sm sm:text-xs mr-5">
-          &copy; 2024 AguaClara Cornell
+          &copy; 2025 AguaClara Cornell
         </p>
         <p className="text-sm">
           This organization is a registered student organization of Cornell
           University
+        </p>
+        <p className="text-sm">
+          <a
+            href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment"
+            className="underline text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Equal Education & Employment
+          </a>
         </p>
         <div className="flex flex-row items-center space-x-8 sm:space-x-4">
           <a
