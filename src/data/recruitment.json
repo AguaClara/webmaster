@@ -14,8 +14,14 @@
     },
     "Session #2": {
       "Date": "Monday Sept. 1st",
-      "Time": "3:00 pm",
-      "Location": "In person, TBD"
+      "Time": "3:30 pm",
+      "Location": "In person, Hollister 110"
+    },
+    "Session #3": {
+      "Date": "Wednesday Sept. 17th",
+      "Time": "4 pm",
+      "Location": "Zoom",
+      "Zoom": "https://cornell.zoom.us/j/97974975306?pwd=Um6ITxqbYUO2RvK2Xk8MwsY7AaM9pL.1"
     }
   },
   "Application Deadline": {
