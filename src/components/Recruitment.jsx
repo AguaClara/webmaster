@@ -5,7 +5,7 @@ function MyComponent() {
   const renderApplicationsOpen = (data) => (
     <div className="p-10 h-60 rounded-3xl space-y-3">
       <div className="font-bold text-2xl">Applications Open</div>
-      <h3>Opened {data.Date} for Spring 2025 Semester</h3>
+      <h3>Opened {data.Date} for Fall 2025 Semester</h3>
       <p>
         Upperclassmen application form:{" "}
         <a href={data["Upperclassmen Application Link"]} className="underline font-bold">
@@ -35,7 +35,7 @@ function MyComponent() {
     <div className="p-10 h-60 w-full rounded-3xl space-y-2">
       <div className="font-bold text-2xl">Information Sessions</div>
       <p>
-        We have two information sessions planned so far, one in-person and one over zoom.
+        We have three information sessions planned so far, one in-person and one over zoom.
       </p>
       {Object.entries(sessions).map(([sessionName, sessionData], index) => (
         <div key={index} className="flex items-center gap-4">
