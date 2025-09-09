@@ -16,13 +16,6 @@
           },
           "members": [
             {
-              "name": "Noyonima Masud",
-              "email": "nsm89@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/noyonima-masud/",
-              "major_year": "Chemical Engineering '27",
-              "img": "src/assets/img/headshots/nsm89.jpg"
-            },
-            {
               "name": "Sarvesh Prabhu",
               "email": "sp2572@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/sarveshprabhu05/",
@@ -35,14 +28,7 @@
               "linkedin": "https://www.linkedin.com/in/chloetseng/",
               "major_year": "Chemical Engineering '28",
               "img": "src/assets/img/headshots/ct685.jpg"
-            }, 
-            {
-              "name": "Ayesha Abdiel",
-              "email": "asa253@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
-              "major_year": "Computer Science '27",
-              "img": "src/assets/img/headshots/asa253.jpg"
-            }, 
+            },
             {
               "name": "Youyou Xie",
               "email": "yx645@cornell.edu",
@@ -72,13 +58,6 @@
               "img": "src/assets/img/headshots/cm2233.jpg"
             },
             {
-              "name": "Sweksha Mehta",
-              "email": "sm2593@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/sweksha-mehta/",
-              "major_year": "Mechanical Engineering '27",
-              "img": "src/assets/img/headshots/sm2593.jpg"
-            },
-            {
               "name": "Katie Kim",
               "email": "kdk85@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/katie-kim13/",
@@ -92,27 +71,13 @@
           "teampic": "src/assets/img/teampic/UASB.jpg",
           "description": "The UASB subteam is testing a gravity-powered reactor for wastewater treatment at the Ithaca Area Wastewater Treatment Facility (IAWWTF). Transportation to the plant has been provided by students on the team with personal vehicles. The team also has a contract (contact Professor Ruth Richardson for more information) with IAWWTF to conduct COD, BOD, phosphorous, and fecal coliform tests in the IAWWTF lab space, under the close supervision of IAWWTF lab technicians. ",
           "lead": {
-            "name": "David Rha",
-            "email": "dgr79@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/david-rha-7b201b208/",
-            "major_year": "Environmental Engineering '26",
-            "img": "src/assets/img/headshots/dgr79.jpg"
+            "name": "Kaitlyn Canivel",
+            "email": "kgc44@cornell.edu",
+            "linkedin": "https://www.linkedin.com/in/kaitlyn-canivel-70b99a20a/",
+            "major_year": "GDev & EnvE '27",
+            "img": "src/assets/img/headshots/kgc44.jpg"
           },
           "members": [
-            {
-              "name": "Kaitlyn Canivel",
-              "email": "kgc44@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/kaitlyn-canivel-70b99a20a/",
-              "major_year": "GDev & EnvE '27",
-              "img": "src/assets/img/headshots/kgc44.jpg"
-            },
-            {
-              "name": "Evan Sims",
-              "email": "ems452@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/evan-sims/",
-              "major_year": "Environmental Engineering '26",
-              "img": "src/assets/img/headshots/ems452.jpg"
-            },
             {
               "name": "Fiona Chen",
               "email": "fc379@cornell.edu",
@@ -142,18 +107,18 @@
               "img": "src/assets/img/headshots/rcj63.jpg"
             },
             {
-              "name": "Ananya Bansal",
-              "email": "ab2836@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/ananya-bansal04/",
-              "major_year": "Materials Science '27",
-              "img": "src/assets/img/headshots/ab2836.jpg"
-            },
-            {
               "name": "Claire Chiu",
               "email": "cc2873@cornell.edu",
               "linkedin": "http://linkedin.com/in/claire-chiu-cornell/",
               "major_year": "Environmental Engineering '28",
               "img": "src/assets/img/headshots/cc2873.jpg"
+            },
+            {
+              "name": "Ayesha Abdiel",
+              "email": "asa253@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
+              "major_year": "Computer Science '27",
+              "img": "src/assets/img/headshots/asa253.jpg"
             }
           ]
         },
@@ -161,13 +126,7 @@
           "name": "RaFTT",
           "teampic": "src/assets/img/teampic/RaFTT.jpg",
           "description": "Rapid Fabrication Temporary Team (RaFTT) is a flexible and creative subteam working on a variety of fabrication projects in order to support other subteams in their research.",
-          "lead": {
-            "name": "Ari Schor",
-              "email": "aes392@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/arielle-schor-76a567252/",
-              "major_year": "Environmental Engineering '26",
-              "img": "src/assets/img/headshots/aes392.jpg"
-          },
+          "lead": {},
           "members": [
             {
               "name": "Grace Raab",
@@ -190,33 +149,19 @@
           "teampic": "src/assets/img/teampic/FlocModeling.jpg",
           "description": "AguaClara water treatment plants rely on flocculation and clarification processes for particle aggregation and removal. This subteam is developing a mathematical model of these processes that can be applied to optimize the design of treatment plants and reduce operating costs. The model we develop will then be applied by the Automated Coagulant Dosing Control (ACDC) subteam in order to automate coagulant dosing for rural communities that cannot afford a full-time plant operator. Overall, this project aims to grow our fundamental understanding of water treatment processes.",
           "lead": {
-            "name": "Anjali Asthagiri",
-            "email": "aa2549@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/anjali-asthagiri/",
-            "major_year": "Chemical Engineering '27",
-            "img": "src/assets/img/headshots/aa2549.jpg"
+            "name": "Alex Gardocki",
+            "email": "rag325@cornell.edu",
+            "linkedin": "https://www.linkedin.com/in/raymond-gardocki/",
+            "major_year": "CS & ORIE '27",
+            "img": "src/assets/img/headshots/rag325.jpg"
           },
           "members": [
-            {
-              "name": "Alex Gardocki",
-              "email": "rag325@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/raymond-gardocki/",
-              "major_year": "CS & ORIE '27",
-              "img": "src/assets/img/headshots/rag325.jpg"
-            },
             {
               "name": "Lauren Hsu",
               "email": "lkh58@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/laurenhsu/",
               "major_year": "Chemical Engineering '28",
               "img": "src/assets/img/headshots/lkh58.jpg"
-            },
-            {
-              "name": "Max Zheng",
-              "email": "hz687@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/haojun-zheng-06296531b/",
-              "major_year": "Biology & Computer Science '28",
-              "img": "src/assets/img/headshots/hz687.jpg"
             }
           ]
         }
@@ -230,50 +175,14 @@
           "teampic": "src/assets/img/teampic/POST.jpg",
           "description": "POST is designing a way to streamline how water operators in Honduras monitor, record, and analyze water filtration data. Developed with Flutter, Figma and Postman, this Android application provides a user-friendly, offline-capable survey form for operators to submit various metrics and generate visual data representations. By replacing paper records, the app simplifies data management, enhances communication with AguaClara Reach and the development team, and improves overall efficiency for operators in the field.",
           "lead": {
-            "name": "Kelly Tran",
-            "email": "kt457@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/kelly-tran-8888888888888888888/",
-            "major_year": "Computer Science '25",
-            "img": "src/assets/img/headshots/kt457.jpg"
+            "name": "Patrick Egan",
+            "category": "Apps & Algo",
+            "email": "pje42@cornell.edu",
+            "linkedin": "https://www.linkedin.com/in/patrick-j-egan/",
+            "major_year": "Computer Science '27",
+            "img": "src/assets/img/headshots/pje42.jpg"
           },
-          "members": [
-            {
-              "name": "George Dong",
-              "email": "gd289@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/george-dong/",
-              "major_year": "Computer Science '25",
-              "img": "src/assets/img/headshots/gd289.jpg"
-            },
-            {
-              "name": "Patrick Egan",
-              "category": "Apps & Algo",
-              "email": "pje42@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/patrick-j-egan/",
-              "major_year": "Computer Science '27",
-              "img": "src/assets/img/headshots/pje42.jpg"
-            },
-            {
-              "name": "Jason Fu",
-              "email": "jlf344@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/jlfud/",
-              "major_year": "Computer Science '27",
-              "img": "src/assets/img/headshots/jlf344.jpg"
-            },
-            {
-              "name": "Caleb Kim",
-              "email": "ck586@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/caleb-kim-1b751b289/",
-              "major_year": "Computer Science '26",
-              "img": "src/assets/img/headshots/ck586.jpg"
-            },
-            {
-              "name": "Jeffrey Wang",
-              "email": "yw2645@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/youhuiwang/",
-              "major_year": "Environmental Engineering '27",
-              "img": "src/assets/img/headshots/yw2645.jpg"
-            }
-          ]
+          "members": []
         }
       ]
     },
@@ -284,36 +193,8 @@
           "name": "Public Relations",
           "teampic": "src/assets/img/teampic/PR.jpeg",
           "description": "The Public Relations team of AguaClara Cornell increases the project’s exposure within Cornell and globally by maintaining a consistent brand that reflects its innovative and sustainable ideals. They boost team pride and campus visibility through merchandise, social media, and recruitment efforts. Public Relations also ensures a uniform message with press kits and templates, representing AguaClara to campus, implementation partners like AguaClara Reach and APP, and managing internal logistics.",
-          "lead": {
-            "name": "Nessa Sandoval",
-            "email": "vss32@cornell.edu",
-            "linkedin": "https://www.linkedin.com/in/nessa-sandoval-5aa977258/",
-            "major_year": "Environment & Sustainability '26",
-            "img": "src/assets/img/headshots/vss32.jpg"
-          },
-          "members": [
-            {
-              "name": "Stella Canez",
-              "email": "smc449@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/stella-canez-vazquez-800849253/",
-              "major_year": "Animal Science '26",
-              "img": "src/assets/img/headshots/smc449.jpg"
-            },
-            {
-              "name": "Star Kim",
-              "email": "bk482@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/byul-kim/",
-              "major_year": "ILR '28",
-              "img": "src/assets/img/headshots/bk482.jpg"
-            },
-            {
-              "name": "Sriniketh Velagapudi",
-              "email": "sv532@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/srinikethv/",
-              "major_year": "Environment & Sustainability '28",
-              "img": "src/assets/img/headshots/sv532.jpg"
-            }
-          ]
+          "lead": {},
+          "members": []
         }
       ]
     }

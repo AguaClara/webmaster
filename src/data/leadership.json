@@ -4,11 +4,11 @@
       "name": "Team Leads",
       "members": [
         {
-          "name": "Camden Wehrle",
-          "email": "cw566@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/camden-wehrle-4853b7220",
-          "major_year": "Environmental Engineering '25",
-          "img": "src/assets/img/headshots/cw566.jpg"
+          "name": "David Rha",
+          "email": "dgr79@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/david-rha-7b201b208/",
+          "major_year": "Environmental Engineering '26",
+          "img": "src/assets/img/headshots/dgr79.jpg"
         },
         {
           "name": "Dora Weng",
@@ -46,36 +46,28 @@
           "img": "src/assets/img/headshots/jy729.jpg"
         },
         {
-          "name": "Shreehari Srinivasan",
+          "name": "Tim Holt",
           "category": "Apps & Algo",
-          "email": "ss2732@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/shreesrini/",
-          "major_year": "Computer Science '24",
-          "img": "src/assets/img/headshots/ss2732.jpg"
+          "email": "tch83@cornell.edu",
+          "linkedin": "",
+          "major_year": "Computer Science '26",
+          "img": "src/assets/img/headshots/tch83.jpg"
         },
         {
-          "name": "Sarah Bae",
-          "category": "PR",
-          "email": "ssb238@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/sarah-bae-803985184/",
-          "major_year": "Environmental Engineering '25",
-          "img": "src/assets/img/headshots/ssb238.jpg"
-        },
-        {
-          "name": "Lily DuPlooy",
+          "name": "Ari Schor",
           "category": "RaFTT & Floc Modeling",
-          "email": "led92@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/lily-duplooy-31b562209/",
-          "major_year": "Biological Engineering '24",
-          "img": "src/assets/img/headshots/led92.jpg"
+          "email": "aes392@cornell.edu",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "img": "src/assets/img/headshots/aes392.jpg"
         },
         {
-          "name": "Zach Marshall",
+          "name": "Athavan Shanmuganathan",
           "category": "Ram Pump & DOM",
-          "email": "zdm6@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/zachary-marshall-51bbb224a/",
-          "major_year": "Chemical Engineering '25",
-          "img": "src/assets/img/headshots/zdm6.jpg"
+          "email": "as3277@cornell.edu",
+          "linkedin": "",
+          "major_year": "Chemical Engineering '26",
+          "img": "src/assets/img/headshots/as3277.jpg"
         }
       ]
     },
@@ -91,39 +83,23 @@
           "img": "src/assets/img/headshots/ajv85.jpg"
         },
         {
-          "name": "Arron Chang",
-          "category": "Community",
-          "email": "ac2787@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/arron-chang-5910a8148/",
-          "major_year": "Environmental Engineering '25",
-          "img": "src/assets/img/headshots/ac2787.jpg"
-        },
-        {
-          "name": "Kelly Tran",
+          "name": "Dora Weng",
           "category": "Webmaster",
-          "email": "kt457@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/kelly-tran-8888888888888888888/",
-          "major_year": "Computer Science '25",
-          "img": "src/assets/img/headshots/kt457.jpg"
+          "email": "cw749@cornell.edu",
+          "linkedin": "https://www.linkedin.com/in/chuyinweng/",
+          "major_year": "Computer Science '26",
+          "img": "src/assets/img/headshots/cw749.jpg"
         },
         {
-          "name": "Sunny Liu",
+          "name": "Alex Fitenko",
           "category": "Recruitment",
-          "email": "kl797@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/sunnyliu04/",
-          "major_year": "Data Sci & Econ '27",
-          "img": "src/assets/img/headshots/kl797.jpg"
+          "email": "anf44@cornell.edu",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "img": "src/assets/img/headshots/anf44.jpg"
         },
         {
-          "name": "Sweksha Mehta",
-          "category": "Recruitment + Onboarding",
-          "email": "sm2593@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/sweksha-mehta/",
-          "major_year": "Mechanical Engineering '27",
-          "img": "src/assets/img/headshots/sm2593.jpg"
-        },
-        {
-          "name": "Isabel Crovella",
+          "name": "Jiaming Yuan",
           "category": "Onboarding",
           "email": "isc25@cornell.edu",
           "linkedin": "https://www.linkedin.com/in/isabelcrovella/",
@@ -131,12 +107,20 @@
           "img": "src/assets/img/headshots/isc25.jpg"
         },
         {
-          "name": "Kaitlyn Canivel",
+          "name": "Ari Schor",
           "category": "MNC",
-          "email": "kgc44@cornell.edu",
-          "linkedin": "https://www.linkedin.com/in/kaitlyn-canivel-70b99a20a/",
-          "major_year": "GDev & EnvE '27",
-          "img": "src/assets/img/headshots/kgc44.jpg"
+          "email": "aes392@cornell.edu",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "img": "src/assets/img/headshots/aes392.jpg"
+        },
+        {
+          "name": "Claire Wang",
+          "category": "MNC",
+          "email": "cyw34@cornell.edu",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "img": "src/assets/img/headshots/cyw34.jpg"
         }
       ]
     }
