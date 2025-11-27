@@ -27,7 +27,7 @@ function Team() {
         [subteam.name]: useRef(null),
       }))
     )
-    .reduce((acc, ref) => ({ ...acc, ...ref }), {}); // Reducing the array of refs into a single object.
+    .reduce((acc, ref) => ({ ...acc, ...ref }), {});
 
   // A function to scroll to a specific subteam's ref when called.
   const scrollToSubteam = (subteamName) => {
@@ -151,7 +151,7 @@ function Team() {
             </div>
           </div>
           <div className="flex flex-row space-x-12 sm:flex-col items-center">
-          <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
+            <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <LazyLoadImage
                 src={hwang}
                 alt="hwang"
@@ -162,18 +162,18 @@ function Team() {
             <div className="p-10 w-3/4 sm:w-full">
 
               <p className="text-xl">
-              Professor James Hwang graduated from the Department of Materials 
-              Science and Engineering, Cornell University with a PhD degree.  
-              He has published approximately 400 refereed technical papers and 
-              been granted eight U.S. patents. He has researched electronic, optical, 
-              and micro-electromechanical devices and circuits. His current research 
-              interest includes scanning microwave microscopy, two-dimensional atomic-layered 
-              materials and devices, and electromagnetic sensors for individual biological cells.
+                Professor James Hwang graduated from the Department of Materials
+                Science and Engineering, Cornell University with a PhD degree.
+                He has published approximately 400 refereed technical papers and
+                been granted eight U.S. patents. He has researched electronic, optical,
+                and micro-electromechanical devices and circuits. His current research
+                interest includes scanning microwave microscopy, two-dimensional atomic-layered
+                materials and devices, and electromagnetic sensors for individual biological cells.
               </p>
             </div>
-            </div>
-            </div>
+          </div>
         </div>
+      </div>
       <Footer />
     </>
   );

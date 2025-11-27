@@ -16,13 +16,6 @@
           },
           "members": [
             {
-              "name": "Sarvesh Prabhu",
-              "email": "sp2572@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/sarveshprabhu05/",
-              "major_year": "Environmental Science '28",
-              "img": "src/assets/img/headshots/sp2572.jpg"
-            },
-            {
               "name": "Chloe Tseng",
               "email": "ct685@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/chloetseng/",
@@ -35,6 +28,27 @@
               "linkedin": "https://www.linkedin.com/in/youyou-xie-2aa7ba326/",
               "major_year": "Chemical Engineering '28",
               "img": "src/assets/img/headshots/yx645.jpg"
+            },
+            {
+              "name": "Anthony Egan",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": ""
+            },
+            {
+              "name": "Samuel Wen",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": ""
+            },
+            {
+              "name": "Zhu Zhu Wang",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": ""
             }
           ]
         },
@@ -51,18 +65,18 @@
           },
           "members": [
             {
-              "name": "Christopher Miranda Soto",
-              "email": "cm2233@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/christopher-miranda-soto-30b8a0244/",
-              "major_year": "Mechanical Engineering '27",
-              "img": "src/assets/img/headshots/cm2233.jpg"
-            },
-            {
               "name": "Katie Kim",
               "email": "kdk85@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/katie-kim13/",
               "major_year": "Civil Engineering '28",
               "img": "src/assets/img/headshots/kdk85.jpg"
+            },
+            {
+              "name": "Issac Jiang",
+              "email": "@cornell.edu",
+              "linkedin": "",
+              "major_year": "",
+              "img": ""
             }
           ]
         },
@@ -84,6 +98,27 @@
               "linkedin": "https://www.linkedin.com/in/fiona-chen-405025328/",
               "major_year": "Environmental Engineering '28",
               "img": "src/assets/img/headshots/fc379.jpg"
+            },
+            {
+              "name": "Amelia Overton",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Ishaan Samantray",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Quinn Wagner",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
             }
           ]
         },
@@ -119,6 +154,27 @@
               "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
               "major_year": "Computer Science '27",
               "img": "src/assets/img/headshots/asa253.jpg"
+            },
+            {
+              "name": "Grace Raab",
+              "email": "gar238@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/grace-raab-1a6434310/",
+              "major_year": "Environmental Engineering '26",
+              "img": "src/assets/img/headshots/gar238.jpg"
+            },
+            {
+              "name": "Armaan Chandak",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Jayden Doshi",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
             }
           ]
         },
@@ -162,6 +218,34 @@
               "linkedin": "https://www.linkedin.com/in/laurenhsu/",
               "major_year": "Chemical Engineering '28",
               "img": "src/assets/img/headshots/lkh58.jpg"
+            },
+            {
+              "name": "Sarvesh Prabhu",
+              "email": "sp2572@cornell.edu",
+              "linkedin": "https://www.linkedin.com/in/sarveshprabhu05/",
+              "major_year": "Environmental Science '28",
+              "img": "src/assets/img/headshots/sp2572.jpg"
+            },
+            {
+              "name": "Aronya Sarker",
+              "email": "as4447",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/as4447.jpg"
+            },
+            {
+              "name": "Irene Ma",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Aaron Gu",
+              "email": "ag2698",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/ag2698.jpg"
             }
           ]
         }
@@ -182,7 +266,15 @@
             "major_year": "Computer Science '27",
             "img": "src/assets/img/headshots/pje42.jpg"
           },
-          "members": []
+          "members": [
+            {
+              "name": "Daniel Romero",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            }
+          ]
         }
       ]
     },
@@ -193,8 +285,51 @@
           "name": "Public Relations",
           "teampic": "src/assets/img/teampic/PR.jpeg",
           "description": "The Public Relations team of AguaClara Cornell increases the project’s exposure within Cornell and globally by maintaining a consistent brand that reflects its innovative and sustainable ideals. They boost team pride and campus visibility through merchandise, social media, and recruitment efforts. Public Relations also ensures a uniform message with press kits and templates, representing AguaClara to campus, implementation partners like AguaClara Reach and APP, and managing internal logistics.",
-          "lead": {},
-          "members": []
+          "lead": {
+            "name": "Katherine Krishtopa",
+            "category": "Going Global",
+            "email": "kvk24@cornell.edu",
+            "linkedin": "",
+            "major_year": "",
+            "img": "src/assets/img/headshots/kvk24.jpg"
+          },
+          "members": [
+            {
+              "name": "Natna Zena",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Andre Watts",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Gabriela Alvarado Rodriguez",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Roz Kurd",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            },
+            {
+              "name": "Helena Martinez",
+              "email": "",
+              "linkedin": "",
+              "major_year": "",
+              "img": "src/assets/img/headshots/.jpg"
+            }
+          ]
         }
       ]
     }

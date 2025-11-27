@@ -68,6 +68,22 @@
           "linkedin": "",
           "major_year": "Chemical Engineering '26",
           "img": "src/assets/img/headshots/as3277.jpg"
+        },
+        {
+          "name": "Katherine Krishtopa",
+          "category": "Going Global",
+          "email": "kvk24@cornell.edu",
+          "linkedin": "",
+          "major_year": "",
+          "img": "src/assets/img/headshots/kvk24.jpg"
+        },
+        {
+          "name": "Alex Fitenko",
+          "category": "UASB",
+          "email": "anf44@cornell.edu",
+          "linkedin": "",
+          "major_year": "",
+          "img": "src/assets/img/headshots/anf44.jpg"
         }
       ]
     },
