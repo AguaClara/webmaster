@@ -10,6 +10,7 @@ import teamPic from "../assets/img/hondurasteam.jpg";
 import monroe from "../assets/img/monroe.jpeg";
 import richardson from "../assets/img/Richardson.png";
 import hwang from "../assets/img/Hwang.jpg";
+import humphreyFellow from "../assets/img/humphrey.jpg";
 import MobileNavbar from "../components/MobileNavbar";
 import '../index.css';  // or './app.css'
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -150,7 +151,7 @@ function Team() {
               />
             </div>
           </div>
-          <div className="flex flex-row space-x-12 sm:flex-col items-center">
+          {/* <div className="flex flex-row space-x-12 sm:flex-col items-center">
             <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
               <LazyLoadImage
                 src={hwang}
@@ -171,7 +172,32 @@ function Team() {
                 materials and devices, and electromagnetic sensors for individual biological cells.
               </p>
             </div>
+          </div> */}
+
+          <div className="flex flex-row space-x-12 sm:flex-col items-center">
+            <div className="p-10 w-3/4 sm:w-full">
+              <h2 className="text-2xl font-bold mb-2">Community Advisor</h2>
+              <p className="text-xl">
+                As a Humphrey Fellow at Cornell University, Jesús Paz brings extensive experience
+                in rural development in Honduras, where he has worked closely with
+                communities on projects related to water access, food security, and
+                productive infrastructure. He is currently supporting the AguaClara Cornell Ram Pump subteam, offering
+                valuable perspectives grounded in on-the-ground experience in Honduras.
+              </p>
+            </div>
+
+
+            <div className="aspect-[4/3] sm:w-3/4 w-1/4 sm:mx-auto">
+              <LazyLoadImage
+                src={humphreyFellow}
+                alt="Humphrey Fellow and AguaClara collaborator"
+                effect="blur"
+                className="object-cover rounded-3xl"
+              />
+            </div>
+
           </div>
+
         </div>
       </div>
       <Footer />

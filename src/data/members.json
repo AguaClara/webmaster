@@ -31,24 +31,24 @@
             },
             {
               "name": "Anthony Egan",
-              "email": "@cornell.edu",
+              "email": "aie25@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": ""
+              "img": "src/assets/img/headshots/aie25.jpg"
             },
             {
               "name": "Samuel Wen",
-              "email": "@cornell.edu",
+              "email": "sw2365@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": ""
+              "img": "src/assets/img/headshots/sw2365.jpg"
             },
             {
               "name": "Zhu Zhu Wang",
-              "email": "@cornell.edu",
+              "email": "mw2297@cornell.edu",
               "linkedin": "",
-              "major_year": "",
-              "img": ""
+              "major_year": "Chemical Engineering '29",
+              "img": "src/assets/img/headshots/mw2297.jpg"
             }
           ]
         },
@@ -73,10 +73,10 @@
             },
             {
               "name": "Issac Jiang",
-              "email": "@cornell.edu",
+              "email": "ij53@cornell.edu",
               "linkedin": "",
-              "major_year": "",
-              "img": ""
+              "major_year": "Mechanical engineering '28",
+              "img": "src/assets/img/headshots/ij53.jpg"
             }
           ]
         },
@@ -101,24 +101,24 @@
             },
             {
               "name": "Amelia Overton",
-              "email": "",
+              "email": "aso42@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/aso42.jpg"
             },
             {
               "name": "Ishaan Samantray",
-              "email": "",
+              "email": "is455@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/is455.jpg"
             },
             {
               "name": "Quinn Wagner",
-              "email": "",
+              "email": "qew3@cornell.edu",
               "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "major_year": "Environmental Engineering '29",
+              "img": "src/assets/img/headshots/qew3.jpg"
             }
           ]
         },
@@ -164,39 +164,24 @@
             },
             {
               "name": "Armaan Chandak",
-              "email": "",
+              "email": "ac2992@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/ac2992.jpg"
             },
             {
               "name": "Jayden Doshi",
-              "email": "",
+              "email": "jd2368@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
-            }
-          ]
-        },
-        {
-          "name": "RaFTT",
-          "teampic": "src/assets/img/teampic/RaFTT.jpg",
-          "description": "Rapid Fabrication Temporary Team (RaFTT) is a flexible and creative subteam working on a variety of fabrication projects in order to support other subteams in their research.",
-          "lead": {},
-          "members": [
-            {
-              "name": "Grace Raab",
-              "email": "gar238@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/grace-raab-1a6434310/",
-              "major_year": "Environmental Engineering '26",
-              "img": "src/assets/img/headshots/gar238.jpg"
+              "img": "src/assets/img/headshots/jd2368.jpg"
             },
             {
-              "name": "Katherine Krishtopa",
-              "email": "kvk24@cornell.edu",
-              "linkedin": "https://www.linkedin.com/in/katherine-krishtopa-130923231/",
-              "major_year": "Biomedical Engineering '28",
-              "img": "src/assets/img/headshots/kvk24.jpg"
+              "name": "Mike Ma",
+              "email": "lm974@cornell.edu",
+              "linkedin": "",
+              "major_year": "Information Science '29",
+              "img": "src/assets/img/headshots/lm974.jpg"
             }
           ]
         },
@@ -228,21 +213,21 @@
             },
             {
               "name": "Aronya Sarker",
-              "email": "as4447",
+              "email": "as4447@cornell.edu",
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/as4447.jpg"
             },
             {
               "name": "Irene Ma",
-              "email": "",
+              "email": "im398@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/im398.jpg"
             },
             {
               "name": "Aaron Gu",
-              "email": "ag2698",
+              "email": "ag2698@cornell.edu",
               "linkedin": "",
               "major_year": "",
               "img": "src/assets/img/headshots/ag2698.jpg"
@@ -269,10 +254,10 @@
           "members": [
             {
               "name": "Daniel Romero",
-              "email": "",
+              "email": "dr654@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/dr654.jpg"
             }
           ]
         }
@@ -286,48 +271,40 @@
           "teampic": "src/assets/img/teampic/PR.jpeg",
           "description": "The Public Relations team of AguaClara Cornell increases the project’s exposure within Cornell and globally by maintaining a consistent brand that reflects its innovative and sustainable ideals. They boost team pride and campus visibility through merchandise, social media, and recruitment efforts. Public Relations also ensures a uniform message with press kits and templates, representing AguaClara to campus, implementation partners like AguaClara Reach and APP, and managing internal logistics.",
           "lead": {
-            "name": "Katherine Krishtopa",
-            "category": "Going Global",
-            "email": "kvk24@cornell.edu",
+            "name": "Natna Zena",
+            "email": "naz33@cornell.edu",
             "linkedin": "",
             "major_year": "",
-            "img": "src/assets/img/headshots/kvk24.jpg"
+            "img": "src/assets/img/headshots/naz33.jpg"
           },
           "members": [
             {
-              "name": "Natna Zena",
-              "email": "",
-              "linkedin": "",
-              "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
-            },
-            {
               "name": "Andre Watts",
-              "email": "",
+              "email": "arw267",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/arw267.jpg"
             },
             {
               "name": "Gabriela Alvarado Rodriguez",
-              "email": "",
+              "email": "gaa68@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/gaa68.jpg"
             },
             {
               "name": "Roz Kurd",
-              "email": "",
+              "email": "rgk68@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/rgk68.jpg"
             },
             {
               "name": "Helena Martinez",
-              "email": "",
+              "email": "hsm75@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/.jpg"
+              "img": "src/assets/img/headshots/hsm75.jpg"
             }
           ]
         }
