@@ -1,0 +1,128 @@
+{
+  "sections": [
+    {
+      "name": "Team Leads",
+      "members": [
+        {
+          "name": "David Rha",
+          "linkedin": "https://www.linkedin.com/in/david-rha-7b201b208/",
+          "major_year": "Environmental Engineering '26",
+          "netid": "dgr79"
+        },
+        {
+          "name": "Dora Weng",
+          "linkedin": "https://www.linkedin.com/in/chuyinweng/",
+          "major_year": "Computer Science '26",
+          "netid": "cw749"
+        },
+        {
+          "name": "Kayla Stephenson",
+          "linkedin": "https://www.linkedin.com/in/kaylastephenson4/",
+          "major_year": "Chemical Engineering '26",
+          "netid": "ks929"
+        }
+      ]
+    },
+    {
+      "name": "Research Advisors",
+      "members": [
+        {
+          "name": "Alex Hende",
+          "category": "UASB",
+          "linkedin": "https://www.linkedin.com/in/alexander-van-den-hende/",
+          "major_year": "Environmental Engineering '24",
+          "netid": "ajv85"
+        },
+        {
+          "name": "Jiaming Yuan",
+          "category": "Lab",
+          "linkedin": "https://www.linkedin.com/in/jiamingyuan/",
+          "major_year": "Environmental Engineering '26",
+          "netid": "jy729"
+        },
+        {
+          "name": "Tim Holt",
+          "category": "Apps & Algo",
+          "linkedin": "",
+          "major_year": "Computer Science '26",
+          "netid": "tch83"
+        },
+        {
+          "name": "Ari Schor",
+          "category": "RaFTT & Floc Modeling",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "netid": "aes392"
+        },
+        {
+          "name": "Athavan Shanmuganathan",
+          "category": "Ram Pump & DOM",
+          "linkedin": "",
+          "major_year": "Chemical Engineering '26",
+          "netid": "as3277"
+        },
+        {
+          "name": "Katherine Krishtopa",
+          "category": "Going Global",
+          "linkedin": "",
+          "major_year": "",
+          "netid": "kvk24"
+        },
+        {
+          "name": "Alex Fitenko",
+          "category": "UASB",
+          "linkedin": "",
+          "major_year": "",
+          "netid": "anf44"
+        }
+      ]
+    },
+    {
+      "name": "Chairs",
+      "members": [
+        {
+          "name": "Alex Hende",
+          "category": "Community",
+          "linkedin": "https://www.linkedin.com/in/alexander-van-den-hende/",
+          "major_year": "Environmental Engineering '24",
+          "netid": "ajv85"
+        },
+        {
+          "name": "Dora Weng",
+          "category": "Webmaster",
+          "linkedin": "https://www.linkedin.com/in/chuyinweng/",
+          "major_year": "Computer Science '26",
+          "netid": "cw749"
+        },
+        {
+          "name": "Alex Fitenko",
+          "category": "Recruitment",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "netid": "anf44"
+        },
+        {
+          "name": "Jiaming Yuan",
+          "category": "Onboarding",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "netid": "jy729"
+        },
+        {
+          "name": "Ari Schor",
+          "category": "MNC",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "netid": "aes392"
+        },
+        {
+          "name": "Claire Wang",
+          "category": "MNC",
+          "linkedin": "",
+          "major_year": "Environmental Engineering '26",
+          "netid": "cyw34"
+        }
+      ]
+    }
+  ]
+}

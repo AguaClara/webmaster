@@ -1,5 +1,6 @@
 import React from "react";
-import data from "../data/leadership.json";
+// import data from "../data/leadership.json";
+import data from "../data/leadership_cleaned.json";
 import Member from "./Member";
 
 function Leadership() {
@@ -22,10 +23,10 @@ function Leadership() {
               >
                 <Member
                   name={member.name}
-                  email={member.email}
+                  email={member.netid + `@cornell.edu`}
                   linkedin={member.linkedin}
                   major_year={member.major_year}
-                  img={member.img}
+                  img={`src/assets/img/headshots/` + member.netid + `.jpg`}
                   category={member.category}
                 />
               </div>

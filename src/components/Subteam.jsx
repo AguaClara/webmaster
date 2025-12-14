@@ -1,5 +1,6 @@
 import React from "react";
-import memberData from "../data/members.json";
+// import memberData from "../data/members.json";
+import memberData from "../data/members_cleaned.json";
 import Member from "./Member";
 
 function Subteam({ name }) {
@@ -26,20 +27,20 @@ function Subteam({ name }) {
                 <Member
                   key={`lead`}
                   name={foundSubteam.lead.name}
-                  email={foundSubteam.lead.email}
+                  email={foundSubteam.lead.netid + `@cornell.edu`}
                   linkedin={foundSubteam.lead.linkedin}
                   major_year={foundSubteam.lead.major_year}
-                  img={foundSubteam.lead.img}
+                  img={`src/assets/img/headshots/` + foundSubteam.lead.netid + `.jpg`}
                   category={"Subteam Lead"}
                 />
                 {foundSubteam.members.map((member, memberIndex) => (
                   <Member
                     key={memberIndex}
                     name={member.name}
-                    email={member.email}
+                    email={member.netid + `@cornell.edu`}
                     linkedin={member.linkedin}
                     major_year={member.major_year}
-                    img={member.img}
+                    img={`src/assets/img/headshots/` + member.netid + `.jpg`}
                     category={"Subteam Member"}
                   />
                 ))}

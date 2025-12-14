@@ -9,46 +9,40 @@
           "description": "DOM (dissolved organic matter) is dedicated to improving the removal process of organic matter from water sources. DOM naturally forms as organic materials, such as feces and decaying leaves, break down. When DOM reacts with coagulants, the contaminants aggregate into larger clusters known as flocs, making them easier to separate during the filtration stage. Currently, at the AguaClara Gracias plant, maple leaves break down in water and create issues with taste and visual appeal.",
           "lead": {
             "name": "Johan DeMessie",
-            "email": "jd2294@cornell.edu",
             "linkedin": "",
             "major_year": "Statistics '27",
-            "img": "src/assets/img/headshots/jd2294.jpg"
+            "netid": "jd2294"
           },
           "members": [
             {
               "name": "Chloe Tseng",
-              "email": "ct685@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/chloetseng/",
               "major_year": "Chemical Engineering '28",
-              "img": "src/assets/img/headshots/ct685.jpg"
+              "netid": "ct685"
             },
             {
               "name": "Youyou Xie",
-              "email": "yx645@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/youyou-xie-2aa7ba326/",
               "major_year": "Chemical Engineering '28",
-              "img": "src/assets/img/headshots/yx645.jpg"
+              "netid": "yx645"
             },
             {
               "name": "Anthony Egan",
-              "email": "aie25@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/aie25.jpg"
+              "netid": "aie25"
             },
             {
               "name": "Samuel Wen",
-              "email": "sw2365@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/sw2365.jpg"
+              "netid": "sw2365"
             },
             {
               "name": "Zhu Zhu Wang",
-              "email": "mw2297@cornell.edu",
               "linkedin": "",
               "major_year": "Chemical Engineering '29",
-              "img": "src/assets/img/headshots/mw2297.jpg"
+              "netid": "mw2297"
             }
           ]
         },
@@ -58,25 +52,22 @@
           "description": "Ram Pump focuses on the research, design, and fabrication of the AguaClara Vertical Ram Pump (ACVRP), a proprietary, open-source technology developed within AguaClara. The team designs experiments and fabricates parts to test different pump optimization methods. Its purpose within the AguaClara plant is to pump filtered water from the bottom to chemical stock tanks located at higher elevations without using electricity and minimizing clean water waste. This eliminates the need for operators to move clean water themselves manually.",
           "lead": {
             "name": "Alma Meili Ren",
-            "email": "arr254@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/alma-meili-ren-a96277286/",
             "major_year": "Mechanical Engineering '27",
-            "img": "src/assets/img/headshots/arr254.jpg"
+            "netid": "arr254"
           },
           "members": [
             {
               "name": "Katie Kim",
-              "email": "kdk85@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/katie-kim13/",
               "major_year": "Civil Engineering '28",
-              "img": "src/assets/img/headshots/kdk85.jpg"
+              "netid": "kdk85"
             },
             {
               "name": "Issac Jiang",
-              "email": "ij53@cornell.edu",
               "linkedin": "",
               "major_year": "Mechanical engineering '28",
-              "img": "src/assets/img/headshots/ij53.jpg"
+              "netid": "ij53"
             }
           ]
         },
@@ -86,39 +77,34 @@
           "description": "The UASB subteam is testing a gravity-powered reactor for wastewater treatment at the Ithaca Area Wastewater Treatment Facility (IAWWTF). Transportation to the plant has been provided by students on the team with personal vehicles. The team also has a contract (contact Professor Ruth Richardson for more information) with IAWWTF to conduct COD, BOD, phosphorous, and fecal coliform tests in the IAWWTF lab space, under the close supervision of IAWWTF lab technicians. ",
           "lead": {
             "name": "Kaitlyn Canivel",
-            "email": "kgc44@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/kaitlyn-canivel-70b99a20a/",
             "major_year": "GDev & EnvE '27",
-            "img": "src/assets/img/headshots/kgc44.jpg"
+            "netid": "kgc44"
           },
           "members": [
             {
               "name": "Fiona Chen",
-              "email": "fc379@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/fiona-chen-405025328/",
               "major_year": "Environmental Engineering '28",
-              "img": "src/assets/img/headshots/fc379.jpg"
+              "netid": "fc379"
             },
             {
               "name": "Amelia Overton",
-              "email": "aso42@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/aso42.jpg"
+              "netid": "aso42"
             },
             {
               "name": "Ishaan Samantray",
-              "email": "is455@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/is455.jpg"
+              "netid": "is455"
             },
             {
               "name": "Quinn Wagner",
-              "email": "qew3@cornell.edu",
               "linkedin": "",
               "major_year": "Environmental Engineering '29",
-              "img": "src/assets/img/headshots/qew3.jpg"
+              "netid": "qew3"
             }
           ]
         },
@@ -128,60 +114,52 @@
           "description": "The Automated Coagulant Dosing Control (ACDC) subteam focuses on developing an algorithm to determine optimal coagulant doses given fluctuating turbidity conditions, as well as beginning the integration of the software and hardware for an automated dosing system.",
           "lead": {
             "name": "Claire Wang",
-            "email": "cyw34@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/claire-wang-a866a1244/",
             "major_year": "Environmental Engineering '26",
-            "img": "src/assets/img/headshots/cyw34.jpg"
+            "netid": "cyw34"
           },
           "members": [
             {
               "name": "Becca Jeffries",
-              "email": "rcj63@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/becca-jeffries-647208304/",
               "major_year": "ECE '27",
-              "img": "src/assets/img/headshots/rcj63.jpg"
+              "netid": "rcj63"
             },
             {
               "name": "Claire Chiu",
-              "email": "cc2873@cornell.edu",
               "linkedin": "http://linkedin.com/in/claire-chiu-cornell/",
               "major_year": "Environmental Engineering '28",
-              "img": "src/assets/img/headshots/cc2873.jpg"
+              "netid": "cc2873"
             },
             {
               "name": "Ayesha Abdiel",
-              "email": "asa253@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
               "major_year": "Computer Science '27",
-              "img": "src/assets/img/headshots/asa253.jpg"
+              "netid": "asa253"
             },
             {
               "name": "Grace Raab",
-              "email": "gar238@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/grace-raab-1a6434310/",
               "major_year": "Environmental Engineering '26",
-              "img": "src/assets/img/headshots/gar238.jpg"
+              "netid": "gar238"
             },
             {
               "name": "Armaan Chandak",
-              "email": "ac2992@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/ac2992.jpg"
+              "netid": "ac2992"
             },
             {
               "name": "Jayden Doshi",
-              "email": "jd2368@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/jd2368.jpg"
+              "netid": "jd2368"
             },
             {
               "name": "Mike Ma",
-              "email": "lm974@cornell.edu",
               "linkedin": "",
               "major_year": "Information Science '29",
-              "img": "src/assets/img/headshots/lm974.jpg"
+              "netid": "lm974"
             }
           ]
         },
@@ -191,46 +169,40 @@
           "description": "AguaClara water treatment plants rely on flocculation and clarification processes for particle aggregation and removal. This subteam is developing a mathematical model of these processes that can be applied to optimize the design of treatment plants and reduce operating costs. The model we develop will then be applied by the Automated Coagulant Dosing Control (ACDC) subteam in order to automate coagulant dosing for rural communities that cannot afford a full-time plant operator. Overall, this project aims to grow our fundamental understanding of water treatment processes.",
           "lead": {
             "name": "Alex Gardocki",
-            "email": "rag325@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/raymond-gardocki/",
             "major_year": "CS & ORIE '27",
-            "img": "src/assets/img/headshots/rag325.jpg"
+            "netid": "rag325"
           },
           "members": [
             {
               "name": "Lauren Hsu",
-              "email": "lkh58@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/laurenhsu/",
               "major_year": "Chemical Engineering '28",
-              "img": "src/assets/img/headshots/lkh58.jpg"
+              "netid": "lkh58"
             },
             {
               "name": "Sarvesh Prabhu",
-              "email": "sp2572@cornell.edu",
               "linkedin": "https://www.linkedin.com/in/sarveshprabhu05/",
               "major_year": "Environmental Science '28",
-              "img": "src/assets/img/headshots/sp2572.jpg"
+              "netid": "sp2572"
             },
             {
               "name": "Aronya Sarker",
-              "email": "as4447@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/as4447.jpg"
+              "netid": "as4447"
             },
             {
               "name": "Irene Ma",
-              "email": "im398@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/im398.jpg"
+              "netid": "im398"
             },
             {
               "name": "Aaron Gu",
-              "email": "ag2698@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/ag2698.jpg"
+              "netid": "ag2698"
             }
           ]
         }
@@ -246,18 +218,16 @@
           "lead": {
             "name": "Patrick Egan",
             "category": "Apps & Algo",
-            "email": "pje42@cornell.edu",
             "linkedin": "https://www.linkedin.com/in/patrick-j-egan/",
             "major_year": "Computer Science '27",
-            "img": "src/assets/img/headshots/pje42.jpg"
+            "netid": "pje42"
           },
           "members": [
             {
               "name": "Daniel Romero",
-              "email": "dr654@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/dr654.jpg"
+              "netid": "dr654"
             }
           ]
         }
@@ -272,39 +242,34 @@
           "description": "The Public Relations team of AguaClara Cornell increases the project’s exposure within Cornell and globally by maintaining a consistent brand that reflects its innovative and sustainable ideals. They boost team pride and campus visibility through merchandise, social media, and recruitment efforts. Public Relations also ensures a uniform message with press kits and templates, representing AguaClara to campus, implementation partners like AguaClara Reach and APP, and managing internal logistics.",
           "lead": {
             "name": "Natna Zena",
-            "email": "naz33@cornell.edu",
             "linkedin": "",
             "major_year": "",
-            "img": "src/assets/img/headshots/naz33.jpg"
+            "netid": "naz33"
           },
           "members": [
             {
               "name": "Andre Watts",
-              "email": "arw267@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/arw267.jpg"
+              "netid": "arw267"
             },
             {
               "name": "Gabriela Alvarado Rodriguez",
-              "email": "gaa68@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/gaa68.jpg"
+              "netid": "gaa68"
             },
             {
               "name": "Roz Kurd",
-              "email": "rgk68@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/rgk68.jpg"
+              "netid": "rgk68"
             },
             {
               "name": "Helena Martinez",
-              "email": "hsm75@cornell.edu",
               "linkedin": "",
               "major_year": "",
-              "img": "src/assets/img/headshots/hsm75.jpg"
+              "netid": "hsm75"
             }
           ]
         }
