@@ -29,7 +29,8 @@ function MyComponent() {
     <div className="p-10 h-60 w-full rounded-3xl space-y-2">
       <div className="font-bold text-2xl">Information Sessions</div>
       <p>
-        We have three information sessions planned so far, one in-person and one over zoom.
+        We have three information sessions planned so far, two in-person and one over zoom. 
+        We will also be tabling at ClubFest on January 25th from 12-1:30pm.
       </p>
       {Object.entries(sessions).map(([sessionName, sessionData], index) => (
         <div key={index} className="flex items-center gap-4">
