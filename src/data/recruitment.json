@@ -1,37 +1,35 @@
 {
   "Applications Open": {
-    "Date": "Aug. 18th",
-    "Upperclassmen Application Link": "https://forms.gle/TVbZVk4rVXVecLoF8",
-    "First Year Application Link": "https://forms.gle/DKfzoJQygZDroFEFA",
+    "Date": "Jan. 2nd",
+    "Spring Application Link": "https://forms.gle/oaiaioqnfanzkqeM7",
     "General Application Link": "https://cornell.ca1.qualtrics.com/jfe/form/SV_bp7LpXCVGOYVSoC"
   },
   "Information Sessions": {
     "Session #1": {
-      "Date": "Saturday Aug. 30th",
-      "Time": "6:00 pm",
-      "Location": "Zoom",
-      "Zoom": "https://cornell.zoom.us/j/97922078406?pwd=jj5VE2hymr12XJrkVcw8dhGbvjcWh9.1"
+      "Date": "Wednesday Jan. 21st",
+      "Time": "5:00 pm",
+      "Location": "In person, Hollister Hall 206"
     },
     "Session #2": {
-      "Date": "Monday Sept. 1st",
-      "Time": "3:30 pm",
-      "Location": "In person, Hollister 110"
+      "Date": "Thursday Jan. 22nd",
+      "Time": "5:00 pm",
+      "Location": "In person, Hollister Hall 206"
     },
     "Session #3": {
-      "Date": "Wednesday Sept. 17th",
-      "Time": "4 pm",
+      "Date": "Saturday Jan. 24th",
+      "Time": "2:00 pm",
       "Location": "Zoom",
-      "Zoom": "https://cornell.zoom.us/j/97974975306?pwd=Um6ITxqbYUO2RvK2Xk8MwsY7AaM9pL.1"
+      "Zoom": "TBA"
     }
   },
+
   "Application Deadline": {
-    "UpperDate": "Upperclassmen: Sept. 4th",
-    "FirstYear": "First year & transfer: Oct. 16th"
+    "Date": "All applicants: Jan 29th @ 11:59pm"
   },
   "Interview Period": {
-    "Date": "-"
+    "Date": "The interview period for candidates will occur between February 5th and February 7th"
   },
   "Decisions Released": {
-    "Date": "Upperclassmen: Sept 17th, First year & transfer: Nov 3rd"
+    "Date": "All applicants: Feb 11th @ 9:00am"
   }
 }
