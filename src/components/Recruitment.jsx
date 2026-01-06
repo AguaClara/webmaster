@@ -56,7 +56,6 @@ function MyComponent() {
     <div className="p-10 h-60 w-full rounded-3xl  space-y-3">
       <div className="font-bold text-2xl">Applications Deadline</div>
       <h3>{data.Date}</h3>
-      <p>Want to learn more?</p>
     </div>
   );
 
