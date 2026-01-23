@@ -26,7 +26,7 @@ function Leadership() {
                   email={member.netid + `@cornell.edu`}
                   linkedin={member.linkedin}
                   major_year={member.major_year}
-                  img={`src/assets/img/headshots/` + member.netid + `.jpg`}
+                  img={`/img/headshots/${member.netid}.jpg`}
                   category={member.category}
                 />
               </div>

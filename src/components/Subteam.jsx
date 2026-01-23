@@ -30,7 +30,7 @@ function Subteam({ name }) {
                   email={foundSubteam.lead.netid + `@cornell.edu`}
                   linkedin={foundSubteam.lead.linkedin}
                   major_year={foundSubteam.lead.major_year}
-                  img={`src/assets/img/headshots/` + foundSubteam.lead.netid + `.jpg`}
+                  img={`/img/headshots/${foundSubteam.lead.netid}.jpg`}
                   category={"Subteam Lead"}
                 />
                 {foundSubteam.members.map((member, memberIndex) => (
@@ -40,7 +40,7 @@ function Subteam({ name }) {
                     email={member.netid + `@cornell.edu`}
                     linkedin={member.linkedin}
                     major_year={member.major_year}
-                    img={`src/assets/img/headshots/` + member.netid + `.jpg`}
+                    img={`/img/headshots/${member.netid}.jpg`}
                     category={"Subteam Member"}
                   />
                 ))}
