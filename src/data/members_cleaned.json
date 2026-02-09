@@ -93,7 +93,7 @@
         {
           "name": "ACDC",
           "teampic": "src/assets/img/teampic/ACDC.jpg",
-          "description": "The Automated Coagulant Dosing Control (ACDC) subteam focuses on developing an algorithm to determine optimal coagulant doses given fluctuating turbidity conditions, as well as beginning the integration of the software and hardware for an automated dosing system.",
+          "description": "The Automated Coagulant Dosing Algorithm (ACDC) subteam focuses on developing an algorithm that determines optimal coagulant doses given fluctuating turbidity conditions and time-lagged effects of dosing. The team has currently created a simulation of an AguaClara plant in Python, as well as an automated dosing algorithm which has demonstrated success under simulations. Our next steps are to further refine the algorithm and simulation, then test the algorithm’s performance in the real world using the lab-scale floc filter model.",
           "lead": {
             "name": "Claire Chiu",
             "linkedin": "http://linkedin.com/in/claire-chiu-cornell/",
@@ -124,7 +124,7 @@
         {
           "name": "EDI",
           "teampic": "src/assets/img/teampic/ACDC.jpg",
-          "description": "The EDI subteam focuses on developing the electronics side of ACDC.",
+          "description": "The Electronics and Data Infrastructure (EDI) subteam focuses on establishing wireless communication between the turbidimeters, HAnD, and the Arduino server. This communication is necessary for internal data transfer and enables cloud connectivity. Transmitting data to the cloud allows integration with POST, which supports real-time monitoring and plant performance assessment.",
           "lead": {
             "name": "Ayesha Abdiel",
             "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
