@@ -15,22 +15,10 @@
           },
           "members": [
             {
-              "name": "Chloe Tseng",
-              "linkedin": "https://www.linkedin.com/in/chloetseng/",
-              "major_year": "Chemical Engineering '28",
-              "netid": "ct685"
-            },
-            {
               "name": "Youyou Xie",
               "linkedin": "https://www.linkedin.com/in/youyou-xie-2aa7ba326/",
               "major_year": "Chemical Engineering '28",
               "netid": "yx645"
-            },
-            {
-              "name": "Anthony Egan",
-              "linkedin": "",
-              "major_year": "",
-              "netid": "aie25"
             },
             {
               "name": "Samuel Wen",
@@ -51,18 +39,12 @@
           "teampic": "src/assets/img/teampic/RamPump.jpeg",
           "description": "Ram Pump focuses on the research, design, and fabrication of the AguaClara Vertical Ram Pump (ACVRP), a proprietary, open-source technology developed within AguaClara. The team designs experiments and fabricates parts to test different pump optimization methods. Its purpose within the AguaClara plant is to pump filtered water from the bottom to chemical stock tanks located at higher elevations without using electricity and minimizing clean water waste. This eliminates the need for operators to move clean water themselves manually.",
           "lead": {
-            "name": "Alma Meili Ren",
-            "linkedin": "https://www.linkedin.com/in/alma-meili-ren-a96277286/",
-            "major_year": "Mechanical Engineering '27",
-            "netid": "arr254"
+            "name": "Katie Kim",
+            "linkedin": "https://www.linkedin.com/in/katie-kim13/",
+            "major_year": "Civil Engineering '28",
+            "netid": "kdk85"
           },
           "members": [
-            {
-              "name": "Katie Kim",
-              "linkedin": "https://www.linkedin.com/in/katie-kim13/",
-              "major_year": "Civil Engineering '28",
-              "netid": "kdk85"
-            },
             {
               "name": "Issac Jiang",
               "linkedin": "",
@@ -113,36 +95,43 @@
           "teampic": "src/assets/img/teampic/ACDC.jpg",
           "description": "The Automated Coagulant Dosing Control (ACDC) subteam focuses on developing an algorithm to determine optimal coagulant doses given fluctuating turbidity conditions, as well as beginning the integration of the software and hardware for an automated dosing system.",
           "lead": {
-            "name": "Claire Wang",
-            "linkedin": "https://www.linkedin.com/in/claire-wang-a866a1244/",
-            "major_year": "Environmental Engineering '26",
-            "netid": "cyw34"
+            "name": "Claire Chiu",
+            "linkedin": "http://linkedin.com/in/claire-chiu-cornell/",
+            "major_year": "Environmental Engineering '28",
+            "netid": "cc2873"
           },
           "members": [
-            {
-              "name": "Becca Jeffries",
-              "linkedin": "https://www.linkedin.com/in/becca-jeffries-647208304/",
-              "major_year": "ECE '27",
-              "netid": "rcj63"
-            },
-            {
-              "name": "Claire Chiu",
-              "linkedin": "http://linkedin.com/in/claire-chiu-cornell/",
-              "major_year": "Environmental Engineering '28",
-              "netid": "cc2873"
-            },
-            {
-              "name": "Ayesha Abdiel",
-              "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
-              "major_year": "Computer Science '27",
-              "netid": "asa253"
-            },
             {
               "name": "Grace Raab",
               "linkedin": "https://www.linkedin.com/in/grace-raab-1a6434310/",
               "major_year": "Environmental Engineering '26",
               "netid": "gar238"
             },
+            {
+              "name": "Mike Ma",
+              "linkedin": "",
+              "major_year": "Information Science '29",
+              "netid": "lm974"
+            },
+            {
+              "name": "Chloe Tseng",
+              "linkedin": "https://www.linkedin.com/in/chloetseng/",
+              "major_year": "Chemical Engineering '28",
+              "netid": "ct685"
+            }
+          ]
+        },
+        {
+          "name": "EDI",
+          "teampic": "src/assets/img/teampic/ACDC.jpg",
+          "description": "The EDI subteam focuses on developing the electronics side of ACDC.",
+          "lead": {
+            "name": "Ayesha Abdiel",
+            "linkedin": "https://www.linkedin.com/in/ayesha-abdiel/",
+            "major_year": "Computer Science '27",
+            "netid": "asa253"
+          },
+          "members": [
             {
               "name": "Armaan Chandak",
               "linkedin": "",
@@ -156,10 +145,10 @@
               "netid": "jd2368"
             },
             {
-              "name": "Mike Ma",
+              "name": "Ava Alper",
               "linkedin": "",
-              "major_year": "Information Science '29",
-              "netid": "lm974"
+              "major_year": "",
+              "netid": "ara244"
             }
           ]
         },
