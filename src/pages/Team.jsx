@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import teampic from "../assets/img/Team.jpg";
 import Subteam from "../components/Subteam";
 import Leadership from "../components/Leadership";
-import memberData from "../data/members.json";
+import memberData from "../data/members_cleaned.json";
 import BackTo from "../components/BackTo";
 import teamPic from "../assets/img/hondurasteam.jpg";
 import monroe from "../assets/img/monroe.jpeg";
